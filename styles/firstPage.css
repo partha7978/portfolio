@@ -29,13 +29,21 @@ html {
 }
 
 .navbar {
-  width: 100%;
+  width: 95%;
   height: auto;
   display: flex;
   margin: 0.2rem 1rem;
 }
 
 .navbar > P {
-  COLOR: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  margin: 0.5rem 1rem;
+}
+
+.lastNav {
+  margin-left: auto;
+}
+.lastNav > p {
+  color: rgb(0, 0, 0);
   margin: 0.5rem 1rem;
 }
