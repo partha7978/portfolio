@@ -11,3 +11,20 @@ html {
   font-family: 'Noto Sans JP', sans-serif;
   scroll-behavior: smooth;
 }
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.left, .right {
+  height: 100%;
+  width: 50%;
+}
+.right {
+  background-color: aquamarine;
+  border-radius: 32px 0px 0px 32px;
+  
+  
+}
