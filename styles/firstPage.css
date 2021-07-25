@@ -35,15 +35,23 @@ html {
   margin: 0.2rem 1rem;
 }
 
-.navbar > P {
-  color: rgb(0, 0, 0);
-  margin: 0.5rem 1rem;
+.navbar {
+  width: 95%;
 }
-
-.lastNav {
-  margin-left: auto;
+.nav-ul {
+  display: flex;
 }
-.lastNav > p {
-  color: rgb(0, 0, 0);
+.nav-link {
+  list-style: none;
+}
+.nav-link {
+  text-decoration: none;
   margin: 0.5rem 1rem;
+  color: #000000;
+}
+.nav-ul .nav-link {
+  position: relative;
+}
+.nav-ul .nav-link:hover {
+  color: #000000;
 }
