@@ -50,6 +50,7 @@ html {
 }
 .nav-link {
   font-weight: 600;
+  letter-spacing:2px;
   text-decoration: none;
   margin: 0.5rem 1.5rem;
   color: #000000;
