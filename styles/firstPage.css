@@ -38,7 +38,7 @@ html {
 .navbar {
   width: 100%;
   display: flex;
-  margin: 0.2rem 0.3rem;
+  margin: 0.2rem 3rem;
 }
 
 .nav-ul {
@@ -49,6 +49,7 @@ html {
   list-style: none;
 }
 .nav-link {
+  font-weight: 600;
   text-decoration: none;
   margin: 0.5rem 1.5rem;
   color: #000000;
@@ -87,8 +88,9 @@ html {
   width: 100%;
   height: 95%;
   display: flex;
-  justify-content: left;
-  align-items: center;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
 }
 .firstPageMain-div > p {
   font-weight: 800;
@@ -101,4 +103,10 @@ html {
   background: -webkit-linear-gradient(315deg, #386cfa 0%, #fb7ba2 74%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.firstPageMain-div > .tag-line {
+  margin: 1rem 0 0 3rem;
+  font-weight: 800;
+  color: #252525;
+  font-size: 1rem;
 }
