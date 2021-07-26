@@ -37,7 +37,6 @@ html {
 /* nav abr starts */
 .navbar {
   width: 100%;
-  height:auto;
   display: flex;
   margin: 0.2rem 0.3rem;
 }
@@ -86,5 +85,20 @@ html {
 /* nav abr ends */
 .firstPageMain-div {
   width: 100%;
-  height:auto;
+  height: 95%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.firstPageMain-div > p {
+  font-weight: 800;
+  color: #252525;
+  font-size: 3rem;
+  margin: 0 0 0 3rem;
+}
+
+.gradient {
+  background: -webkit-linear-gradient(315deg, #386cfa 0%, #fb7ba2 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
