@@ -18,16 +18,28 @@ html {
   display: flex;
   justify-content: center;
 }
-.firstPage {
+.left {
   height: 100%;
-  width: 100%;
+  width: 75%;
+  background: url(../images/kike-vega-F2qh3yjz6Jk-unsplash.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+.right {
+  height: 100%;
+  width: 25%;
 }
 /* nav abr starts */
 .navbar {
-  width: 95%;
-  height: auto;
+  width: 100%;
+  height:auto;
   display: flex;
-  margin: 0.2rem 1rem;
+  margin: 0.2rem 0.3rem;
 }
 
 .nav-ul {
@@ -42,6 +54,9 @@ html {
   margin: 0.5rem 1.5rem;
   color: #000000;
   padding: 0.5rem 0rem;
+}
+.first-nav {
+  margin: 0.5rem 1.5rem 0.5rem 0.2rem;
 }
 .nav-ul .nav-link {
   position: relative;
@@ -69,15 +84,7 @@ html {
 }
 
 /* nav abr ends */
-.profile-image-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  height: 90%;
+.firstPageMain-div {
   width: 100%;
-}
-.profile-image {
-  height: 77%;
-  width: 100%;
+  height:auto;
 }
