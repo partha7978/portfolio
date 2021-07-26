@@ -97,6 +97,10 @@ html {
   color: #252525;
   font-size: 3rem;
   margin: 0 0 0 3rem;
+
+  animation-duration: 2s;
+  animation-name: bounce;
+  animation-iteration-count: infinite;
 }
 
 .gradient {
@@ -105,7 +109,7 @@ html {
   -webkit-text-fill-color: transparent;
 }
 .firstPageMain-div > .tag-line {
-  margin: 1rem 0 0 3rem;
+  margin: 0.2rem 0 0 3rem;
   font-weight: 800;
   color: #252525;
   font-size: 1rem;
