@@ -18,16 +18,11 @@ html {
   display: flex;
   justify-content: center;
 }
-.left, .right {
+.firstPage {
   height: 100%;
-  width: 50%;
+  width: 100%;
 }
-.right {
-  background-color: #f8ceec;
-  background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
-  border-radius: 32px 0px 0px 32px;
-}
-
+/* nav abr starts */
 .navbar {
   width: 95%;
   height: auto;
@@ -35,23 +30,54 @@ html {
   margin: 0.2rem 1rem;
 }
 
-.navbar {
-  width: 95%;
-}
 .nav-ul {
   display: flex;
+  
 }
-.nav-link {
+.nav-li {
   list-style: none;
 }
 .nav-link {
   text-decoration: none;
-  margin: 0.5rem 1rem;
+  margin: 0.5rem 1.5rem;
   color: #000000;
+  padding: 0.5rem 0rem;
 }
 .nav-ul .nav-link {
   position: relative;
+  font-size: 1.1rem;
+  
 }
 .nav-ul .nav-link:hover {
   color: #000000;
+}
+.nav-ul .nav-link::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #000000;
+  color: transparent;
+  width: 0%;
+  content: '';
+  height: 2.7px;
+  transition: all 0.5s;
+}
+.nav-ul .nav-link:hover::after {
+  width: 100%;
+}
+
+/* nav abr ends */
+.profile-image-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 90%;
+  width: 100%;
+}
+.profile-image {
+  height: 77%;
+  width: 100%;
 }
