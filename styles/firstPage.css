@@ -33,6 +33,7 @@ html {
 .right {
   height: 100%;
   width: 25%;
+  background: #e0e0e0;
 }
 /* nav abr starts */
 .navbar {
@@ -124,7 +125,6 @@ html {
 .right-side-nav {
   margin: 0.5rem 1rem;
   border-bottom: 2px solid rgb(112, 93, 5);
-
 }
 .right-side-nav-span {
   font-size: 1.5rem;
@@ -137,5 +137,10 @@ html {
 }
 .fa-lightbulb-on {
   font-size:2rem;
+}
+
+
+.right-side-posts {
+ width: 100%;
 }
 /* right side ends */
