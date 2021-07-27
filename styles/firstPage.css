@@ -140,6 +140,7 @@ html {
 .right-side-posts {
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -154,10 +155,11 @@ html {
   transition: all 1s;
   border-bottom: 4px solid #1900ff;
 }
+
 .blue-post:hover {
   cursor: pointer;
   transform: scale(1.05);
-  background-image: linear-gradient(to bottom, #e0e0e0, rgb(205, 191, 255));
+  background-image: linear-gradient(to bottom, #e0e0e0, rgb(216, 205, 255));
 }
 
 .post-image {
