@@ -8,7 +8,7 @@ html {
   height: 100%;
   width: 100%;
   margin: 0px;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -21,7 +21,8 @@ html {
 .left {
   height: 100%;
   width: 75%;
-  background: url(../images/kike-vega-F2qh3yjz6Jk-unsplash.jpg) no-repeat center center fixed; 
+  background: url(../images/kike-vega-F2qh3yjz6Jk-unsplash.jpg) no-repeat center
+    center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -44,14 +45,13 @@ html {
 
 .nav-ul {
   display: flex;
-  
 }
 .nav-li {
   list-style: none;
 }
 .nav-link {
   font-weight: 600;
-  letter-spacing:2px;
+  letter-spacing: 2px;
   text-decoration: none;
   margin: 0.5rem 1.5rem;
   color: #000000;
@@ -64,7 +64,6 @@ html {
 .nav-ul .nav-link {
   position: relative;
   font-size: 1.1rem;
-  
 }
 .nav-ul .nav-link:hover {
   color: #000000;
@@ -78,7 +77,7 @@ html {
   background-color: #000000;
   color: transparent;
   width: 0%;
-  content: '';
+  content: "";
   height: 2.7px;
   transition: all 0.5s;
 }
@@ -88,7 +87,6 @@ html {
 
 /* nav abr ends */
 /* left side starts */
-
 
 .firstPageMain-div {
   width: 100%;
@@ -128,7 +126,7 @@ html {
 }
 .right-side-nav-span {
   font-size: 1.5rem;
-  font-weight:700;
+  font-weight: 700;
   letter-spacing: 2px;
   color: rgb(112, 93, 5);
 }
@@ -136,11 +134,41 @@ html {
   cursor: pointer;
 }
 .fa-lightbulb-on {
-  font-size:2rem;
+  font-size: 2rem;
 }
 
-
 .right-side-posts {
- width: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blue-post {
+  height: 20%;
+  width: 90%;
+  margin: 1rem 0.5rem;
+  background: #e0e0e0;
+  box-shadow: 9px 9px 19px #8f8f8f, -9px -9px 19px #ffffff;
+  display: flex;
+  border-radius: 10px;
+}
+
+.post-image {
+  border-radius: 10px;
+  height: 40%;
+  width: 40%;
+  margin: 0.5rem;
+}
+
+.post-text {
+  margin: 0.5rem;
+}
+
+.post-text > span {
+  font-size: 1rem;
+  font-weight: 800;
+}
+.post-text > p {
+  font-size: 0.7rem;
 }
 /* right side ends */
