@@ -151,10 +151,11 @@ html {
   box-shadow: 9px 9px 19px #8f8f8f, -9px -9px 19px #ffffff;
   display: flex;
   border-radius: 10px;
-
+  transition: all 1s;
   border-bottom: 4px solid #1900ff;
 }
 .blue-post:hover {
+  transform: scale(1.05);
   background-image: linear-gradient(to bottom, #e0e0e0, rgb(205, 191, 255));
 }
 
