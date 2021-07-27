@@ -183,8 +183,8 @@ html {
 }
 .post-image {
   border-radius: 10px;
-  height: 40%;
-  width: 40%;
+  height: 42%;
+  width: 42%;
   margin: 0.5rem;
 }
 
@@ -198,5 +198,20 @@ html {
 }
 .post-text > p {
   font-size: 0.7rem;
+}
+
+.view-more > button {
+  padding: 10px 40px;
+  margin: 1rem;
+  font-size:600;
+  letter-spacing:1px;
+  border: 1px solid #000;
+  transition: all 1s;
+}
+.view-more > button:hover {
+  letter-spacing:3px;
+  color: #ffffff;
+  background-color: #000;
+  transform: scale(1.1);
 }
 /* right side ends */
