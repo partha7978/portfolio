@@ -121,13 +121,20 @@ html {
 }
 /* left side ends */
 /* right side starts */
+.right-side-nav {
+  margin: 0.5rem 1rem;
+  border-bottom: 2px solid rgb(112, 93, 5);
 
+}
 .right-side-nav-span {
   font-size: 1.5rem;
   font-weight:700;
   letter-spacing: 2px;
+  color: rgb(112, 93, 5);
 }
-
+.right-side-nav-span:hover {
+  color: rgb(112, 93, 5);
+}
 .fa-lightbulb-on {
   font-size:2rem;
 }
