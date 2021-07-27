@@ -122,6 +122,13 @@ html {
 /* left side ends */
 /* right side starts */
 
+.right-side-nav-span {
+  font-size: 1.5rem;
+  font-weight:700;
+  letter-spacing: 2px;
+}
 
-
+.fa-lightbulb-on {
+  font-size:2rem;
+}
 /* right side ends */
