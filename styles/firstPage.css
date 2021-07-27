@@ -155,6 +155,7 @@ html {
   border-bottom: 4px solid #1900ff;
 }
 .blue-post:hover {
+  cursor: pointer;
   transform: scale(1.05);
   background-image: linear-gradient(to bottom, #e0e0e0, rgb(205, 191, 255));
 }
