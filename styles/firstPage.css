@@ -209,6 +209,8 @@ html {
   transition: all 1s;
 }
 .view-more > button:hover {
+  cursor: pointer;
+ 
   letter-spacing:3px;
   color: #ffffff;
   background-color: #000;
