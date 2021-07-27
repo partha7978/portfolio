@@ -144,7 +144,7 @@ html {
   align-items: center;
   justify-content: center;
 }
-.blue-post {
+.blue-post, .green-post, .pink-post, .violet-post {
   height: 20%;
   width: 90%;
   margin: 1rem 0.5rem;
@@ -155,7 +155,16 @@ html {
   transition: all 1s;
   border-bottom: 4px solid #1900ff;
 }
+.pink-post {
+  border-bottom: 4px solid #ff00d4;
+}
 
+.green-post {
+  border-bottom: 4px solid #00cc11;
+}
+.violet-post {
+  border-bottom: 4px solid #8600d3;
+}
 .blue-post:hover {
   cursor: pointer;
   transform: scale(1.05);
