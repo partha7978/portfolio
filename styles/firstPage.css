@@ -133,7 +133,7 @@ html {
   color: rgb(112, 93, 5);
 }
 .right-side-nav-span:hover {
-  color: rgb(112, 93, 5);
+  cursor: pointer;
 }
 .fa-lightbulb-on {
   font-size:2rem;
