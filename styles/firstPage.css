@@ -80,13 +80,14 @@ html {
   height: 95%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   flex-direction: column;
 }
 .firstPageMain-div > p {
   font-weight: 800;
   color: #252525;
   font-size: 3.5rem;
+  margin: 0rem 2rem;
   animation-duration: 2s;
   animation-name: bounce;
   animation-iteration-count: infinite;
@@ -98,9 +99,26 @@ html {
   -webkit-text-fill-color: transparent;
 }
 .firstPageMain-div > .tag-line {
-  margin: 0.2rem 0 0 0;
+  margin: 0.2rem 0 0 2rem;
   font-weight: 800;
   color: #252525;
   font-size: 1rem;
+}
+
+.button-join > button {
+  background-color: rgb(255, 255, 255);
+  padding: 10px 40px;
+  margin: 2rem 2rem;
+  font-size: 600;
+  letter-spacing: 1px;
+  border: 1px solid #000;
+  transition: all 1s;
+}
+.button-join > button:hover {
+  cursor: pointer; 
+  letter-spacing: 3px;
+  color: #ffffff;
+  background-color: #000;
+  transform: scale(1.1);
 }
 /* 1st page ends */
