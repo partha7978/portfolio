@@ -20,11 +20,8 @@ html {
 }
 .first-page {
   height: 100%;
-  width: 75%;
-  background-color: #e0e0e0;
-  /* background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
+  width: 100%;
+  background-color: #ffffff;
 }
 
 /* nav bar starts */
@@ -84,22 +81,20 @@ html {
   height: 95%;
   display: flex;
   justify-content: center;
-  align-items: left;
+  align-items: center;
   flex-direction: column;
 }
 .firstPageMain-div > p {
   font-weight: 800;
   color: #252525;
-  font-size: 3rem;
-  margin: 0 0 0 3rem;
-
+  font-size: 3.5rem;
   animation-duration: 2s;
   animation-name: bounce;
   animation-iteration-count: infinite;
 }
 
 .gradient {
-  background: -webkit-linear-gradient(315deg, #386cfa 0%, #fb7ba2 74%);
+  background: -webkit-linear-gradient(315deg, rgb(4, 0, 214), rgb(0, 7, 31));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
