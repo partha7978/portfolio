@@ -27,8 +27,9 @@ html {
 /* nav bar starts */
 .navbar {
   width: 100%;
+  height: auto;
   display: flex;
-  margin: 0.2rem 3rem;
+  margin: 0rem 0rem;
 }
 
 .nav-ul {
@@ -99,7 +100,7 @@ html {
   -webkit-text-fill-color: transparent;
 }
 .firstPageMain-div > .tag-line {
-  margin: 0.2rem 0 0 3rem;
+  margin: 0.2rem 0 0 0;
   font-weight: 800;
   color: #252525;
   font-size: 1rem;
