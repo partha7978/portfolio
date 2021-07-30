@@ -82,23 +82,8 @@ html {
   justify-content: center;
   align-items: left;
   flex-direction: column;
-  display: flex;
-  flex-direction:row;
-  justify-content:center;
-  align-items: center;
 }
-.left-side {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content:center;
-  flex-direction: column;
-}
-.left-side {
-  height: 100%;
-  width:100%;
-}
-.firstPageMain-div > .left-side > p {
+.firstPageMain-div > p {
   font-weight: 800;
   color: #252525;
   font-size: 3.5rem;
@@ -113,7 +98,7 @@ html {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.firstPageMain-div > .left-side > .tag-line {
+.firstPageMain-div > .tag-line {
   margin: 0.2rem 0 0 2rem;
   font-weight: 800;
   color: #252525;
@@ -135,10 +120,5 @@ html {
   color: #ffffff;
   background-color: #000;
   transform: scale(1.1);
-}
-
-.profile-image {
-  height: 400px;
-  width: 500px;
 }
 /* 1st page ends */
