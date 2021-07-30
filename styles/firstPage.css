@@ -84,10 +84,19 @@ html {
   flex-direction: column;
   display: flex;
   flex-direction:row;
+  justify-content:center;
+  align-items: center;
 }
-
 .left-side {
-  
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+}
+.left-side {
+  height: 100%;
+  width:100%;
 }
 .firstPageMain-div > .left-side > p {
   font-weight: 800;
@@ -129,7 +138,7 @@ html {
 }
 
 .profile-image {
-  height: 200px;
-  width: 300px;
+  height: 400px;
+  width: 500px;
 }
 /* 1st page ends */
