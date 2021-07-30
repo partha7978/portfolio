@@ -50,8 +50,10 @@ html {
 .nav-ul .nav-link {
   position: relative;
   font-size: 1.1rem;
+  transition:all 1s;
 }
 .nav-ul .nav-link:hover {
+  letter-spacing:5px;
   background: -webkit-linear-gradient(315deg, rgb(4, 0, 214), rgb(0, 7, 31));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
