@@ -29,8 +29,20 @@
     justify-content: center;
     align-items:center
 }
+.profile-image, .profile-description {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center
+}
 .profile-pic {
     height: 600px;
     width: 500px;
     margin: 2rem;
+}
+.text > span { 
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing:3px;
 }
