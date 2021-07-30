@@ -47,13 +47,14 @@ html {
   padding: 0.5rem 0rem;
 }
 
-
 .nav-ul .nav-link {
   position: relative;
   font-size: 1.1rem;
 }
 .nav-ul .nav-link:hover {
-  color: #000000;
+  background: -webkit-linear-gradient(315deg, rgb(4, 0, 214), rgb(0, 7, 31));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .nav-ul .nav-link::after {
   position: absolute;
@@ -61,7 +62,7 @@ html {
   left: 0;
   right: 0;
   margin: auto;
-  background-color: #000000;
+  background: -webkit-linear-gradient(315deg, rgb(4, 0, 214), rgb(0, 7, 31));
   color: transparent;
   width: 0%;
   content: "";
