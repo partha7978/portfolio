@@ -82,6 +82,12 @@ html {
   justify-content: center;
   align-items: left;
   flex-direction: column;
+  display: flex;
+  flex-direction:row;
+}
+
+.left-side {
+  
 }
 .firstPageMain-div > .left-side > p {
   font-weight: 800;
@@ -120,5 +126,10 @@ html {
   color: #ffffff;
   background-color: #000;
   transform: scale(1.1);
+}
+
+.profile-image {
+  height: 200px;
+  width: 300px;
 }
 /* 1st page ends */
