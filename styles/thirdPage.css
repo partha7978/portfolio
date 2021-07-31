@@ -2,3 +2,179 @@
     height: 100%;
     width: 100%;
 }
+.education-heading, .skills-heading {
+    height: 50%;
+    width: 100%;
+  
+  }
+  .heading-text {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  .heading-text > span {
+    cursor: pointer;
+    font-size:2rem;
+    font-weight: 700;
+    transition: all 2s;
+    background: -webkit-linear-gradient(315deg, rgb(4, 0, 214), rgb(0, 7, 31));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .heading-text > span:hover {
+    letter-spacing: 4px;
+  }
+  
+  .education,
+  .skills {
+    height: 90%;
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+  .card, .card-2, .card-3 {
+    height: 40%;
+    width: 30%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow:  5px 5px 15px #dbdbdb,
+    -5px -5px 15px #dbdbdb;
+  
+    border-bottom: 3px solid blue;
+    margin: 1rem;
+    transition: all 2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.04);
+    background-color:blue;
+  }
+  .card-2 {
+    border-bottom: 3px solid yellow;
+  }
+  .card-3 {
+    border-bottom: 3px solid rgb(255, 0, 221);
+  }
+  .card-2:hover{
+    transform: scale(1.04);
+    background-color:yellow;
+  }
+  .card-3:hover {
+    transform: scale(1.04);
+    background-color:rgb(255, 0, 221);
+  }
+  .card-image-div, .card-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  .card-image-div {
+    height: 100%;
+    width: 40%;
+  }
+  .card-text {
+    height: 100%;
+    width: 60%;
+  }
+  
+  .card-text > p {
+    font-weight: 800;
+    margin: 0.5rem;
+  }
+  .card-image {
+    height: 70%;
+    width: 70%;
+  }
+  
+  .skills > button {
+    background-color: white;
+    border: none;
+    outline: none;
+    height: 40%;
+    width: 11.1%;
+    margin: 1rem;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 2s;
+  }
+  .skills > button > i {
+    font-size:4rem;
+    transition: all 1s;
+    margin: 1rem;
+    cursor: pointer;
+  }
+  .skills > button > p {
+    color: rgb(144, 178, 194);
+    font-size:4rem;
+    font-weight:bold;
+    cursor: pointer;
+    transition: all 1s;
+  }
+  
+  .skills > button > span {
+    font-weight: 700;
+    background: -webkit-linear-gradient(315deg, rgb(4, 0, 214), rgb(0, 7, 31));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  
+      cursor: pointer;
+  }
+  
+  .skills > button > p:hover {
+    transform: scale(1.07);
+  }
+  .skills > button > i:hover {
+    transform: scale(1.07);
+  }
+  
+  .skills > button:hover {
+    letter-spacing: 3px;
+  }
+  
+  .fa-html5 {
+    color: rgb(255, 94, 0);
+  }
+  .fa-css3 {
+    color: rgb(0, 119, 255);
+  }
+  .fa-js {
+    color: rgb(255, 217, 0);
+  }
+  .fa-git {
+    color: rgb(255, 63, 5);
+  }
+  .fa-java {
+    color: rgb(5, 105, 255);
+  }
+  .fa-broadcast-tower {
+    background: -webkit-linear-gradient(315deg, rgb(0, 183, 255), rgb(0, 255, 85));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .fa-windows {
+    background: -webkit-linear-gradient(315deg, rgb(0, 183, 255), rgb(0, 17, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
