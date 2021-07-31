@@ -141,10 +141,10 @@
   }
   
   .skills > button > p:hover {
-    transform: scale(1.07);
+    transform: scale(1.2);
   }
   .skills > button > i:hover {
-    transform: scale(1.07);
+    transform: scale(1.2);
   }
   
   .skills > button:hover {
