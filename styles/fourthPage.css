@@ -103,11 +103,13 @@
     transition: all 1s;
     border: none;
     outline: none;
+    background-color: rgb(204, 204, 204);
 }
 
 .project > button:hover {
     transform: scale(1.1);
     letter-spacing: 2px;
+    background-color: rgb(255, 255, 255);
 }
 .project-lower {
   display: flex;
