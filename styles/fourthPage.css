@@ -13,11 +13,15 @@
     font-size: 1.8rem;
     font-weight: 800;
     letter-spacing: 3px;
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
     margin: 1rem;
     background: -webkit-linear-gradient(315deg, rgb(4, 0, 214), rgb(0, 7, 31));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    transition: all 2s;
+}
+.heading > span:hover {
+   letter-spacing:7px;
     
 }
 .projects-main-div {
