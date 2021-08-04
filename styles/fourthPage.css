@@ -56,6 +56,7 @@
   text-align: center;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 95%;
   width: 30%;
   margin: 0.5rem;
@@ -78,11 +79,18 @@
   z-index: -1;
 }
 
+.project > span {
+    font-size:1.5rem;
+    font-weight:700;
+    
+}
+
 .project-lower {
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
+  
   height: 95%;
   width: 47%;
   margin: 0.5rem;
