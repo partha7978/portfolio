@@ -96,7 +96,18 @@
 }
 
 .project > button {
-    
+    cursor: pointer;
+    margin: 0.5rem;
+    padding: 0.5rem 2.5rem;
+    font-weight: 700;
+    transition: all 1s;
+    border: none;
+    outline: none;
+}
+
+.project > button:hover {
+    transform: scale(1.1);
+    letter-spacing: 2px;
 }
 .project-lower {
   display: flex;
