@@ -109,7 +109,7 @@
   transition: all 1s;
   border: none;
   outline: none;
-  background-color: rgb(204, 204, 204);
+  background-color: rgb(255, 255, 255);
 }
 
 .project > button:hover,
