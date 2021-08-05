@@ -95,7 +95,7 @@
   transition: all 2s;
 }
 
-.project > button {
+.project > button, .project-lower > button {
     cursor: pointer;
     margin: 0.5rem;
     padding: 0.5rem 2.5rem;
@@ -106,7 +106,7 @@
     background-color: rgb(204, 204, 204);
 }
 
-.project > button:hover {
+.project > button:hover, .project-lower > button:hover {
     transform: scale(1.1);
     letter-spacing: 2px;
 }
