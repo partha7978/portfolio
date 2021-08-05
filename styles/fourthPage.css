@@ -115,7 +115,7 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  
+  flex-direction: column;
   height: 95%;
   width: 47%;
   margin: 0.5rem;
