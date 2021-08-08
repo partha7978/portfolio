@@ -15,12 +15,15 @@
 @media only screen and (max-width: 498px) {
     .firstPageMain-div > p {
         font-size: 1.6rem;
+        margin: 0rem 1rem;
     }
     .firstPageMain-div > .tag-line {
         font-size:0.7rem;
+        margin: 0.2rem 0 0 1rem;
     }
     .button-join > button {
         padding: 7px 20px;
+        margin: 2rem 1rem;
     }
     .button-join > button:hover {
         transform: scale(1.05);
