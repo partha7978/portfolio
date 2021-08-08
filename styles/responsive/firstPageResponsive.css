@@ -26,3 +26,13 @@
         transform: scale(1.05);
     }
 }
+
+@media only screen and (max-width: 411px) {
+    .firstPageMain-div > p {
+        font-size: 1.3rem;
+    }
+    .firstPageMain-div > .tag-line {
+        font-size:0.5rem;
+    }
+
+}
