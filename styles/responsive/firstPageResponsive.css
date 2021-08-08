@@ -1,3 +1,13 @@
-@media only screen and (max-width: 1400px) {
-    
+@media only screen and (max-width: 840px) {
+    .firstPageMain-div > p {
+        font-size: 2.5rem;
+    }
+}
+@media only screen and (max-width: 608px) {
+    .firstPageMain-div > p {
+        font-size: 2rem;
+    }
+    .firstPageMain-div > .tag-line {
+        font-size:0.8rem;
+    }
 }
