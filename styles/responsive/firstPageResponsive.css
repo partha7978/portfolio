@@ -11,3 +11,18 @@
         font-size:0.8rem;
     }
 }
+
+@media only screen and (max-width: 498px) {
+    .firstPageMain-div > p {
+        font-size: 1.6rem;
+    }
+    .firstPageMain-div > .tag-line {
+        font-size:0.7rem;
+    }
+    .button-join > button {
+        padding: 7px 20px;
+    }
+    .button-join > button:hover {
+        transform: scale(1.05);
+    }
+}
