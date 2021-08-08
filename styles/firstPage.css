@@ -44,7 +44,7 @@ html {
   font-weight: 600;
   letter-spacing: 2px;
   text-decoration: none;
-  margin: 0.5rem 1.5rem;
+  margin: 0.5rem 2rem;
   color: #000000;
   padding: 0.5rem 0rem;
 }
@@ -55,7 +55,6 @@ html {
   transition:all 1s;
 }
 .nav-ul .nav-link:hover {
-  /* letter-spacing:5px; */
   background: -webkit-linear-gradient(315deg, rgb(4, 0, 214), rgb(0, 7, 31));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
