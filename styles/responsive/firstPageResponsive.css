@@ -29,10 +29,18 @@
 
 @media only screen and (max-width: 411px) {
     .firstPageMain-div > p {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
+        margin-right: 0.5rem;
     }
     .firstPageMain-div > .tag-line {
         font-size:0.5rem;
     }
 
+    .nav-link {
+        letter-spacing: 1.3px;
+        margin: 0.5rem 1rem;
+    }
+    .nav-ul .nav-link {
+        
+    }
 }
