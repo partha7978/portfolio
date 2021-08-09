@@ -22,9 +22,30 @@
         font-size: 1.5rem;
     }
     .heading-name > span {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
     .text > p {
-        font-size:0.6rem;
+        font-size:0.7rem;
+    }
+    .about-content {
+        width: 100%;
+        height: 90%;
+       flex-direction: column;
+    }
+    .profile-image, .profile-description {
+        height: 50%;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 361px) { 
+    .about-section > span {
+        font-size: 1.3rem;
+    }
+    .heading-name > span {
+        font-size: 1.1rem;
+    }
+    .text > p {
+        font-size:0.5rem;
     }
 }

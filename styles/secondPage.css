@@ -38,7 +38,7 @@
     height: 90%;
     display: flex;
     justify-content: center;
-    align-items:center
+    align-items:center;
 }
 .profile-image, .profile-description {
     height: 100%;
