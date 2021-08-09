@@ -17,3 +17,14 @@
         font-size:0.8rem;
     }
 }
+@media only screen and (max-width: 645px) { 
+    .about-section > span {
+        font-size: 1.5rem;
+    }
+    .heading-name > span {
+        font-size: 1.2rem;
+    }
+    .text > p {
+        font-size:0.6rem;
+    }
+}
