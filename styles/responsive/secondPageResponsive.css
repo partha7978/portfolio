@@ -23,9 +23,11 @@
     }
     .heading-name > span {
         font-size: 1.4rem;
+        margin: 0 0.5rem;
     }
     .text > p {
         font-size:0.7rem;
+        margin: 0 0.5rem;
     }
     .about-content {
         width: 100%;

@@ -45,7 +45,8 @@
     width: 50%;
     display: flex;
     justify-content: center;
-    align-items:center
+    align-items:center;
+ 
 }
 .profile-pic {
     height: 600px;
