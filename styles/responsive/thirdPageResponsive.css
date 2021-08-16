@@ -4,3 +4,8 @@
         width: 100%;
     }
 }
+@media only screen and (max-width: 875px) {
+    .card, .card-2, .card-3 {
+        width: 40%;
+    }
+}
