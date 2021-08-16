@@ -1,11 +1,40 @@
 @media only screen and (max-width: 932px) {
-    .third-page{ 
-        height:100%;
-        width: 100%;
-    }
+  .third-page {
+    height: 100%;
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 875px) {
-    .card, .card-2, .card-3 {
-        width: 40%;
-    }
+  .card,
+  .card-2,
+  .card-3 {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 590px) {
+  .third-page {
+    height: auto;
+    width: 100%;
+  }
+  .education-heading,
+  .skills-heading {
+    height: auto;
+    width: 100%;
+  }
+
+  .education,
+  .skills {
+    height: auto;
+    width: 100%;
+  }
+
+  .education {
+    flex-direction: column;
+  }
+  .card,
+  .card-2,
+  .card-3 {
+    height: 40%;
+    width: 80%;
+  }
 }
