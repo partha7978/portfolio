@@ -10,6 +10,8 @@ html {
   margin: 0px;
   font-family: "Noto Sans JP", sans-serif;
   scroll-behavior: smooth;
+
+  
 }
 
 .container {
@@ -23,7 +25,7 @@ html {
   width: 100%;
   background-color: #ffffff;
 
-}
+  }
 
 /* nav bar starts */
 .navbar {
@@ -39,6 +41,7 @@ html {
 .nav-li {
   list-style: none;
 }
+
 .nav-link {
   font-weight: 600;
   letter-spacing: 2px;
