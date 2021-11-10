@@ -1,4 +1,33 @@
-.third-page{
+.third-page {
+  height: 100%;
+  width: 100%;
+}
+
+.nav-bar {
+  height: 10%;
+  width: 100%;
+  background-color: #fff;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+}
+.about-nav {
+  font-size: 1.5em;
+  font-weight: bold;
+  letter-spacing: 3px;
+
+}
+
+
+
+
+
+
+
+
+/* .third-page{
     height: 100%;
     width: 100%;
 
@@ -179,4 +208,4 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  
+   */

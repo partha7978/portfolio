@@ -23,7 +23,7 @@ html {
 .first-page {
   height: 100%;
   width: 100%;
-  background-color: #ffffff;
+  background-color: rgb(248,248,255);
 
   }
 
@@ -57,7 +57,7 @@ html {
   transition:all 1s;
 }
 .nav-ul .nav-link:hover {
-  background: -webkit-linear-gradient(315deg, rgb(4, 0, 214), rgb(0, 7, 31));
+  background: -webkit-linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -67,7 +67,7 @@ html {
   left: 0;
   right: 0;
   margin: auto;
-  background: -webkit-linear-gradient(315deg, rgb(4, 0, 214), rgb(0, 7, 31));
+  background: -webkit-linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
   color: transparent;
   width: 0%;
   content: "";
@@ -92,7 +92,7 @@ html {
 .firstPageMain-div > p {
   font-weight: 800;
   color: #252525;
-  font-size: 3.5rem;
+  font-size: 3.8rem;
   margin: 0rem 2rem;
   animation-duration: 2s;
   animation-name: bounce;
@@ -100,7 +100,9 @@ html {
 }
 
 .gradient {
-  background: -webkit-linear-gradient(315deg, rgb(4, 0, 214), rgb(0, 7, 31));
+  background-color: #7f53ac;
+  background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+  /* background: -webkit-linear-gradient(315deg, rgb(4, 0, 214), rgb(0, 7, 31)); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -112,7 +114,7 @@ html {
 }
 
 .button-join > button {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(248,248,255);
   padding: 10px 40px;
   margin: 2rem 2rem;
   font-size: 600;
@@ -123,7 +125,7 @@ html {
 .button-join > button:hover {
   cursor: pointer; 
   letter-spacing: 3px;
-  color: #ffffff;
+  color: rgb(248,248,255);
   background-color: #000;
   transform: scale(1.1);
 }
