@@ -4,8 +4,26 @@
   background-color: rgb(248,248,255);
 }
 
+.right-div{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-div{
+  height: 100%;
+  width: 50%;
+}
+
+.carousel{
+
+}
+
 .carousel-item {
   display: none;
+  height: 450px;
+  width: 800px;
 }
 
 /* .third-page{
