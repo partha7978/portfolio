@@ -32,6 +32,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
    <div class="container">
@@ -80,8 +82,8 @@
             <!-- <hr> -->
         </div>
         <div class="about-content">
-            <div class="profile-image">
-                <img data-aos="flip-left"
+            <div data-tilt class="profile-image">
+                <img  data-aos="flip-left"
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="2000" class="profile-pic" src="./images/codingImage.svg" alt="profile-image" srcset="">
             </div>
@@ -101,17 +103,21 @@
    </div>
 
    <div class="third-page">
-       <div class="nav-bar">
-           <span class="about-nav">About me </span>
+       <div class="right-div">
+            <div class="carousel"  style="max-width:500px">
+                
+                <img class="carousel-item" src="./images/for carousel/jan-huber-IcI8qvAkYNQ-unsplash.jpg" alt="codingImage">
+                <img class="carousel-item" src="./images/for carousel/pexels-johannes-plenio-1435075.jpg" alt="codingImage">
+                <img class="carousel-item" src="./images/for carousel/pexels-pixabay-46253.jpg" alt="codingImage">
+                <!-- button for carousel navigation-->
+                <!-- <button class="carousel-button" onclick="plusDivs(-1)"><i class="fas fa-chevron-left"></i></button>
+                <button class="carousel-button" onclick="plusDivs(+1)"><i class="fas fa-chevron-right"></i></button> -->
+            </div>
        </div>
-       <div class="main-content">
-           <div class="right-side">
+       <div class="left-div">
 
-           </div>
-           <div class="left-side">
-
-           </div>
        </div>
+       
    </div>
 
 
@@ -234,6 +240,14 @@
         duration:1000,
       });
     </script>
+
+    <!-- for tilt.js -->
+    <script src="jquery.js" ></script> <!-- Load jQuery first -->
+    <script src="tilt.js"></script> <!-- Load Tilt.js library -->
+
+    <!-- for custom js files -->
+    <script src="./scripts/carousel.js"></script>
+
 
 </body>
 </html>
