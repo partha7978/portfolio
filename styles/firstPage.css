@@ -97,6 +97,23 @@ html {
   right: 45px;
   font-size: 60px;
 }
+
+.nav-btn {
+  width: 100%;
+  height: auto;
+}
+.menu-open-btn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  margin: 0.5rem 1.5rem;
+  height: 1rem;
+  width:1rem;
+  font-size: 2rem;
+  
+  float: right;
+}
+
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
 @media screen and (max-height: 450px) {
   .manu-content a {font-size: 20px}
