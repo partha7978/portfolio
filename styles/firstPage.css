@@ -18,7 +18,7 @@ html {
 /* SCROLL BAR STARTS */
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 0px;
 
 
 }
@@ -86,16 +86,26 @@ html {
 .menu-content li a {
   padding: 8px;
   text-decoration: none;
+  letter-spacing:2px;
   font-size: 36px;
-  color: #818181;
+  color: rgb(248,248,255);
   display: block; /* Display block instead of inline */
   transition: 0.3s; 
 }
+.menu-content li a:hover {
+  background: -webkit-linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .nav-bar .close-btn {
   position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
+  top: 0.5rem;
+  right: 1rem;
+  font-size: 3rem;
+  color: #fff;
+  background-color: transparent;
+  outline: none;
+  border: none;
 }
 
 .nav-btn {
