@@ -156,9 +156,11 @@ html {
   animation-name: bounce;
   animation-iteration-count: infinite;
 }
+.cursor_color {
+  color: #7f53ac;
+}
 
 .gradient {
-  color: #7f53ac;
   background-color: #7f53ac;
   background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
   /* background: -webkit-linear-gradient(315deg, rgb(4, 0, 214), rgb(0, 7, 31)); */
