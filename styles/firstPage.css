@@ -18,7 +18,7 @@ html {
 /* SCROLL BAR STARTS */
 /* width */
 ::-webkit-scrollbar {
-  width: 0px;
+  width: 10px;
 
 
 }
@@ -67,7 +67,9 @@ html {
   width: 0;
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  left: 0;
+  /* left: 0;  -- to open menu from left to right */
+  right: 0; 
+   /* right:0  --to open menu from right to left */
   top: 0;
   background-color: rgb(0,0,0); /* Black fallback color */
   background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
@@ -99,8 +101,8 @@ html {
 }
 .nav-bar .close-btn {
   position: absolute;
-  top: 0.5rem;
-  right: 1rem;
+  top: 0rem;
+  right: 0rem;
   font-size: 3rem;
   color: #fff;
   background-color: transparent;
@@ -135,58 +137,7 @@ html {
   }
 }
 
-/* .navbar {
-  width: 100%;
-  height: auto;
-  display: flex;
-  margin: 0.5rem 0rem;
-}
-
-.nav-ul {
-  display: flex;
-}
-.nav-li {
-  list-style: none;
-}
-
-.nav-link {
-  font-weight: 600;
-  letter-spacing: 2px;
-  text-decoration: none;
-  margin: 0.5rem 2rem;
-  color: #000000;
-  padding: 0.5rem 0rem;
-}
-
-.nav-ul .nav-link {
-  position: relative;
-  font-size: 1.1rem;
-  transition:all 1s;
-}
-.nav-ul .nav-link:hover {
-  background: -webkit-linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.nav-ul .nav-link::after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  background: -webkit-linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
-  color: transparent;
-  width: 0%;
-  content: "";
-  height: 2.7px;
-  transition: all 0.5s;
-}
-.nav-ul .nav-link:hover::after {
-  width: 100%;
-} */
-
-/* nav abr ends */
-/* left side starts */
+/* nav-bar ends */
 
 .firstPageMain-div {
   width: 100%;
@@ -207,11 +158,13 @@ html {
 }
 
 .gradient {
+  color: #7f53ac;
   background-color: #7f53ac;
   background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
   /* background: -webkit-linear-gradient(315deg, rgb(4, 0, 214), rgb(0, 7, 31)); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
 }
 .firstPageMain-div > .tag-line {
   margin: 0.2rem 0 0 2rem;
