@@ -14,7 +14,7 @@
 
 @media only screen and (max-width: 498px) {
     .firstPageMain-div > p {
-        font-size: 1.6rem;
+        font-size: 2rem;
         margin: 0rem 1rem;
     }
     .firstPageMain-div > .tag-line {
@@ -37,11 +37,15 @@
     .nav-ul .nav-link {
         font-size: 0.9rem;
     }
+    .navbar-logo{
+        height: 3.5rem;
+        width: auto;
+      }
 }
 
 @media only screen and (max-width: 411px) {
     .firstPageMain-div > p {
-        font-size: 1.4rem;
+        font-size: 1.45rem;
         margin-right: 0.5rem;
     }
     .firstPageMain-div > .tag-line {
@@ -50,4 +54,9 @@
     .nav-ul .nav-link {
         font-size: 0.75rem;
     }
+    .navbar-logo{
+        height: 3rem;
+        width: auto;
+        margin: 0.5rem 0rem;
+      }
 }
