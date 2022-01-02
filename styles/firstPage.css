@@ -132,7 +132,9 @@ html {
   float: right;
 }
 
-/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+/* When the height of the screen is less than 450 pixels, 
+change the font-size of the links and position the close button again,
+ so they don't overlap */
 @media screen and (max-height: 450px) {
   .manu-content a {font-size: 20px}
   .nav-bar .close-btn {
