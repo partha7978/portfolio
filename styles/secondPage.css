@@ -1,75 +1,39 @@
-.second-page{
-    height: 100%;
-    width: 100%;
-    background-color: rgb(248,248,255);
+.second-page {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(248, 248, 255);
 }
 
-.heading{
-    width: 100%;
-    height: 5%;
-    text-align: center;
+.heading {
+  width: 100%;
+  height: 5%;
+  text-align: center;
 }
-.heading span{
-    font-size: 2rem;
-    color: rgb(0,0,0);
-    letter-spacing:3px;  
+.heading span {
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  letter-spacing: 3px;
 }
 
 .education-content {
-    width: 100%;
-    height: 95%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
+  width: 100%;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .first-content {
-    width: 28%;
-    height: auto;
-  margin: 2rem;
-    padding: 1rem;
+  width: 30%;
+  height:40%;
+  margin: 1rem;
+  padding: 1rem;
 
-    border-radius: 31px;
-    box-shadow:  21px 21px 51px #bababf,
-    -21px -21px 51px #ffffff;
+ 
+  box-shadow: 21px 21px 51px #bababf, -21px -21px 51px #ffffff;
 
-    transition: 0.5s;
+  transition: 0.5s;
 }
 .first-content:hover {
-    transform: translateY(-6px);
-    border-bottom: 3px solid #000;
-}
-
-.edu-image-div {
-    margin: 0.3rem;
-    display: flex;
-    justify-content: center;
-}
-.education-image {
-    width:100%;
-    height: auto;
-    border-radius: 31px;
-}
-.education-content-text {
-    margin: 0.3rem;
-    text-align: center;
-}
-.education-content-heading {
-    font-size: 1.5rem;
-    font-weight:600;
-    color: rgb(0,0,0);
-    margin: 0;
-}
-.education-content-heading-1 {
-    margin: 0;
-    font-weight: 550;
-    font-size: 1.3rem;
-    background: -webkit-linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.education-content-heading-2 {
-    margin: 0;
-    font-size:1.2rem;
+  transform: translateY(-6px);
 }
