@@ -46,6 +46,7 @@
 
 }
 .first-content:hover {
+  cursor: pointer;
   transform: translateY(-8px);
   box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.4);
 }
