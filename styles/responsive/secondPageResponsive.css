@@ -20,6 +20,12 @@
     width: 90%;
     height: 40%;
   }
+  .second-page {
+    height: 120%;
+  }
+  .heading span {
+    margin-bottom: 0.7rem;
+  }
 }
 
 @media only screen and (max-width: 380px) {
