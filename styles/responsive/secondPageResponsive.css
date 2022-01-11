@@ -29,10 +29,11 @@
 }
 
 @media only screen and (max-width: 380px) {
-  .card-content h3 {
-    font-size: 1.4rem;
-  }
-  .card-content span {
-    font-size: 1.2rem;
-  }
-}
+    .card-content h3 {
+      font-size: 1.3rem;
+
+    }
+    .card-cvonte4nty {
+      font-style : 1.2rem;
+    }
+} 
