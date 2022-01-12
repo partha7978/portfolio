@@ -102,9 +102,12 @@
 }
 .carousel {
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 94%;
   height: 100%;
   margin: 1rem 3rem;
+  
 }
 .carousel-item {
   display: none;

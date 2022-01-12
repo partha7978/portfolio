@@ -7,13 +7,27 @@
 @media only screen and (max-width: 1120px) {
   .education-content {
     flex-direction: column;
-    height: 150%;
+    height: 130%;
   }
 
   .first-content {
     width: 90%;
     height: 40%;
   }
+  .third-content {
+    margin-bottom: 2rem;
+  }
+  .carousel {
+    margin: 1rem 0rem;
+  }
+  .carousel-item {
+    margin: 1rem 1.3rem;
+    /* padding: 0.3rem; */
+
+    box-shadow:  11px 11px 22px #909094,
+             -11px -11px 22px #ffffff;
+  }
+  
 }
 
 @media only screen and (max-width: 570px) {
@@ -27,6 +41,7 @@
   .heading span {
     margin-bottom: 0.7rem;
   }
+ 
 }
 
 @media only screen and (max-width: 380px) {
