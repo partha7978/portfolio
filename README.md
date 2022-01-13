@@ -1,2 +1,6 @@
 # portfolio
-# note: This webpage is responsive upto 344px;
+# libraires used:
+# 1. fontAwesome
+# 2. ionions icon pack
+# 3. AOS for animation
+# 4. animate.css for animation
