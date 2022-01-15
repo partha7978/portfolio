@@ -13,6 +13,7 @@
   font-size: 2rem;
   color: rgb(0, 0, 0);
   letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 .education-content {
@@ -107,13 +108,36 @@
   width: 94%;
   height: 90%;
   margin: 1rem;
-  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  /* border-radius: 20px; */
+
+  box-shadow:  5px 5px 31px #707073,
+  -5px -5px 31px #ffffff;
+}
+.skills-heading {
+  width: 100%;
+  height: 5%;
+  text-align: center;
+}
+.skills-heading span {
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+}
+
+.skills-content {
+  width: 100%;
+  height: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: yellowgreen;
-  border-radius: 15px;
+  flex-wrap: wrap;
 }
-
 
 /* skills content ends */
