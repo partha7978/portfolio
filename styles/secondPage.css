@@ -17,7 +17,7 @@
 
 .education-content {
   width: 100%;
-  height: 55%;
+  height: 45%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,3 +94,26 @@
 }
 /* education card end */
 /* skills content starts */
+.skills-div {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(248, 248, 255);
+}
+
+.inner-skills-div {
+  width: 94%;
+  height: 90%;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellowgreen;
+  border-radius: 15px;
+}
+
+
+/* skills content ends */
