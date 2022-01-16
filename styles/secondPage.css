@@ -139,5 +139,10 @@
   align-items: center;
   flex-wrap: wrap;
 }
+.skills-content button{
+  height: 20%;
+  width: 15%;
+  margin: 1rem;
+}
 
 /* skills content ends */
