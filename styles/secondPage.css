@@ -147,15 +147,20 @@
   outline: none;
   border: none;
 }
+.skills-content button span{
+ font-size: 1.2rem;
+ cursor: pointer;
+ transition: all 0.5s;
+}
 .skills-content button i {
+  cursor: pointer;
   font-size: 3.5rem;
   color: rgb(0, 0, 0);
   text-shadow: 0px 0px 10px rgb(255, 255, 255);
   transition: all 0.5s;
 }
-
 .skills-content button i:hover {
-  transform: translateY(-10px);
+  transform: translateY(-15px);
 }
 
 

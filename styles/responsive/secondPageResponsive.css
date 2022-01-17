@@ -41,6 +41,13 @@
   .heading span {
     margin-bottom: 0.7rem;
   }
+
+  .skills-div {
+    height: auto;
+  }
+  .skills-content button{
+    width:40%;
+  }
  
 }
 
@@ -53,3 +60,15 @@
       font-style : 1.2rem;
     }
 } 
+@media only screen and (max-width: 320px) {
+  .skills-content button{
+    width:70%;
+    height:50%;
+    margin: 2rem 1rem;
+  }
+  .skills-content button i {
+    font-size: 5rem;
+  }
+} 
+
+
