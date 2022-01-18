@@ -163,5 +163,8 @@
   transform: translateY(-15px);
 }
 
+.fa-java {
+  color: rgb(116, 172, 255) !important;
+}
 
 /* skills content ends */
