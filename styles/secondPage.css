@@ -166,5 +166,29 @@
 .fa-java {
   color: rgb(116, 172, 255) !important;
 }
-
+.c,.cPlusPlus span{
+  font-weight: 700;
+  color: rgb(63, 63, 156) !important;
+}
+.fa-html5 {
+  color: rgb(255, 102, 0) !important;
+}
+.fa-css3 {
+  color: rgb(0, 119, 255) !important;
+}
+.fa-js {
+  color: rgb(255, 238, 0) !important;
+}
+.fa-react {
+  color: rgb(0, 217, 255) !important;
+}
+.fa-node {
+  color: rgb(120, 202, 88) !important;
+}
+.fa-git {
+  color: rgb(255, 60, 0) !important;
+}
+.fa-python {
+  color: rgb(3, 85, 161) !important;
+}
 /* skills content ends */
