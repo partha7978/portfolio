@@ -191,4 +191,13 @@
 .fa-python {
   color: rgb(3, 85, 161) !important;
 }
+
+.cPlusPlusIcon {
+  height: 45px;
+  width: 45px;
+  transition: all 0.5s !important;
+}
+.cPlusPlusIcon:hover {
+  transform: translateY(-15px) !important;
+}
 /* skills content ends */
