@@ -59,6 +59,10 @@
     .card-cvonte4nty {
       font-style : 1.2rem;
     }
+
+    .skills-content button{
+        margin: 2rem 1rem;
+    }
 } 
 @media only screen and (max-width: 320px) {
   .skills-content button{
@@ -66,8 +70,9 @@
     height:50%;
     margin: 2rem 1rem;
   }
-  .skills-content button i {
-    font-size: 5rem;
+  .skills-content button img {
+    height: 60px;
+    width: 60px;
   }
 } 
 
