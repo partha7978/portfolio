@@ -192,12 +192,12 @@
   color: rgb(3, 85, 161) !important;
 }
 
-.cPlusPlusIcon {
+.skills-content button img {
   height: 45px;
   width: 45px;
   transition: all 0.5s !important;
 }
-.cPlusPlusIcon:hover {
+.skills-content button img:hover {
   transform: translateY(-15px) !important;
 }
 /* skills content ends */
