@@ -85,10 +85,12 @@
 .card-content span {
     font-size: 1.5rem;
     font-weight: 700;
-    background: -webkit-linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+    background: -webkit-linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 0;
+
+
 }
 .card-content p {
     color: #fff;
@@ -164,4 +166,7 @@
 .skills-content button img:hover {
   transform: translateY(-15px) !important;
 }
+
+
+
 /* skills content ends */
