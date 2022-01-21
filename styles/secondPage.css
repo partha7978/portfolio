@@ -14,6 +14,12 @@
   color: rgb(0, 0, 0);
   letter-spacing: 3px;
   text-transform: uppercase;
+
+  background-color: #7f53ac;
+  background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+  /* background: -webkit-linear-gradient(315deg, rgb(4, 0, 214), rgb(0, 7, 31)); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .education-content {
@@ -25,10 +31,18 @@
   
 }
 
-.card-image {
+.first-content {
   background: url(../images/clg-image.jpg);
   background-size: cover;
   
+}
+.third-content {
+  background: url(../images/school-image2.jpg);
+  background-size: cover;
+}
+.second-content {
+  background: url(../images/college12th-image.jpg);
+  background-size: cover;
 }
 .first-content {
   width: 30%;
