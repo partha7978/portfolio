@@ -128,6 +128,7 @@
   justify-content: center;
   align-items: center;
   background-color: rgb(255, 255, 255);
+
   /* border-radius: 20px; */
 
   box-shadow:  5px 5px 31px #707073,
@@ -165,6 +166,16 @@
   background: none;
   outline: none;
   border: none;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.skills-content button span{
+  font-size:0.9rem !important;
+  opacity: 0;
 }
 .skills-content button span{
  font-size: 1.2rem;
