@@ -23,3 +23,16 @@ cardThree.addEventListener("mouseover", () => {
 cardThree.addEventListener("mouseout", () => {
     document.querySelector(".card-text-3").style.opacity ="0";
 });
+
+
+
+
+//skills content icons hover
+let skillIcons = document.querySelector(".skillIconImg");
+skillIcons.addEventListener("mouseover", () => {
+    document.querySelector(".skillIconText").style.opacity = "1";
+});
+skillIcons.addEventListener("mouseout", () => {
+    document.querySelector(".skillIconText").style.opacity = "0";
+});
+
