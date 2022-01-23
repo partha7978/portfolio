@@ -179,6 +179,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size:0.9rem !important;
+  font-weight: 600;
   opacity: 0;
 }
 
@@ -188,8 +189,8 @@
  transition: all 0.5s;
 }
 .skills-content button img {
-  height: 50px;
-  width: 50px;
+  height: 55px;
+  width: 55px;
   transition: all 0.5s !important;
 }
 .skills-content button img:hover {
