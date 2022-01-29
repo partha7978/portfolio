@@ -65,9 +65,42 @@
 .card-big {
     width: 50%;
     height: 95%;
-
-border-radius:18px;
     background: #f8f8ff;
 box-shadow:  12px 12px 36px #b8b8bd,
              -12px -12px 36px #ffffff;
+
+             position: relative;
+}
+
+.card-big:after {
+    content: "";
+    background: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50%;
+    width: 13px;
+}
+
+
+
+.card-small {
+    margin: 1rem;
+    width: 30%;
+    height: 95%;
+    background: #5b5ba1;
+box-shadow:  12px 12px 36px #b8b8bd,
+             -12px -12px 36px #ffffff;
+
+             position: relative;
+}
+
+.card-small:after {
+    content: "";
+    background: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50%;
+    width: 13px;
 }
