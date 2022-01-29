@@ -16,6 +16,9 @@
 }
 .upper-project-content {
     background-color: rgb(30, 30, 185);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .lower-project-content {
@@ -56,4 +59,15 @@
   opacity: 1;
 
   transform: scale(1);
+}
+
+
+.card-big {
+    width: 50%;
+    height: 95%;
+
+border-radius:18px;
+    background: #f8f8ff;
+box-shadow:  12px 12px 36px #b8b8bd,
+             -12px -12px 36px #ffffff;
 }
