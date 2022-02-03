@@ -70,4 +70,13 @@
     border-radius: 18px;
     box-shadow:  7px 7px 25px #a9a9ad,
     -7px -7px 25px #ffffff;
+
+}
+
+.porject-content {
+    width: 100%;
+    height: 100%;
+}
+.project-text {
+    background-color:goldenrod;
 }
