@@ -104,6 +104,11 @@
     margin: 0;
     background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
 }
+/* for adding animation in card text */
+.text-animation {
+  transform: translateY(-18px);
+}
+
 .card-content p {
     color: #fff;
 }
@@ -130,8 +135,8 @@
 
   border-radius: 33px;
 
-  box-shadow:  9px 9px 24px #b9bcc1,
-             -9px -9px 24px #ffffff;
+  box-shadow:  9px 9px 24px #DFE3F3,
+             -9px -9px 24px #Eff3FB;
 }
 .skills-heading {
   width: 100%;
@@ -198,3 +203,5 @@
 
 
 /* skills content ends */
+
+

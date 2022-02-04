@@ -26,6 +26,34 @@ cardThree.addEventListener("mouseout", () => {
 
 
 
+//text ANIMATIONS
+let animation = document.querySelector(".card-text");
+let animation2 = document.querySelector(".card-text-2");
+let animation3 = document.querySelector(".card-text-3");
+cardOne.addEventListener("mouseover", () => {
+    animation.classList.add("text-animation");
+});
+cardOne.addEventListener("mouseout", () => {
+    animation.classList.remove("text-animation");
+});
+
+
+cardTwo.addEventListener("mouseover", () => {
+    animation2.classList.add("text-animation");
+});
+cardTwo.addEventListener("mouseout", () => {
+    animation2.classList.remove("text-animation");
+});
+
+cardThree.addEventListener("mouseover", () => {
+    animation3.classList.add("text-animation");
+});
+cardThree.addEventListener("mouseout", () => {
+    animation3.classList.remove("text-animation");
+});
+
+
+
 
 //skills content icons hover
 
@@ -154,3 +182,8 @@ skillIcons14.addEventListener("mouseover", () => {
 skillIcons14.addEventListener("mouseout", () => {
     document.querySelector(".skillIconText14").style.opacity = "0";
 });
+
+
+
+
+
