@@ -56,8 +56,14 @@ html {
 .first-page {
   height: 100%;
   width: 100%;
-  background-color: #F0F4FB;
-
+  /* background-color: #F0F4FB; */
+  background-color: #000000 !important;
+ 
+  background: url(../images/Light.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   }
 
 /* nav bar starts */
@@ -162,6 +168,9 @@ change the font-size of the links and position the close button again,
   animation-duration: 2s;
   animation-name: bounce;
   animation-iteration-count: infinite;
+
+  /* testing black theme */
+  color: #F0F4FB;
 }
 .cursor_color {
   color: #7f53ac;
