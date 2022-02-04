@@ -126,12 +126,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #F0F4FB;
+  background-color: #ffffff;
 
-  /* border-radius: 20px; */
+  border-radius: 33px;
 
-  box-shadow:  5px 5px 31px #707073,
-  -5px -5px 31px #ffffff;
+  box-shadow:  9px 9px 24px #b9bcc1,
+             -9px -9px 24px #ffffff;
 }
 .skills-heading {
   width: 100%;
