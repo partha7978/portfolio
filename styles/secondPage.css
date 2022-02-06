@@ -52,6 +52,7 @@
 
   box-shadow: 21px 21px 51px #bababf, -21px -21px 51px #ffffff;
 
+
   transition: 0.5s;
   box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.2);
 
@@ -137,6 +138,9 @@
 
   box-shadow:  9px 9px 24px #DFE3F3,
              -9px -9px 24px #Eff3FB;
+
+
+
 }
 .skills-heading {
   width: 100%;

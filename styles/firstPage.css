@@ -172,7 +172,7 @@ change the font-size of the links and position the close button again,
   animation-duration: 2s;
   animation-name: bounce;
   animation-iteration-count: infinite;
-
+  user-select: none;
   /* testing black theme */
   /* color: #F0F4FB; */
 }
