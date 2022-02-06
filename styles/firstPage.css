@@ -56,8 +56,8 @@ html {
 .first-page {
   height: 100%;
   width: 100%;
-  /* background-color: #F0F4FB; */
-  background-color: #000000 !important;
+  background-color: #F0F4FB;
+  /* background-color: #000000 !important; */
  
   background: url(../images/Light.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -137,9 +137,9 @@ html {
   
   float: right;
 
-
+  color: #000000;
   /* testing dark theme */
-  color: #fff;
+  /* color: #fff; */
 }
 
 /* When the height of the screen is less than 450 pixels, 
@@ -174,7 +174,7 @@ change the font-size of the links and position the close button again,
   animation-iteration-count: infinite;
 
   /* testing black theme */
-  color: #F0F4FB;
+  /* color: #F0F4FB; */
 }
 .cursor_color {
   color: #7f53ac;
@@ -199,36 +199,36 @@ change the font-size of the links and position the close button again,
   background-color: #F0F4FB;
   padding: 10px 40px;
   margin: 2rem 2rem;
-  font-size: 600;
-  letter-spacing: 3px;
-  border: 1px solid rgb(112, 138, 255);
+  font-weight: 500;
+  font-size: 1rem;
+  border: 2px solid rgb(112, 138, 255);
   border-radius: 25px;
   transition: all 1s;
   cursor: pointer;
-
+  user-select: none;
   
   /* testing dark theme */
-  border: 1px solid #ffffff;
+  /* border: 1px solid #ffffff;
   background-color: #000;
   color: #fff;
   background-color: #000000;
-  background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
+  background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%); */
 }
 .button-join > button:hover {
-  letter-spacing: 3px;
+  /* letter-spacing: 3px; */
   color: #000000;
   background-color: #7f53ac;
   background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
- transform:scale(1.1);
+ /* transform:scale(1.1); */
 
 
 
  /* testing dark theme */
- transform: translateX(15px);
+ /* transform: translateX(15px);
  background-image:linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
   background-color: #000;
   color: #fff;
-  box-shadow: 1px 1px 10px rgb(255, 253, 121), -1px -1px 10px rgb(255, 253, 121);
+  box-shadow: 1px 1px 10px rgb(255, 253, 121), -1px -1px 10px rgb(255, 253, 121); */
 
 }
 /* 1st page ends */
