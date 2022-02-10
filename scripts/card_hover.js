@@ -2,6 +2,7 @@ let cardOne = document.querySelector(".first-content");
 let cardTwo = document.querySelector(".second-content");
 let cardThree = document.querySelector(".third-content");
 
+
 cardOne.addEventListener("mouseover", () => {
     document.querySelector(".card-text").style.opacity ="1";
 });

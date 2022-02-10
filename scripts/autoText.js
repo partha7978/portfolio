@@ -4,3 +4,5 @@ let typed = new Typed(".gradient", {
     backSpeed: 75,
     loop: true
 });
+
+

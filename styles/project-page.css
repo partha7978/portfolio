@@ -65,11 +65,12 @@
     width: 23rem;
     height:33rem;
     margin: 1rem;
-    background-color: #F0F4FB;
+    background-color: #ffffff;
     cursor: pointer;
     border-radius: 18px;
-    box-shadow:  7px 7px 25px #a9a9ad,
-    -7px -7px 25px #ffffff;
+    box-shadow:  9px 9px 24px #DFE3F3,
+                -9px -9px 24px #Eff3FB;
+
 
 }
 
