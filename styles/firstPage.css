@@ -196,7 +196,7 @@ change the font-size of the links and position the close button again,
 }
 
 .button-join > button {
-  background-color: #F0F4FB;
+  background-color: #ffffff;
   padding: 10px 40px;
   margin: 2rem 2rem;
   font-weight: 500;
@@ -223,6 +223,7 @@ change the font-size of the links and position the close button again,
   /* letter-spacing: 3px; */
   /* color: #000000; */
   color: #003cff;
+  background-color: #F0F4FB;
   /* background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%); */
  transform: translateY(-8px);
 
