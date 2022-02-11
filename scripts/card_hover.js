@@ -3,6 +3,23 @@ let cardTwo = document.querySelector(".second-content");
 let cardThree = document.querySelector(".third-content");
 
 
+
+let content = document.getElementsByClassName("first-content");
+
+for (let item of content) {
+    let cardText = document.getElementsByClassName(".card-content");
+    let label = document.getElementById(`${cardText.id}-label`);
+    console.log(label, "id");
+    // item.addEventListener("mouseover", () => {
+    //     label.style.visibility = "visible";
+    // })
+    // item.addEventListener("mouseout", () => {
+    //     label.style.visibility = "hidden";
+    // })
+}
+
+
+
 cardOne.addEventListener("mouseover", () => {
     document.querySelector(".card-text").style.opacity ="1";
 });
