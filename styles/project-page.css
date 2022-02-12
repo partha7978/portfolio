@@ -70,8 +70,12 @@
     border-radius: 18px;
     box-shadow:  9px 9px 24px #DFE3F3,
                 -9px -9px 24px #Eff3FB;
+    transition: all 0.5s !important;
 
-
+}
+.project-card:hover {
+    transform: scale(1.05) !important;
+ 
 }
 
 .porject-content {

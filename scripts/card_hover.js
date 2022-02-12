@@ -6,10 +6,12 @@ let cardThree = document.querySelector(".third-content");
 
 let content = document.getElementsByClassName("first-content");
 
+
 for (let item of content) {
-    let cardText = document.getElementsByClassName(".card-content");
-    let label = document.getElementById(`${cardText.id}-label`);
-    console.log(label, "id");
+    let cardText = document.getElementsByClassName("card-text");
+    let label = document.getElementById(`${cardText}-label`);
+    console.log(label, "ids");
+   
     // item.addEventListener("mouseover", () => {
     //     label.style.visibility = "visible";
     // })
