@@ -11,7 +11,7 @@ for (let item of content) {
     let cardText = document.getElementsByClassName("card-text");
     let label = document.getElementById(`${cardText}-label`);
     console.log(label, "ids");
-   
+
     // item.addEventListener("mouseover", () => {
     //     label.style.visibility = "visible";
     // })
@@ -23,25 +23,25 @@ for (let item of content) {
 
 
 cardOne.addEventListener("mouseover", () => {
-    document.querySelector(".card-text").style.opacity ="1";
+    document.querySelector(".card-text").style.opacity = "1";
 });
 cardOne.addEventListener("mouseout", () => {
-    document.querySelector(".card-text").style.opacity ="0";
+    document.querySelector(".card-text").style.opacity = "0";
 });
 
 
 cardTwo.addEventListener("mouseover", () => {
-    document.querySelector(".card-text-2").style.opacity ="1";
+    document.querySelector(".card-text-2").style.opacity = "1";
 });
 cardTwo.addEventListener("mouseout", () => {
-    document.querySelector(".card-text-2").style.opacity ="0";
+    document.querySelector(".card-text-2").style.opacity = "0";
 });
 
 cardThree.addEventListener("mouseover", () => {
-    document.querySelector(".card-text-3").style.opacity ="1";
+    document.querySelector(".card-text-3").style.opacity = "1";
 });
 cardThree.addEventListener("mouseout", () => {
-    document.querySelector(".card-text-3").style.opacity ="0";
+    document.querySelector(".card-text-3").style.opacity = "0";
 });
 
 
