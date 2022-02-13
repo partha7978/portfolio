@@ -1,14 +1,10 @@
+//todo: for skills page 
 let allContent = document.getElementById("allIcons");
-let allButtons = allContent.getElementsByTagName("button");
 let allIcons = allContent.getElementsByTagName("img");
 
-
-
-
-//? Skills page img hover text effect
+//! Skills page image hover text effect
 for(let i of allIcons){
     let text = document.getElementById(`${i.id}Span`);
-    console.log(text);
     i.addEventListener("mouseover", () => {
         text.style.opacity = "1"
     })
@@ -16,3 +12,43 @@ for(let i of allIcons){
         text.style.opacity = "0"
     })
 }
+
+
+//todo: for education card
+let cardOne = document.querySelector(".first-content");
+let cardTwo = document.querySelector(".second-content");
+let cardThree = document.querySelector(".third-content");
+let animation = document.querySelector(".card-text");
+let animation2 = document.querySelector(".card-text-2");
+let animation3 = document.querySelector(".card-text-3");
+
+
+//! education card hover text effect.
+cardOne.addEventListener("mouseover", () => { //?for card 1
+    document.querySelector(".card-text").style.opacity = "1";
+    animation.classList.add("text-animation");
+});
+cardOne.addEventListener("mouseout", () => { //?for card 1
+    document.querySelector(".card-text").style.opacity = "0";
+    animation.classList.remove("text-animation");
+});
+
+
+cardTwo.addEventListener("mouseover", () => { //?for card 2
+    document.querySelector(".card-text-2").style.opacity = "1";
+    animation2.classList.add("text-animation");
+});
+cardTwo.addEventListener("mouseout", () => { //?for card 2
+    document.querySelector(".card-text-2").style.opacity = "0";
+     animation2.classList.remove("text-animation");
+});
+
+cardThree.addEventListener("mouseover", () => { //?for card 3
+    document.querySelector(".card-text-3").style.opacity = "1";
+    animation3.classList.add("text-animation");
+});
+cardThree.addEventListener("mouseout", () => { //?for card 3
+    document.querySelector(".card-text-3").style.opacity = "0";
+    animation3.classList.remove("text-animation");
+});
+
