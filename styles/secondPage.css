@@ -34,7 +34,7 @@
   background: url(../images/clg-image.jpg);
   background-size: cover;
   border-radius: 25px;
-  
+
 }
 .third-content {
   background: url(../images/school-image2.jpg);
@@ -96,6 +96,7 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   margin: 0;
+  user-select: none;  
 }
 .card-content span {
     font-size: 1.5rem;
