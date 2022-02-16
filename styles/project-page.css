@@ -101,3 +101,19 @@
     margin: 1rem;
     letter-spacing: 2px;
 }
+
+.view-details-button button {
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    background-color: #000000;
+    color: #F0F4FB;
+    border: none;
+    outline: none;
+    letter-spacing: 1.5px;
+    transition: all 0.5s;
+}
+.view-details-button button:hover {
+    background-color: #F0F4FB;
+    color: #000000;
+    border: 1px solid #000000;
+}
