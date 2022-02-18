@@ -52,3 +52,22 @@ cardThree.addEventListener("mouseout", () => { //?for card 3
     animation3.classList.remove("text-animation");
 });
 
+
+
+//! FOR PROJECT PAGE CARDS
+
+let cards = document.getElementById("projectContent");
+let cardContent = cards.getElementsByClassName("project-card");
+let cardButtons = cards.getElementsByClassName("view-details-button");
+
+for(let j of cardContent) {
+    let btn = cards.getElementsByTagName("button");
+    console.log(btn, "j");
+    j.addEventListener("mouseover", () => {
+        console.log("geefef");
+        btn.style.opacity = "1";
+    });
+    j.addEventListener("mouseout", () => {
+        btn.style.opacity = "0";
+    });
+}
