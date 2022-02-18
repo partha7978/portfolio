@@ -54,14 +54,14 @@ cardThree.addEventListener("mouseout", () => { //?for card 3
 
 
 
-//! FOR PROJECT PAGE CARDS
+//! FOR PROJECT PAGE CARDS HOVER EFFECT
 
 let cards = document.getElementById("projectContent");
 let cardContent = cards.getElementsByClassName("project-card");
 let cardButtons = cards.getElementsByClassName("view-details-button");
 
 for(let j of cardContent) {
-    let btn = cards.getElementsByTagName("button");
+    let btn = document.getElementById(`${j.id}Btn`); 
     console.log(btn, "j");
     j.addEventListener("mouseover", () => {
         console.log("geefef");
