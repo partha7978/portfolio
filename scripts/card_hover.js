@@ -64,7 +64,6 @@ for(let j of cardContent) {
     let btn = document.getElementById(`${j.id}Btn`); 
     console.log(btn, "j");
     j.addEventListener("mouseover", () => {
-        console.log("geefef");
         btn.style.opacity = "1";
     });
     j.addEventListener("mouseout", () => {
