@@ -65,14 +65,16 @@
     width: 23rem;
     height:33rem;
     margin: 1rem;
-    background-color: #ffffff;
+
     border-radius: 18px;
-    box-shadow:  9px 9px 24px #DFE3F3,
-                -9px -9px 24px #Eff3FB;
+
     transition: all 0.5s !important;
 }
 .project-card:hover {
     transform: scale(1.05) !important;
+    background-color: #ffffff;
+    box-shadow:  9px 9px 24px #DFE3F3,
+    -9px -9px 24px #Eff3FB;
  
 }
 

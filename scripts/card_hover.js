@@ -52,8 +52,6 @@ cardThree.addEventListener("mouseout", () => { //?for card 3
     animation3.classList.remove("text-animation");
 });
 
-
-
 //! FOR PROJECT PAGE CARDS HOVER EFFECT
 
 let cards = document.getElementById("projectContent");
@@ -70,3 +68,7 @@ for(let j of cardContent) {
         btn.style.opacity = "0";
     });
 }
+
+
+//! FOR PROJECT PAGE CARDS HEADING HOVER EFFECT 
+
