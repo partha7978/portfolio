@@ -9,6 +9,9 @@
   width: 100%;
   height: 5%;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .heading span {
   font-size: 2rem;
@@ -20,7 +23,34 @@
   background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
+  display: block;
+  position: relative;
 }
+
+.heading span::after {
+  content: '';
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 0.1em;
+background-color: #7760C0;
+opacity: 0;
+transition: opacity 300ms, transform 300ms;
+
+transform: scale(0);
+transform-origin: center;
+}
+
+.heading span:hover::after,
+.heading span:focus::after {
+opacity: 1;
+
+transform: scale(1);
+}
+
+
 
 .education-content {
   width: 100%;
@@ -146,6 +176,9 @@
 .skills-heading {
   width: 100%;
   height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 .skills-heading span {
@@ -158,7 +191,34 @@
   background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
+  display: block;
+  position: relative;
 }
+
+.skills-heading span::after {
+  content: '';
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 0.1em;
+background-color: #7760C0;
+opacity: 0;
+transition: opacity 300ms, transform 300ms;
+
+transform: scale(0);
+transform-origin: center;
+}
+
+.skills-heading span:hover::after,
+.skills-heading span:focus::after {
+opacity: 1;
+
+transform: scale(1);
+}
+
+
 
 .skills-content {
   width: 100%;

@@ -71,7 +71,8 @@ for(let j of cardContent) {
 
 
 //! FOR PROJECT PAGE CARDS HEADING HOVER EFFECT 
-
+let spanDiv = cards.getElementsByClassName("project-heading");
+console.log(spanDiv, "spanDiv");
 for(let k of cardContent) {
     let span = document.getElementById(`${k.id}Span`);
     console.log(span, "k");
