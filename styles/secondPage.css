@@ -46,11 +46,8 @@ transform-origin: center;
 .heading span:hover::after,
 .heading span:focus::after {
 opacity: 1;
-
 transform: scale(1);
 }
-
-
 
 .education-content {
   width: 100%;
@@ -63,7 +60,6 @@ transform: scale(1);
 .first-content {
   background: url(../images/clg-image.jpg);
   background-size: cover;
-
 }
 .third-content {
   background: url(../images/school-image2.jpg);
@@ -80,15 +76,11 @@ transform: scale(1);
   /* padding: 1rem; */
   /* border-radius: 25px; */
   box-shadow: 21px 21px 51px #bababf, -21px -21px 51px #ffffff;
-
-
   transition: 0.5s;
   box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.8);
-
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 .first-content:hover {
   cursor: pointer;
