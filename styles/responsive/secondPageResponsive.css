@@ -17,7 +17,13 @@
   .third-content {
     margin-bottom: 2rem;
   }
-  
+  .button-join > button {
+    background-color: transparent;
+  }
+  .button-join > button:hover {
+    background-color: transparent;
+    
+  }
 }
 
 @media only screen and (max-width: 570px) {
