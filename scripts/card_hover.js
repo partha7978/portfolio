@@ -74,6 +74,6 @@ for(let j of cardContent) {
 let spanDiv = cards.getElementsByClassName("project-heading");
 console.log(spanDiv, "spanDiv");
 for(let k of cardContent) {
-    let span = document.getElementById(`${k.id}Span`);
+    let span = document.getElementById(`${k.id}Span`); 
     console.log(span, "k");
 }
