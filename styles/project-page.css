@@ -104,6 +104,10 @@
     background: url(../images/projectPageImg/toDoAppImg1.jpg) center center no-repeat;
     background-size: cover;
 }
+.project-img-div-1 {
+    background: url(../images/projectPageImg/rockPaperScissorImg.jpg) center center no-repeat;
+    background-size: cover;
+}
 .project-heading {
     width: 100%;
     margin: 1rem 1rem 0rem 1rem;
