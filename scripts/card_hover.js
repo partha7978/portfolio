@@ -77,3 +77,15 @@ for(let k of cardContent) {
     let span = document.getElementById(`${k.id}Span`); 
     console.log(span, "k");
 }
+
+
+Swal.fire({
+    title: 'Custom animation with Animate.css',
+    showClass: {
+        popup: 'animate__animated animate__fadeInDown'
+    },
+    hideClass: {
+        popup: 'animate__animated animate__fadeOutUp'
+    }
+})
+

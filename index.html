@@ -339,6 +339,21 @@
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
 
+    <!-- for custom popup -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        setTimeout(() => {
+            Swal.fire({
+            title: 'Please note that the website is in development, the actual content may vary.',
+            showClass: {
+                popup: 'animate__animated animate__fadeInDown'
+            },
+            hideClass: {
+                popup: 'animate__animated animate__fadeOutDown'
+            }
+        })
+        },3000);
+    </script>
         
 </body>
 
