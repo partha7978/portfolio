@@ -71,7 +71,7 @@
 
     border-radius: 18px;
  
-    transition: all 0.5s !important;
+    transition: all 0.5s;
 }
 .project-card:hover {
     transform: scale(1.05) !important;
