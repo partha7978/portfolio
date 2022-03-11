@@ -11,20 +11,19 @@
 // },5000);
 
 
-var modal = document.getElementById("myModal");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close");
+let modal = document.getElementById("myModal");
+let modelContent = modal.querySelector(".modal-content");
+let span = document.getElementsByClassName("close");
 let btn = document.querySelector(".closeBtn");
 // When the user clicks the button, open the modal 
 setTimeout(() => {
   modal.style.display = "block";
+  modelContent.classList.add("animate__animated", "animate__fadeInDown"); //!   adding fade in animation when it appears
 },1000);
 
-// When the user clicks on <span> (x), close the modal
+
 btn.addEventListener("click", () => {
-    modal.style.display = "none";
-    console.log("onclick working");
+  modal.style.display = "none";
 });
 
 // When the user clicks anywhere outside of the modal, close it
