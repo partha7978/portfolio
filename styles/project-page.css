@@ -198,9 +198,6 @@ background-image: linear-gradient(315deg, #05e8ba 0%, #087ee1 74%);
 }
 
 
-
-
-
 /* ! for additional infos I'll remove these content */
 #textInfoAdditional {
     font-size:0.7rem;
@@ -213,3 +210,6 @@ background-image: linear-gradient(315deg, #05e8ba 0%, #087ee1 74%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+
+
