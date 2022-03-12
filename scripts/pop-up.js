@@ -19,7 +19,7 @@ let btn = document.querySelector(".closeBtn");
 setTimeout(() => {
   modal.style.display = "block";
   modelContent.classList.add("animate__animated", "animate__fadeInDown"); //!   adding fade in animation when it appears
-},1000);
+},2000);
 
 
 btn.addEventListener("click", () => {
