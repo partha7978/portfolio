@@ -112,6 +112,10 @@
     background: url(../images/projectPageImg/backgroundGenerator.jpg) center center no-repeat;
     background-size: cover;
 }
+.project-img-div-3 {
+    background: url(../images/projectPageImg/portfolioImg.jpg) center center no-repeat;
+    background-size: cover;
+}
 .project-heading {
     width: 100%;
     margin: 1rem 1rem 0rem 1rem;
