@@ -1,0 +1,30 @@
+.third-page {
+  height: 100%;
+  width: 100%;
+  background-color: #F0F4FB;;
+}
+
+.contact-page-main-content {
+  height:60%;
+  width: 100%;
+  background-color: red;
+}
+.subscribe-content-div {
+  height: 10%;
+  width: 100%;
+  background-color: #F0F4FB;
+}
+.footer-section {
+  height: 30%;
+  width: 100%;
+  background-color: green;
+}
+
+
+
+@media only screen and (max-width:1500px) {
+  .third-page {
+    height: 100%;
+    width: 100%;
+  }
+}
