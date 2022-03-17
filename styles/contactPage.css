@@ -25,7 +25,14 @@
   justify-content: center;
   align-items: center;
 }
-.location-section iframe{
+.location-section p  {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.location-section p iframe{
   border-radius: 20px;
   box-shadow:  14px 14px 40px #9a9ca1,
              -14px -14px 40px #ffffff;
