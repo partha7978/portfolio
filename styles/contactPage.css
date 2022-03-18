@@ -18,7 +18,8 @@
   height: 30%;
   width: 100%;
 }
-.location-section {
+/* ? Location  section  starts */
+.location-section, .social-section-div {
   height: 100%;
   width: 50%;
   display: flex;
@@ -41,7 +42,16 @@
   height: 80%;
   width: 80%;
 }
+/* ? Location  section  ends */
 
+/*todo social section starts */
+
+/*todo social section ends */
+
+
+/*? Subscribe section starts */
+
+/*? Subscribe section ends */
 
 @media only screen and (max-width:1500px) {
   .third-page {
