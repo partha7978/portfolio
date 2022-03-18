@@ -34,8 +34,10 @@
 }
 .location-section p iframe{
   border-radius: 20px;
-  box-shadow:  14px 14px 40px #9a9ca1,
-             -14px -14px 40px #ffffff;
+  border: none;
+  outline: none;
+  box-shadow:  13px 13px 26px #dde0e7,
+  -13px -13px 26px #ffffff;
   height: 80%;
   width: 80%;
 }
