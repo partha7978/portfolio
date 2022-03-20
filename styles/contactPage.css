@@ -50,6 +50,19 @@
 
 
 /*? Subscribe section starts */
+.subscribe-content-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+ 
+.subscribe-email {
+  height:3rem;
+  width: 50%;
+  border-radius: 20px;
+  padding: 1rem;
+}
 
 /*? Subscribe section ends */
 
