@@ -61,7 +61,21 @@
   height:3rem;
   width: 50%;
   border-radius: 20px;
-  padding: 1rem;
+  padding: 1rem 1.5rem;
+  outline: none;
+  border: none;
+}
+::placeholder {
+  color: rgb(65, 63, 63);
+  opacity: 1;
+  letter-spacing:2px;
+  background: -webkit-linear-gradient(
+    50deg,
+    #647dee,
+    #7f53ac
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /*? Subscribe section ends */
