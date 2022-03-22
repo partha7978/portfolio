@@ -12,11 +12,12 @@
 .subscribe-content-div {
   height: 10%;
   width: 100%;
-  background-color: #000000;
+  background-color: #1d1d1d;
 }
 .footer-section {
   height: 30%;
   width: 100%;
+ 
 }
 /* ? Location  section  starts */
 .location-section, .social-section-div {
@@ -78,6 +79,24 @@
   -webkit-text-fill-color: transparent;
 }
 
+
+.subscribe-btn {
+  margin: 0rem 1rem;
+  background-color: #ffffff;
+  padding: 10px 40px;
+  margin: 2rem 2rem;
+  font-weight: 500;
+  font-size: 1rem;
+  border: 2px solid rgb(112, 138, 255);
+  border-radius: 25px;
+  transition: all 1s;
+  cursor: pointer;
+  user-select: none;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 /*? Subscribe section ends */
 
 @media only screen and (max-width:1500px) {
