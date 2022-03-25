@@ -67,7 +67,6 @@
   border: none;
 }
 ::placeholder {
-  color: rgb(65, 63, 63);
   opacity: 1;
   letter-spacing:2px;
   background: -webkit-linear-gradient(
@@ -81,14 +80,15 @@
 
 
 .subscribe-btn {
-  margin: 0rem 1rem;
+  height:3rem;
   background-color: #ffffff;
   padding: 10px 40px;
-  margin: 2rem 2rem;
+  margin: 2rem;
   font-weight: 500;
   font-size: 1rem;
   border: 2px solid rgb(112, 138, 255);
   border-radius: 25px;
+  letter-spacing: 2px;
   transition: all 1s;
   cursor: pointer;
   user-select: none;
@@ -96,6 +96,16 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  background: -webkit-linear-gradient(
+    50deg,
+    #647dee,
+    #7f53ac
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.subscribe-btn:hover {
+  transform: translateX(10px);
 }
 /*? Subscribe section ends */
 
