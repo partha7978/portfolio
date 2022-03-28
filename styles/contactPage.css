@@ -12,12 +12,12 @@
 .subscribe-content-div {
   height: 10%;
   width: 100%;
-  background-color: #1d1d1d;
+  background-color: #292929;
 }
 .footer-section {
   height: 30%;
   width: 100%;
- 
+  background-color: #292929; 
 }
 /* ? Location  section  starts */
 .location-section, .social-section-div {
@@ -65,6 +65,8 @@
   padding: 1rem 1.5rem;
   outline: none;
   border: none;
+  background-color: #000000;
+  border: 2px solid rgb(112, 138, 255);
 }
 ::placeholder {
   opacity: 1;
