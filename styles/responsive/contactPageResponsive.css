@@ -1,0 +1,14 @@
+@media only screen and (max-width: 800px) {
+    .third-page {
+        width: 100%;
+        height: auto;
+        background-color: #F0F4FB;;
+    }
+    .contact-page-main-content {
+        flex-direction: column;
+    }
+
+    .subscribe-content-div {
+       flex-direction: column;
+      }
+}
