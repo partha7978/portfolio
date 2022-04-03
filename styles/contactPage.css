@@ -68,6 +68,7 @@
   background-color: #000000;
   border: 2px solid rgb(112, 138, 255);
 }
+
 ::placeholder {
   opacity: 1;
   letter-spacing:2px;
@@ -111,9 +112,21 @@
 }
 /*? Subscribe section ends */
 
-@media only screen and (max-width:1500px) {
-  .third-page {
-    height: 100%;
-    width: 100%;
-  }
+/*? Footer section starts  */
+.footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.footer-left, .footer-right, .footer-center {
+  height: 100%;
+  width: 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+
+/*? Footer section ends  */
+
+
