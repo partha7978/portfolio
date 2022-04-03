@@ -61,7 +61,7 @@
 .subscribe-email {
   height:3rem;
   width: 50%;
-  border-radius: 20px;
+  border-radius: 25px;
   padding: 1rem 1.5rem;
   outline: none;
   border: none;
@@ -126,6 +126,19 @@
   align-items: center
 }
 
+.address {
+  font-weight: 500;
+  background: -webkit-linear-gradient(
+    50deg,
+    #647dee,
+    #7f53ac
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.address-heading {
+  font-weight: 600;
+}
 
 /*? Footer section ends  */
 
