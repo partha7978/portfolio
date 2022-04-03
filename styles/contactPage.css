@@ -17,7 +17,11 @@
 .footer-section {
   height: 25%;
   width: 100%;
-  background-color: #292929; 
+  background-color: #141414; 
+  border-top: 1px solid transparent;
+  border-image: linear-gradient(to right, rgb(56, 83, 233), rgb(255, 67, 155));
+  border-image-slice: 1;
+
 }
 /* ? Location  section  starts */
 .location-section, .social-section-div {
@@ -73,9 +77,9 @@
   opacity: 1;
   letter-spacing:2px;
   background: -webkit-linear-gradient(
-    50deg,
-    #647dee,
-    #7f53ac
+    150deg,
+    #7f53ac,
+    #647dee
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -100,9 +104,9 @@
   align-items: center;
   text-align: center;
   background: -webkit-linear-gradient(
-    50deg,
-    #647dee,
-    #7f53ac
+    150deg,
+    #7f53ac,
+    #647dee
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -129,9 +133,9 @@
 .address {
   font-weight: 500;
   background: -webkit-linear-gradient(
-    50deg,
-    #647dee,
-    #7f53ac
+    150deg,
+    #7f53ac,
+    #647dee
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
