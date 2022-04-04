@@ -160,8 +160,18 @@
     margin: 0.2rem;
     outline: none;
     border: none;
-    /* background: transparent; */
+    background: transparent;
+    transition: all 0.5s;
   }
+  .social-icons > button:hover {
+    transform: translateY(-5px);
+  }
+  .social-icons > button > i {
+    font-size: 1.55rem;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
 /* todo  Footer social icon section ends */
 
 /*? Footer section ends  */
