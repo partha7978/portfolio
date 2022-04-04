@@ -18,7 +18,7 @@
   height: 25%;
   width: 100%;
   background-color: #141414; 
-  border-top: 1px solid transparent;
+  border-top: 3px solid transparent;
   border-image: linear-gradient(to right, rgb(56, 83, 233), rgb(255, 67, 155));
   border-image-slice: 1;
 
@@ -129,7 +129,7 @@
   justify-content: center;
   align-items: center
 }
-
+/* todo Footer address section starts */
 .address {
   font-weight: 500;
   background: -webkit-linear-gradient(
@@ -143,6 +143,26 @@
 .address-heading {
   font-weight: 600;
 }
+/* todo Footer address section ends */
+
+/* todo  Footer social icon section starts */
+  .social-icons {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center
+  }
+  .social-icons > button {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    margin: 0.2rem;
+    outline: none;
+    border: none;
+    /* background: transparent; */
+  }
+/* todo  Footer social icon section ends */
 
 /*? Footer section ends  */
 
