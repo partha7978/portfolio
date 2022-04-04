@@ -167,11 +167,28 @@
     transform: translateY(-5px);
   }
   .social-icons > button > i {
-    font-size: 1.55rem;
-    color: #ffffff;
+    font-size: 1.6rem;
+    color: #F0F4FB;
     cursor: pointer;
   }
-
+  .fa-linkedin:hover {
+    color:#0073B1 !important;
+  }
+  .fa-facebook:hover {
+    color: #355AA3 !important;
+  }
+  .fa-instagram:hover {
+    color: #DC0D4A !important;
+  }
+  .fa-twitter:hover {
+    color: #1C9CEA !important;
+  }
+  .fa-snapchat:hover {
+    color: #F7F400 !important;
+  }
+  .fa-youtube:hover {
+    color: #F70000 !important;
+  }
 /* todo  Footer social icon section ends */
 
 /*? Footer section ends  */
