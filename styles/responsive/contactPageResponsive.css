@@ -55,16 +55,17 @@
   .address {
     text-align: left;
   }
-  .footer-left, .footer-right, .footer-center {
+  .footer-left,
+  .footer-right,
+  .footer-center {
     width: 100%;
     height: auto;
     margin: 1rem;
-
   }
   .subscribe-content-div {
     flex-direction: column;
   }
-  .subscribe-email { 
+  .subscribe-email {
     width: 80%;
     height: 2.5rem;
     margin: 0.5rem 1rem;
@@ -75,5 +76,34 @@
   }
   .social-icons > button {
     margin: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .subscribe-email {
+    width: 90%;
+    height: 2.5rem;
+    margin: 0.5rem 1rem;
+  }
+  .subscribe-btn {
+    height: 2.5rem;
+    margin: 0.5rem 1rem;
+  }
+  .address {
+    font-size: 1.02rem;
+    margin: 0rem 0rem 0rem 3rem;
+  }
+  .address-heading {
+    font-size: 1.2rem;
+  }
+  .copyright > p {
+    font-size: 1.02rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .address {
+    font-size: 1.02rem;
+    margin: 0rem 0rem 0rem 0.5rem;
   }
 }
