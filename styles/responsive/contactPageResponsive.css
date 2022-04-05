@@ -15,7 +15,7 @@
   }
   .location-section,
   .social-section-div {
-    margin: 0;
+    margin: 2rem 0;
     height: 100%;
     width: 100%;
   }
@@ -29,10 +29,10 @@
   }
   .subscribe-btn {
     height: 2.5em;
-    padding:7px 30px;
+    padding: 7px 30px;
   }
   .address {
-    font-size:0.8rem;
+    font-size: 0.8rem;
   }
   .social-icons > button {
     height: 1.5rem;
@@ -42,5 +42,38 @@
   .copyright > p {
     font-size: 0.8rem;
   }
+}
 
+@media only screen and (max-width: 590px) {
+  .third-page {
+    width: 100%;
+    height: auto;
+  }
+  .footer-section {
+    flex-direction: column;
+  }
+  .address {
+    text-align: left;
+  }
+  .footer-left, .footer-right, .footer-center {
+    width: 100%;
+    height: auto;
+    margin: 1rem;
+
+  }
+  .subscribe-content-div {
+    flex-direction: column;
+  }
+  .subscribe-email { 
+    width: 80%;
+    height: 2.5rem;
+    margin: 0.5rem 1rem;
+  }
+  .subscribe-btn {
+    height: 2.5rem;
+    margin: 0.5rem 1rem;
+  }
+  .social-icons > button {
+    margin: 0.5rem;
+  }
 }
