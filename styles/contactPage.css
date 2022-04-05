@@ -136,6 +136,12 @@
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+
 }
 .address-heading {
   font-weight: 600;
