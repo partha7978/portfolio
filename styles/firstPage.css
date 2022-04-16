@@ -119,9 +119,9 @@ html {
 
 
 .navbar-logo{
-  height: 4rem;
+  height: 2.3rem;
   width: auto;
-   
+  margin: 0.5rem 1.5rem;
 }
 .nav-btn {
   width:100%;

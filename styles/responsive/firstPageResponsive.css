@@ -28,7 +28,10 @@
         padding: 7px 20px;
         margin: 1.3rem 1rem;
     }
- 
+    .navbar-logo{
+        height: 2rem;
+        margin: 0.5rem 0.5rem;
+    }
     .nav-link {
         letter-spacing: 1.3px;
         margin: 0.5rem 1.2rem;
@@ -37,10 +40,6 @@
     .nav-ul .nav-link {
         font-size: 0.9rem;
     }
-    .navbar-logo{
-        height: 3.5rem;
-        width: auto;
-      }
 }
 
 @media only screen and (max-width: 411px) {
@@ -56,8 +55,7 @@
         font-size: 0.75rem;
     }
     .navbar-logo{
-        height: 3rem;
-        width: auto;
-        margin: 0.5rem 0rem;
-      }
+        height: 2rem;
+        margin: 0.5rem 0.5rem;
+    }
 }
