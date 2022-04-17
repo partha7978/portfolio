@@ -83,6 +83,9 @@
 }
 
 @media only screen and (max-width: 400px) {
+  .footer-left, .address {
+    text-align: left;
+  }
   .subscribe-email {
     width: 90%;
     height: 2.5rem;

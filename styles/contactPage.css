@@ -169,7 +169,7 @@
   .social-icons > button:hover {
     transform: translateY(-5px);
   }
-  .social-icons > button > i {
+  .social-icons > button > a > i {
     font-size: 1.6rem;
     color: #F0F4FB;
     cursor: pointer;
