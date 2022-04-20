@@ -144,8 +144,13 @@
 
 }
 .address-heading {
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 1.5rem;
 }
+.address > p {
+  margin: 0.3rem 0;
+}
+
 /* todo Footer address section ends */
 
 /* todo  Footer social icon section starts */
