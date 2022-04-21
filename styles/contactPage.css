@@ -176,20 +176,12 @@
   }
   .social-icons > button > a > i {
     font-size: 1.6rem;
-    color: #F0F4FB;
+    color: #5657A4;
     cursor: pointer;
 
-     background: -webkit-linear-gradient(
-    150deg,
-    #7f53ac, #647dee
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   }
   .fa-linkedin:hover {
     color:#0073B1 !important;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
   }
   .fa-facebook:hover {
     color: #355AA3 !important;
