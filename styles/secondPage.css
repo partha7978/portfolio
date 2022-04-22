@@ -58,15 +58,15 @@ transform: scale(1);
 }
 
 .first-content {
-  background: url(../images/clg-image.jpg);
+  background: url(../images/clg-image.webp);
   background-size: cover;
 }
 .third-content {
-  background: url(../images/school-image2.jpg);
+  background: url(../images/school-image.webp);
   background-size: cover;
 }
 .second-content {
-  background: url(../images/college12th-image.jpg);
+  background: url(../images/college12th-image.webp);
   background-size: cover;
 }
 .first-content {

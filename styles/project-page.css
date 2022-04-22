@@ -101,19 +101,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(../images/projectPageImg/toDoAppImg1.jpg) center center no-repeat;
+    background: url(../images/projectPageImg/toDoAppImg1.webp) center center no-repeat;
     background-size: cover;
 }
 .project-img-div-1 {
-    background: url(../images/projectPageImg/rockPaperScissorImg.jpg) center center no-repeat;
+    background: url(../images/projectPageImg/rockPaperScissorImg.webp) center center no-repeat;
     background-size: cover;
 }
 .project-img-div-2 {
-    background: url(../images/projectPageImg/backgroundGenerator.jpg) center center no-repeat;
+    background: url(../images/projectPageImg/backgroundGenerator.webp) center center no-repeat;
     background-size: cover;
 }
 .project-img-div-3 {
-    background: url(../images/projectPageImg/portfolioImg.jpg) center center no-repeat;
+    background: url(../images/projectPageImg/portfolioImg.webp) center center no-repeat;
     background-size: cover;
 }
 .project-heading {
