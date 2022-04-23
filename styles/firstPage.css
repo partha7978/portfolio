@@ -3,6 +3,17 @@
   margin: 0;
   padding: 0;
 }
+:root {
+
+  --background-color: #0abcf9;
+  --gradient-color: linear-gradient(to right, #8490FF 0%, #62BDFC 100%);
+  --gradient-text-color: -webkit-linear-gradient(to right, #8490FF 0%, #62BDFC 100%);
+  --light-mode-text-color: #f4f0fb;
+  -shadow: 0px 0px 20px 0px rgb(132 144 255 / 20%);
+  --shadowSupport : 0px 20px 20px 0px rgb(132 144 255 / 30%);
+
+  
+}
 body,
 html {
   height: 100%;
@@ -12,18 +23,15 @@ html {
   scroll-behavior: smooth;
   background-color: #F0F4FB;
 
-  background-color: #F0F4FB;
 }
 
 /* SCROLL BAR STARTS */
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
-
-
 }
 ::-webkit-scrollbar:hover {
-  width: 13px;
+  width: 10px;
 }
 
 /* Track */
@@ -36,13 +44,13 @@ html {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   /* background-color: #abe9cd; */
-  background: -webkit-linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+  background: -webkit-linear-gradient(315deg, #8490FF 0%, #62BDFC 74%);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   /* background-color: #abe9cd; */
-  background: -webkit-linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+  background: -webkit-linear-gradient(315deg, #8490FF 0%, #62BDFC 74%);
 }
 
 /* SCROLL BAR ENDS */
@@ -56,14 +64,12 @@ html {
 .first-page {
   height: 100%;
   width: 100%;
-  background-color: #F0F4FB;
-  /* background-color: #000000 !important; */
- 
+/*  
   background: url(../images/firstPageBackground.webp) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
 
   }
 
@@ -165,7 +171,7 @@ change the font-size of the links and position the close button again,
   align-items: left;
   flex-direction: column;
 }
-.firstPageMain-div > p {
+.firstPageMain-div > h1 {
   font-weight: 800;
   color: #252525;
   font-size: 3.8rem;
@@ -178,12 +184,12 @@ change the font-size of the links and position the close button again,
   /* color: #F0F4FB; */
 }
 .cursor_color {
-  color: #7f53ac;
+  color: var(--background-color);
 }
 
 .gradient {
-  background-color: #7f53ac;
-  background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+  background-color:var(--background-color);
+  background-image: var(--gradient-color);
   /* background: -webkit-linear-gradient(315deg, rgb(4, 0, 214), rgb(0, 7, 31)); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -197,47 +203,27 @@ change the font-size of the links and position the close button again,
 }
 
 .button-join > button {
-  background-color: #f0f4fb;
+  background-color:var(--background-color);
+  background-image: var(--gradient-color);
+  color: var(--light-mode-text-color);
   padding: 10px 40px;
   margin: 2rem 2rem;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1rem;
-  border: 2px solid rgb(112, 138, 255);
-  border-radius: 25px;
-  transition: all 1s;
+  border: none;
+  display: inline-block;
+  text-transform: uppercase;
+  outline: none;
+  transition:all 0.3s ease;
   cursor: pointer;
   user-select: none;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
-  /* testing dark theme */
-  /* border: 1px solid #ffffff;
-  background-color: #000;
-  color: #fff;
-  background-color: #000000;
-  background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%); */
+ 
 }
 
-.button-join > button:hover {
-  /* letter-spacing: 3px; */
-  /* color: #000000; */
-  color: #003cff;
-  background-color: #F0F4FB;
-  /* background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%); */
- transform: translateY(-8px);
-
-
-
-
- /* testing dark theme */
- /* transform: translateX(15px);
- background-image:linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
-  background-color: #000;
-  color: #fff;
-  box-shadow: 1px 1px 10px rgb(255, 253, 121), -1px -1px 10px rgb(255, 253, 121); */
-
+.button-join > button:hover,
+.button-join > button:active {
+  box-shadow: var(--shadowSupport);
+  transform: translateY(-5px);
 }
 
 /* 1st page ends */
