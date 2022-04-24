@@ -27,12 +27,11 @@
     }
     .navbar-logo{
         height: 2rem;
-        margin: 0.5rem 0.5rem;
+        margin: 0.5rem 0.8rem;
     }
     .nav-link {
         letter-spacing: 1.3px;
-        margin: 0.5rem 1.2rem;
-        
+        margin: 0.5rem 1.2rem; 
     }
     .nav-ul .nav-link {
         font-size: 0.9rem;
@@ -45,12 +44,8 @@
         font-size: 1.55rem;   
         margin-right: 0.5rem;
     }
-  
     .nav-ul .nav-link {
         font-size: 0.75rem;
     }
-    .navbar-logo{
-        height: 2rem;
-        margin: 0.5rem 0.5rem;
-    }
+
 }

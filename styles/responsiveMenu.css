@@ -57,11 +57,9 @@
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
 @media screen and (max-height: 450px) {
   .menu-content-smallScreen a {
-    font-size: 20px;
+    font-size: 1rem;
   }
   .nav-bar-smallScreen .close-btn-smallScreen {
     font-size: 40px;
-    top: 15px;
-    right: 35px;
   }
 }
