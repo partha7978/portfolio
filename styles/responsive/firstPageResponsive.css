@@ -1,8 +1,70 @@
-@media only screen and (max-width: 840px) {
+@media only screen and (max-width: 1100px) {
+    .firstPageMain-div {
+        width: 70%;
+    }
+    .firstPageMain-Image {
+        width: 30%;
+    }
+    .firstPageMain-Image img {
+        width: 80%;
+    
+    }
+}
+@media only screen and (max-width: 1040px){
+    .firstPageMain-div {
+        width: 60%;
+    }
+    .firstPageMain-Image {
+        width: 40%;
+    }
+    .firstPageMain-div > h1 {
+        font-size: 2.7rem;
+    }
+    .firstPageMain-Image img {
+        width: 70%;
+      
+    }
+}
+@media only screen and (max-width: 920px) {
     .firstPageMain-div > h1 {
         font-size: 2.5rem;
     }
 }
+@media only screen and (max-width: 880px) {
+    .container {
+        height:200%;
+    }
+
+    .nav-bar {
+        height: 4%;
+    }
+    .first-page-container  {
+        width: 100%;
+        height: 96%;
+        flex-direction: column;
+    }
+    .firstPageMain-div{
+        width: 100%;
+        height: 100%;
+    }
+    .firstPageMain-Image {
+        height: 100%;
+        width: 80%;
+    }
+    .firstPageMain-Image img {
+        width: 50%;
+    }
+  
+}
+@media only screen and (max-width: 680px) {
+    .firstPageMain-Image {
+        height: 100%;
+        width: 80%;
+    }
+    .firstPageMain-Image img {
+        width: 70%;
+    }
+} 
 @media only screen and (max-width: 608px) {
     .firstPageMain-div > h1 {
         font-size: 2rem;
@@ -14,6 +76,7 @@
 }
 
 @media only screen and (max-width: 498px) {
+
     .firstPageMain-div > h1 {
         font-size: 2rem;
         /* testing new size starts*/
@@ -46,6 +109,14 @@
     }
     .nav-ul .nav-link {
         font-size: 0.75rem;
+    }
+
+    .firstPageMain-Image {
+        height: 100%;
+        width: 100%;
+    }
+    .firstPageMain-Image img {
+        width: 80%;
     }
 
 }

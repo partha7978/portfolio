@@ -185,9 +185,17 @@ ul > li > a {
 
 /* nav-bar ends */
 
-.firstPageMain-div {
+/* !first page main content starts */
+.first-page-container {
   width: 100%;
   height: 93%;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+.firstPageMain-div {
+  width: 68%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: left;
@@ -196,8 +204,8 @@ ul > li > a {
 .firstPageMain-div > h1 {
   font-weight: 800;
   color: #252525;
-  font-size: 3.8rem;
-  margin: 0rem 2rem;
+  font-size: 3.5rem;
+  margin: 0rem 0 0 2rem;
   animation-duration: 2s;
   animation-name: bounce;
   animation-iteration-count: infinite;
@@ -248,4 +256,16 @@ ul > li > a {
   transform: translateY(-5px);
 }
 
+.firstPageMain-Image {
+  height: 100%;
+  width: 32%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.firstPageMain-Image img {
+  height: 75%;
+  width:75%;
+  box-shadow: 20px -20px 0px 0px var(--text-color);
+}
 /* 1st page ends */
