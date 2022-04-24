@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
 }
 :root {
 
@@ -11,7 +12,7 @@
   --light-mode-text-color: #f4f0fb;
   -shadow: 0px 0px 20px 0px rgb(132 144 255 / 20%);
   --shadowSupport : 0px 20px 20px 0px rgb(132 144 255 / 30%);
-
+  --text-color: #8490FF;
   
 }
 body,
@@ -21,7 +22,7 @@ html {
   margin: 0px;
   font-family: "Noto Sans JP", sans-serif;
   scroll-behavior: smooth;
-  background-color: #F0F4FB;
+  background-color: #ffffff;
 
 }
 
@@ -76,51 +77,44 @@ html {
 /* nav bar starts */
 
 .nav-bar {
-  height: 100%;
-  width: 0;
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  /* left: 0;  -- to open menu from left to right */
-  right: 0; 
-   /* right:0  --to open menu from right to left */
-  top: 0;
-  background-color: rgb(0,0,0); /* Black fallback color */
-  background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  transition: 0.5s; 
+  height: 7%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .menu-content {
-  position: relative;
-  top: 25%; /* 25% from the top */
-  width: 100%; /* 100% width */
-  text-align: center; /* Centered text/links */
-  margin-top: 30px; 
+  height: 100%;
 }
 
-.menu-content li a {
+.menu-content ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width:auto;
+  overflow: hidden;
+}
+.divider {
+  float: right;
+}
+
+ul > li > a {
+  float: right;
   padding: 8px;
+  margin: 0 1rem;
   text-decoration: none;
   letter-spacing:2px;
-  font-size: 36px;
-  color: rgb(248,248,255);
+  font-size: 1rem;
+  color: rgb(41, 41, 41);
   display: block; /* Display block instead of inline */
-  transition: 0.3s; 
+  transition: color 0.3s linear; 
 }
-.menu-content li a:hover {
-  background: -webkit-linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.nav-bar .close-btn {
-  position: absolute;
-  top: 0rem;
-  right: 0rem;
-  font-size: 3rem;
-  color: #fff;
-  background-color: transparent;
-  outline: none;
-  border: none;
+.menu-content li a:hover,
+.menu-content li a:active 
+{
+  color:var(--text-color);
 }
 
 
@@ -129,37 +123,65 @@ html {
   width: auto;
   margin: 0.5rem 1.5rem;
 }
-.nav-btn {
-  width:100%;
-  height: auto;
-}
-.menu-open-btn {
-  background-color: transparent;
-  outline: none;
-  border: none;
-  margin: 0.5rem 1.5rem;
-  height: 1rem;
-  width:1rem;
-  font-size: 2rem;
-  
-  float: right;
+.menu-btn {
+  top: 50%;
+  left: 50%;
+  display: none;
 
-  color: #000000;
-  /* testing dark theme */
-  /* color: #fff; */
 }
 
-/* When the height of the screen is less than 450 pixels, 
-change the font-size of the links and position the close button again,
- so they don't overlap */
-@media screen and (max-height: 450px) {
-  .manu-content a {font-size: 20px}
-  .nav-bar .close-btn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
+.menu-btn button {
+  background-color: #ffffff;
+  color: rgb(41, 41, 41); 
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+  /* overflow: visible;  */
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 1rem 0 0;
+  transition: all 0.3s linear;
+}
+.menu-btn button:hover, .menu-btn button:active {
+  color: var(--text-color);
+}
+
+
+/*!  NAVBAR menu triggers when the webpage hits 700px  */
+@media only screen and (max-width:700px) {
+  .menu-content li {
+    display: none;
   }
+  .menu-btn {
+    display: block !important;
+  }
+  .menu-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .menu-ul .responsive {
+    position: relative;
+  }
+  .menu-ul .responsive .menu-btn {
+    position: absolute;
+  }
+  .menu-ul .responsive li {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  .menu-content ul {
+    flex-direction: column;
+    
+  }
+
 }
+
 
 /* nav-bar ends */
 

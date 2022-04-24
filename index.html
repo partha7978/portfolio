@@ -18,9 +18,9 @@
     <link rel="stylesheet" href="./styles/popup.css">
     <link rel="stylesheet" href="./styles/responsive/firstPageResponsive.css">
     <link rel="stylesheet" href="./styles/responsive/secondPageResponsive.css">
-    <link rel="stylesheet" href="./styles/responsive/thirdPageResponsive.css">
     <link rel="stylesheet" href="./styles/responsive/projectSectionResponsive.css">
     <link rel="stylesheet" href="./styles/responsive/contactPageResponsive.css">
+    <link rel="stylesheet" href="./styles/responsiveMenu.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap"
@@ -34,9 +34,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    
+        crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- for w3c hamburger library -->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
@@ -47,29 +47,49 @@
             <!-- nav bar starts -->
             <div class="nav-bar">
 
-                <a href="javascript:void(0)"><button onclick="closeNav()" class="close-btn">
-                        <ion-icon name="close-outline"></ion-icon>
-                    </button></a>
+                <a href="#" class="navbar-logo-parent">
+                    <img class="navbar-logo" src="./images/logoMain.webp" alt="logo">
+                </a>
 
                 <!-- content of menu -->
                 <div class="menu-content">
-                    <ul>
+                    <ul id="menu-ul" class="menu-ul">
                         <li><a href="#">Home</a></li>
                         <li><a href="./about.html" target="_self">About</a></li>
+                        <li><a href="#">Skills</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li class="menu-btn">
+                            <button class="hamburger">
+                                <ion-icon name="menu-outline"></ion-icon>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="nav-bar-smallScreen">
+                <a href="javascript:void(0)"><button onclick="closeNav()" class="close-btn-smallScreen"><ion-icon name="close-outline"></ion-icon></button></a>
+
+                <!-- content of menu -->
+                <div class="menu-content-smallScreen">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
             </div>
 
-            <div class="nav-btn">
+            <!-- <div class="nav-btn">
                 <a href="#">
                     <img class="navbar-logo" src="./images/logoMain.webp" alt="logo">
                 </a>
                 <button class="menu-open-btn" onclick="openNav()">
                     <ion-icon name="menu-outline"></ion-icon>
                 </button>
-            </div>
+            </div> -->
 
             <!-- nav bar ends --
             <!-- 1st page content starts -->
