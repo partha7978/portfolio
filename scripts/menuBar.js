@@ -16,7 +16,7 @@ const menuBarResponsive = () => {
   if (window.innerWidth <= 450) {
     let btn2 = document.querySelector(".hamburger-mobile");
     btn2.addEventListener("click", () => {
-       document.querySelector(".nav-bar-smallScreen").style.width = "60%";
+       document.querySelector(".nav-bar-smallScreen").style.width = "65%";
     });
 
    

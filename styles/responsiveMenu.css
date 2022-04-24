@@ -32,15 +32,27 @@
 }
 .menu-content-smallScreen li {
   list-style: none;
+  width: 50%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  transition: all 0.5s;
+}
+.menu-content-smallScreen li:hover {
+  transform: translateX(5px);
 }
 .menu-content-smallScreen li a {
-  padding: 8px;
+  outline: none;
+  margin: 0;
   text-decoration: none;
   letter-spacing: 1px;
   font-size: 20px;
   color:#8490FF;
   display: block; /* Display block instead of inline */
   transition: 0.3s;
+}
+.menu-content-smallScreen li i {
+  color: #8490FF;
 }
 
 .close-btn-smallScreen {
