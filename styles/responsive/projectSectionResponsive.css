@@ -4,3 +4,18 @@
     width: 100%;
   }
 }
+@media only screen and (max-width: 750px) {
+  .project-card {
+    margin: 2rem 1rem;
+
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .project-card {
+   width: 21rem;
+  }
+  .project-text p{
+    font-size: 0.8rem;
+  }
+}
