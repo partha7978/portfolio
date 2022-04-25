@@ -13,7 +13,7 @@
   -shadow: 0px 0px 20px 0px rgb(132 144 255 / 20%);
   --shadowSupport : 0px 20px 20px 0px rgb(132 144 255 / 30%);
   --text-color: #8490FF;
-  
+  --main-padding-outline: 5rem;
 }
 body,
 html {
@@ -187,11 +187,12 @@ ul > li > a {
 
 /* !first page main content starts */
 .first-page-container {
-  width: 100%;
+  max-width: 100%;
   height: 93%;
   display: flex;
   justify-content: center;
-  align-items: center
+  align-items: center;
+  padding: var(--main-padding-outline);
 }
 .firstPageMain-div {
   width: 68%;
@@ -264,8 +265,8 @@ ul > li > a {
   align-items: center;
 }
 .firstPageMain-Image img {
-  height: 75%;
-  width:75%;
+  height: 80%;
+  width:80%;
   box-shadow: 20px -20px 0px 0px var(--text-color);
 }
 /* 1st page ends */

@@ -1,3 +1,18 @@
+:root {
+    --main-padding-1180px: 3.5rem;
+    --main-padding-608px: 1rem;
+    --main-padding-498px: 0rem;
+}
+
+@media only screen and (max-width:1180px){
+    .first-page-container {
+        padding: var(--main-padding-1180px);
+    } 
+    .firstPageMain-Image img {
+        width: 80%;
+        height: 70%;
+    }
+}    
 @media only screen and (max-width: 1100px) {
     .firstPageMain-div {
         width: 70%;
@@ -5,36 +20,31 @@
     .firstPageMain-Image {
         width: 30%;
     }
-    .firstPageMain-Image img {
-        width: 80%;
-    
-    }
-}
-@media only screen and (max-width: 1040px){
-    .firstPageMain-div {
-        width: 60%;
-    }
-    .firstPageMain-Image {
-        width: 40%;
-    }
     .firstPageMain-div > h1 {
         font-size: 2.7rem;
     }
-    .firstPageMain-Image img {
+   
+}
+@media only screen and (max-width: 1040px){
+    .firstPageMain-div {
         width: 70%;
-      
+    }
+    .firstPageMain-Image {
+        width: 30%;
     }
 }
 @media only screen and (max-width: 920px) {
     .firstPageMain-div > h1 {
         font-size: 2.5rem;
     }
+    .firstPageMain-Image img {
+        height: 60%;
+    }
 }
 @media only screen and (max-width: 880px) {
     .container {
-        height:200%;
+        height:150%;
     }
-
     .nav-bar {
         height: 4%;
     }
@@ -45,27 +55,24 @@
     }
     .firstPageMain-div{
         width: 100%;
-        height: 100%;
+        height: 65%;
     }
     .firstPageMain-Image {
-        height: 100%;
+        /* align-items: flex-start; */
+        height: 35%;
         width: 80%;
     }
     .firstPageMain-Image img {
+        height: 100%;
         width: 50%;
     }
   
 }
-@media only screen and (max-width: 680px) {
-    .firstPageMain-Image {
-        height: 100%;
-        width: 80%;
-    }
-    .firstPageMain-Image img {
-        width: 70%;
-    }
-} 
+
 @media only screen and (max-width: 608px) {
+    .first-page-container{
+        padding: var(--main-padding-608px);
+    }
     .firstPageMain-div > h1 {
         font-size: 2rem;
     }
@@ -76,13 +83,15 @@
 }
 
 @media only screen and (max-width: 498px) {
-
+    .first-page-container{
+        padding: var(--main-padding-498px);
+    }
     .firstPageMain-div > h1 {
         font-size: 2rem;
         /* testing new size starts*/
-        font-size:2.3rem;
+        font-size:2.1rem;
         /* testing new size ends*/
-        margin: 0rem 1rem;
+        margin: 0 0 0 1rem;
     }
     .button-join > button {
         padding: 7px 20px;
@@ -99,6 +108,10 @@
     .nav-ul .nav-link {
         font-size: 0.9rem;
     }
+    .firstPageMain-Image img {
+        width: 70%;
+        margin: 0 0 1.2rem 0;
+    }
 }
 
 @media only screen and (max-width: 411px) {
@@ -111,12 +124,13 @@
         font-size: 0.75rem;
     }
 
-    .firstPageMain-Image {
-        height: 100%;
-        width: 100%;
-    }
     .firstPageMain-Image img {
         width: 80%;
     }
+}
 
+@media only screen and (max-width: 320px) { 
+    .firstPageMain-Image img {
+        width: 90%;
+    }
 }
