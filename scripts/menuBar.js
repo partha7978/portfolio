@@ -36,6 +36,3 @@ menuBarResponsive();
 const closeNav = () => {
   document.querySelector(".nav-bar-smallScreen").style.width = "0%";
 };
-
-
-

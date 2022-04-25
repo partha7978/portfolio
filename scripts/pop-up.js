@@ -36,7 +36,6 @@ window.onclick = function(event) {
     modelContent.classList.add("animate__animated", "animate__fadeOutDown");
     setTimeout(() => {
       modal.style.display = "none";
-  
     },600);
   }
 }
