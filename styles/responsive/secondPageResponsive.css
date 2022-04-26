@@ -1,3 +1,4 @@
+@import url(./firstPageResponsive.css);
 @media only screen and (max-width: 1400px) {
   .first-content {
     margin: 0;
@@ -5,6 +6,12 @@
   }
 }
 @media only screen and (max-width: 1120px) {
+  .second-page {
+    padding: var(--main-padding-1180px);
+  }
+  .heading {
+    margin-bottom: 0.6rem;
+  }
   .education-content {
     flex-direction: column;
     height: 100%;
@@ -22,11 +29,13 @@
   }
   .button-join > button:hover {
     background-color: transparent;
-    
   }
 }
 
 @media only screen and (max-width: 570px) {
+  .second-page {
+    padding: var( --main-padding-608px);
+  }
   .first-content {
     width: 90%;
     height: 40%;
@@ -41,35 +50,34 @@
   .skills-div {
     height: auto;
   }
-  .skills-content button{
-    width:40%;
+  .skills-content button {
+    width: 40%;
   }
- 
 }
 
 @media only screen and (max-width: 380px) {
-    .card-content h3 {
-      font-size: 1.3rem;
+  .second-page {
+    padding: var(--main-padding-498px);
+  }
+  .card-content h3 {
+    font-size: 1.3rem;
+  }
+  .card-cvonte4nty {
+    font-style: 1.2rem;
+  }
 
-    }
-    .card-cvonte4nty {
-      font-style : 1.2rem;
-    }
-
-    .skills-content button{
-        margin: 2rem 1rem;
-    }
-} 
+  .skills-content button {
+    margin: 2rem 1rem;
+  }
+}
 @media only screen and (max-width: 320px) {
-  .skills-content button{
-    width:70%;
-    height:50%;
+  .skills-content button {
+    width: 70%;
+    height: 50%;
     margin: 2rem 1rem;
   }
   .skills-content button img {
     height: 60px;
     width: 60px;
   }
-} 
-
-
+}
