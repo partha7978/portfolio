@@ -138,7 +138,7 @@
 /* skills content starts */
 .skills-div {
   width: 100%;
-  height: 70%;
+  height: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -238,12 +238,12 @@
   transition: all 0.5s;
 }
 .skills-content button img {
-  height: 45px;
-  width: 45px;
+  height: 52px;
+  width: 52px;
   transition: all 0.5s !important;
 }
 .skills-content button img:hover {
-  transform: translateY(-8px) !important;
+  transform: translateY(-12px) !important;
 }
 
 /* skills content ends */
