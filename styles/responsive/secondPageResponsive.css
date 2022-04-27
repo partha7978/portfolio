@@ -32,6 +32,11 @@
   }
 }
 
+@media only screen and (max-width: 750px) {
+  .skills-div {
+    height: auto;
+  }
+}
 @media only screen and (max-width: 570px) {
   .second-page {
     padding: var( --main-padding-608px);
