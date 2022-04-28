@@ -1,21 +1,37 @@
-@media only screen and (max-width: 1500px) {
-  .project-section-div {
-    height: auto;
-    width: 100%;
+@import url(./firstPageResponsive.css);
+
+
+
+@media only screen and (max-width: 1290px) {
+  .overlay a {
+    font-size: 1.2rem;
   }
 }
-@media only screen and (max-width: 750px) {
-  .project-card {
-    margin: 2rem 1rem;
-
+@media only screen and (max-width: 1000px) {
+  .project-btns .project-btn {
+    margin: 3rem 0.5rem 0.5rem 1rem;
+    padding: 10px 30px;
+  }
+  .project-img-overlay {
+    width: 45%;
   }
 }
 
-@media only screen and (max-width: 390px) {
-  .project-card {
-   width: 21rem;
+@media only screen and (max-width: 850px) {
+  .overlay a {
+    font-size: 1rem;
   }
-  .project-text p{
-    font-size: 0.8rem;
+}
+@media only screen and (max-width: 680px) {
+  .project-img-overlay {
+    width: 75%;
+  }
+  .overlay a {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .project-img-overlay {
+    width: 90%;
   }
 }
