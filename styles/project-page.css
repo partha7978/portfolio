@@ -1,10 +1,9 @@
+@import url(./firstPage.css);
 .project-section-div {
-    height: 100%;
+    height: auto;
     width: 100%;
-    background-color: #F0F4FB;
-/* 
-    background-color: #7f53ac;
-    background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%); */
+    background-color: #ffffff;
+    padding: var(--main-padding-outline);
 }
 .project-section-heading {
     width: 100%; 
@@ -13,32 +12,27 @@
     justify-content:center;
     align-items: center;
 }
-
 .project-section-heading span{
     font-size: 1.8rem;
     color: rgb(0, 0, 0);
     letter-spacing: 2px;
     text-transform: uppercase;
     width:auto;
-    /* background-color: #7f53ac;
-    background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%); */
-
-    background-color: #05e8ba;
-    background-image: linear-gradient(315deg, #05e8ba 0%, #087ee1 74%);
+    background-color: var(--background-color);
+    background-image: var(--gradient-text-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
     display: block;
     position: relative;
 }
 .project-section-heading span::after {
-    content: '';
+  content: '';
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 0.1em;
-  background-color: #087ee1;
+  background-color: var(--background-color);
   opacity: 0;
   transition: opacity 300ms, transform 300ms;
 
@@ -49,7 +43,6 @@
 .project-section-heading span:hover::after,
 .project-section-heading span:focus::after {
   opacity: 1;
-
   transform: scale(1);
 }
 
@@ -59,161 +52,61 @@
     width: 100%;
     height: 92%;
     display: flex;
+    gap: 2rem;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 2rem;
+}
+.project-btns {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-btn {
+    margin: 4rem 0.5rem 0.5rem 1rem;
+}
+.project-img-overlay {
+    width: 30%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+.project-img-overlay img {
+    width: 100%;
+    border-radius: 7px;
+    position: relative;
+    /* overflow: hidden; */
 }
 
-.project-card {
-    width: 23rem;
-    height:33rem;
-    margin: 1rem;
 
-    border-radius: 18px;
- 
-    transition: all 0.5s;
-}
-.project-card:hover {
-    transform: scale(1.05) !important;
-    background-color: #ffffff;
-    box-shadow:  9px 9px 24px #DFE3F3,
-    -9px -9px 24px #Eff3FB;
- 
-}
-
-.porject-content {
+.project-img-overlay .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.project-img-div img {
-    height: 11rem;
-    width: 100%;
-    background-size: cover;
-}
-.project-img-div {
-    margin: 1rem;
-    width: 100%;
-    height: 11rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: url(../images/projectPageImg/toDoAppImg1.webp) center center no-repeat;
-    background-size: cover;
-}
-.project-img-div-1 {
-    background: url(../images/projectPageImg/rockPaperScissorImg.webp) center center no-repeat;
-    background-size: cover;
-}
-.project-img-div-2 {
-    background: url(../images/projectPageImg/backgroundGenerator.webp) center center no-repeat;
-    background-size: cover;
-}
-.project-img-div-3 {
-    background: url(../images/projectPageImg/portfolioImg.webp) center center no-repeat;
-    background-size: cover;
-}
-.project-heading {
-    width: 100%;
-    margin: 1rem 1rem 0rem 1rem;
-    text-align: left;
-}
-.project-heading span {
-    font-size: 1.2rem;
-    color: rgb(0, 0, 0);
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    width:auto;
-    font-weight:500;
-    display: block;
-    position: relative;
-
-   background-color: #05e8ba;
-background-image: linear-gradient(315deg, #05e8ba 0%, #087ee1 74%);
-
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-    
-}
-
-/*? for project name hover effect */
-.project-heading span::after {
-    content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 0.1em;
-  background-color: #087ee1;
-  opacity: 0;
-  transition: opacity 300ms, transform 300ms;
-  transform: scale(0);
-  transform-origin: center;
-}
-
-.project-heading span:hover::after,
-.project-heading span:focus::after {
-  opacity: 1;
-  transform: scale(1);
-}
-
-.project-text {
-    margin: 0 1rem 1rem 1rem;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-}
-.project-text span{
-    font-size: 1rem;
-    text-transform: uppercase;
-    margin: 1rem;
-    letter-spacing: 2px;
-
-}
-
-.view-details-button button {
-    padding: 0.6rem 1rem;
-    margin: 1rem;
+    background: var(--gradient-color);
     opacity: 0;
-    /* background-color: #000000; */
-    color: #000000;
-    border: none;
-    outline: none;
-    letter-spacing: 1.5px;
-    transition: all 2s;
-    cursor: pointer;
-    /* background-color: #7f53ac; */
-    /* background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%); */
-    background-color: #05e8ba;
-    background-image: linear-gradient(315deg, #05e8ba 0%, #087ee1 74%);
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    transform: translateY(100%);
+    transition: all 0.3s linear;
 }
-.view-details-button button:hover {
-    /* transform: translateY(-8px); */
-    background-color: #F0F4FB;
-    background-image: linear-gradient(315deg, #F0F4FB 0%, #F0F4FB 74%);
-    color: #000000;
-    border: 1px solid #000000;
+.project-img-overlay:hover > .overlay {
+    transform: translateY(0);
+    opacity: 0.8;
 }
-
-
-/* ! for additional infos I'll remove these content */
-#textInfoAdditional {
-    font-size:0.7rem;
-
-    font-weight: 600;
-    background-color: #6b0f1a;
-    background-color: #e4b5cb;
-    background-image: linear-gradient(315deg, #e4b5cb 0%, #722ae6 74%);
-
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.overlay a {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--light-mode-text-color);
 }
-
-
-

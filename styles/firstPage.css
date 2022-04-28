@@ -8,7 +8,7 @@
 
   --background-color: #0abcf9;
   --gradient-color: linear-gradient(to right, #8490FF 0%, #62BDFC 100%);
-  --gradient-text-color: -webkit-linear-gradient(to right, #8490FF 0%, #62BDFC 100%);
+  --gradient-text-color: -webkit-linear-gradient(315deg, #8490FF 0%, #62BDFC 74%);
   --light-mode-text-color: #f4f0fb;
   -shadow: 0px 0px 20px 0px rgb(132 144 255 / 20%);
   --shadowSupport : 0px 20px 20px 0px rgb(132 144 255 / 30%);
@@ -231,7 +231,7 @@ ul > li > a {
   font-size: 1rem;
 }
 
-.button-join > button {
+.btn{
   background-color:var(--background-color);
   background-image: var(--gradient-color);
   color: var(--light-mode-text-color);
@@ -246,11 +246,10 @@ ul > li > a {
   transition:all 0.3s ease;
   cursor: pointer;
   user-select: none;
- 
 }
 
-.button-join > button:hover,
-.button-join > button:active {
+.btn:hover,
+.btn:active {
   box-shadow: var(--shadowSupport);
   transform: translateY(-5px);
 }
