@@ -264,6 +264,7 @@ ul > li > a {
 .firstPageMain-Image img {
   height: 80%;
   width:80%;
-  box-shadow: 20px -20px 0px 0px var(--text-color);
+  box-shadow: 15px -15px 0px 0px var(--text-color);
+  
 }
 /* 1st page ends */
