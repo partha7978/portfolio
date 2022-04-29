@@ -123,14 +123,14 @@
     .nav-ul .nav-link {
         font-size: 0.75rem;
     }
-
     .firstPageMain-Image img {
         width: 80%;
+        margin-bottom: 3rem;
     }
 }
 
 @media only screen and (max-width: 320px) { 
     .firstPageMain-Image img {
-        width: 90%;
+        width: 95%;
     }
 }
