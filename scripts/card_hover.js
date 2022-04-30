@@ -60,7 +60,6 @@ let cardButtons = cards.getElementsByClassName("view-details-button");
 
 for(let j of cardContent) {
     let btn = document.getElementById(`${j.id}Btn`); 
-    console.log(btn, "j");
     j.addEventListener("mouseover", () => {
         btn.style.opacity = "1";
     });
@@ -72,7 +71,6 @@ for(let j of cardContent) {
 
 //! FOR PROJECT PAGE CARDS HEADING HOVER EFFECT 
 let spanDiv = cards.getElementsByClassName("project-heading");
-console.log(spanDiv, "spanDiv");
 for(let k of cardContent) {
     let span = document.getElementById(`${k.id}Span`); 
     console.log(span, "k");

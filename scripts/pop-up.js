@@ -1,16 +1,3 @@
-// setTimeout(() => {
-//     Swal.fire({
-//     title: 'This website is under development.',
-//     showClass: {
-//         popup: 'animate__animated animate__fadeInDown'
-//     },
-//     hideClass: {
-//         popup: 'animate__animated animate__fadeOutDown'
-//     }
-// })
-// },5000);
-
-
 let modal = document.getElementById("myModal");
 let modelContent = modal.querySelector(".modal-content");
 let span = document.getElementsByClassName("close");

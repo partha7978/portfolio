@@ -79,7 +79,6 @@
   outline: none;
   transition: all 0.3s ease;
   cursor: pointer;
-  user-select: none;
 }
 .project-btn:hover,
 .project-btn:active {
