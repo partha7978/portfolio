@@ -16,7 +16,6 @@
     flex-direction: column;
     height: 100%;
   }
-
   .first-content {
     width: 90%;
     height: 40%;
@@ -39,7 +38,7 @@
 }
 @media only screen and (max-width: 570px) {
   .second-page {
-    padding: var( --main-padding-608px);
+    padding: var(--main-padding-608px);
   }
   .first-content {
     width: 90%;

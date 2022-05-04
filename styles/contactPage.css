@@ -1,7 +1,7 @@
 .third-page {
   height: 100%;
   width: 100%;
-  background-color: #F0F4FB;;
+  background-color: #ffffff;;
 }
 
 .contact-page-main-content {
@@ -24,32 +24,49 @@
 
 }
 /* ? Location  section  starts */
-.location-section, .social-section-div {
+.location-section {
   height: 100%;
   width: 50%;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 .location-section p  {
   height: 100%;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 .location-section p iframe{
-  border-radius: 20px;
   border: none;
   outline: none;
-  box-shadow:  13px 13px 26px #dde0e7,
-  -13px -13px 26px #ffffff;
+  box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.1);
   height: 80%;
   width: 80%;
 }
 /* ? Location  section  ends */
 
 /*todo social section starts */
+.social-section-div {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.contact-input-section {
+  height: 80%;
+  background-color: #ffffff;
+  width: 100%;
+  box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+.contact-main-content {
+  height: 100%;
+  width: 100%;
+}
 
 /*todo social section ends */
 
