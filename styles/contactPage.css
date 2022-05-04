@@ -42,7 +42,7 @@
   border: none;
   outline: none;
   box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.1);
-  height: 80%;
+  height: 90%;
   width: 80%;
 }
 /* ? Location  section  ends */
@@ -56,7 +56,7 @@
   align-items: center;
 }
 .contact-input-section {
-  height: 80%;
+  height: 90%;
   background-color: #ffffff;
   width: 100%;
   box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.1);
@@ -145,14 +145,62 @@
   padding: 0.15rem 0.5rem;
   outline: none;
 }
+.contact-btn-div {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-btn-div #submit {
+  background-color: var(--background-color);
+  background-image: var(--gradient-color);
+  color: var(--light-mode-text-color);
+  padding: 10px 40px;
+  margin: 2rem;
+  font-weight: 400;
+  font-size: 1rem;
+  border: none;
+  display: inline-block;
+  text-transform: uppercase;
+  outline: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  user-select: none;
+}
+
+.contact-btn-div #submit:hover,
+.contact-btn-div #submit:active {
+  box-shadow: var(--shadowSupport);
+  transform: translateY(-5px);
+}
 
 
 
 
+.contact-btn-div #reset {
+  background-color: var(--background-color);
+  background-image: var(--gradient-color);
+  color: var(--light-mode-text-color);
+  height: 40px;
+  width: 40px;
+  font-size: 1rem;
+  border-radius: 50%;
+  border: none;
+  display: inline-block;
+  text-transform: uppercase;
+  outline: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  user-select: none;
+}
 
-
-
-
+.contact-btn-div #reset:hover,
+.contact-btn-div #reset:active {
+  box-shadow: var(--shadowSupport);
+  transform: translateY(-5px);
+}
 
 
 
