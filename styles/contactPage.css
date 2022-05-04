@@ -77,8 +77,11 @@
   text-align: center;
   margin: 0 0 1rem 0;
 }
+
+
+
 .contact-heading span {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: rgb(0, 0, 0);
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -108,6 +111,45 @@
   opacity: 1;
   transform: scale(1);
 }
+
+.input-div {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-div span {
+  width: 30%;
+  height: auto;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  letter-spacing: 2px;
+}
+.input-div input {
+  height: auto;
+  padding: 0.15rem 0.5rem;
+  margin: 0.5rem 0;
+  width: 70%;
+  outline: none;
+}
+#message {
+  width: 70%;
+  padding: 0.15rem 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*todo social section ends */
