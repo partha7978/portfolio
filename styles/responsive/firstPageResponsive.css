@@ -1,6 +1,6 @@
 :root {
-    --main-padding-1180px: 3.5rem;
-    --main-padding-608px: 1rem;
+    --main-padding-1180px: 0 3.5rem;
+    --main-padding-608px: 0 1rem;
     --main-padding-498px: 0rem;
 }
 

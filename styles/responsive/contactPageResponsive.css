@@ -5,10 +5,15 @@
   }
 }
 
+@media only screen and (max-width: 1125px) {
+  .contact-btn-div #submit {
+    margin: 0.5rem;
+  }
+}
 @media only screen and (max-width: 827px) {
   .third-page {
     width: 100%;
-    height: 100%;
+    height: auto;
   }
   .contact-page-main-content {
     flex-direction: column;
@@ -19,9 +24,16 @@
     height: 100%;
     width: 100%;
   }
+  .location-section > p {
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .location-section > p > iframe {
     height: 90%;
-    width: 90%;
+    width: 100%;
   }
   .subscribe-email {
     height: 2.5rem;
@@ -48,6 +60,12 @@
   .third-page {
     width: 100%;
     height: auto;
+  }
+  .location-section > p {
+    height: 25rem;
+  }
+  .input-div {
+    padding: 0 0.3rem;
   }
   .footer-section {
     flex-direction: column;
@@ -83,6 +101,35 @@
 }
 
 @media only screen and (max-width: 400px) {
+  .social-section-div{
+    width: 100%;
+  }
+  .contact-input-section {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+  .contact-main-content {
+    width: 90%;
+    padding: 0.1rem;
+  }
+  .input-div {
+    flex-direction: column;
+  }
+  .input-div span, .input-div input, #message {
+    width: 100%;
+  }
+  .input-div span {
+    margin-bottom: 0.5rem;
+  }
+  .input-div input {
+    margin: 0;
+  }
+  .contact-btn-div {
+    margin-bottom: 1rem;
+  }
+
   .footer-left, .address {
     text-align: left;
   }
@@ -97,7 +144,7 @@
   }
   .address {
     font-size: 1.02rem;
-    margin: 0rem 0rem 0rem 3rem;
+    margin: 0rem 0rem 0rem 0.5rem;
   }
   .address-heading {
     font-size: 1.2rem;
@@ -105,11 +152,11 @@
   .copyright > p {
     font-size: 1.02rem;
   }
+
 }
 
-@media only screen and (max-width: 400px) {
-  .address {
-    font-size: 1.02rem;
-    margin: 0rem 0rem 0rem 0.5rem;
+@media only screen and (max-width: 375px) {
+  .input-div span {
+    margin-bottom: 0.8rem;
   }
 }

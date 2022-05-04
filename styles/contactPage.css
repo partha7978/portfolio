@@ -44,6 +44,10 @@
   box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.1);
   height: 90%;
   width: 80%;
+  transition: 0.3s linear;
+}
+.location-section p iframe:hover {
+  box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.3);
 }
 /* ? Location  section  ends */
 
@@ -62,7 +66,12 @@
   box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.1);
   display: flex;
   flex-direction: column;
+  transition: 0.3s linear;
 }
+.contact-input-section:hover {
+  box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.3);
+}
+
 .contact-main-content {
   height: 100%;
   width: 100%;
