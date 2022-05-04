@@ -66,7 +66,49 @@
 .contact-main-content {
   height: 100%;
   width: 100%;
+  padding: 1rem;
 }
+.contact-heading{
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+.contact-heading span {
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  width: auto;
+  background-color: var(--background-color);
+  background-image: var(--gradient-text-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: block;
+  position: relative;
+}
+.contact-heading span::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: var(--background-color);
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+  transform: scale(0);
+  transform-origin: center;
+}
+.contact-heading span:hover::after,
+.contact-heading span:focus::after {
+  opacity: 1;
+  transform: scale(1);
+}
+
 
 /*todo social section ends */
 
