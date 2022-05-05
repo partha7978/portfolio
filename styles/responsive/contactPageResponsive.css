@@ -114,6 +114,9 @@
     width: 90%;
     padding: 0.1rem;
   }
+  .contact-heading {
+    margin-top: 0.5rem;
+  }
   .input-div {
     flex-direction: column;
   }
@@ -154,9 +157,35 @@
   }
 
 }
+@media only screen and (max-width:380px) {
+  .social-section-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-input-section {
+    width: 93%;
+  }
+  .contact-main-content {
+    width: 90%;
+    padding: 0.1rem;
+  }
+}
 
 @media only screen and (max-width: 375px) {
   .input-div span {
     margin-bottom: 0.8rem;
+  }
+}
+@media only screen and (max-width: 311px) {
+  .contact-btn-div #submit  {
+    font-size: 0.7rem;
+    padding: 8px 30px;
+  }
+  .contact-btn-div #reset {
+    margin: 0.5rem 0;
+    height: 30px;
+    width: 30px;
   }
 }

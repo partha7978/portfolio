@@ -239,12 +239,9 @@
 }
 
 ::placeholder {
-  opacity: 1;
+  opacity: 0.6;
   letter-spacing:2px;
-  background: -webkit-linear-gradient(
-    150deg,
-    #7f53ac, #647dee
-  );
+  background: var( --gradient-text-color);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
