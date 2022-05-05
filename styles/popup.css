@@ -25,7 +25,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 25px;
+  border-radius: 15px;
 }
 .modal-content p {
   margin-top: 1rem;
@@ -36,7 +36,7 @@
 /* The Close Button */
 .close {
   padding: 0.6rem 1.5rem;
-  margin: 2rem 1rem 1rem 1rem;
+  margin: 1.5rem 1rem 1rem 1rem;
   /* opacity: 0; */
   /* background-color: #000000; */
   color: var(--light-mode-text-color);
