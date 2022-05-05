@@ -3,14 +3,12 @@
     height: 100%;
     width: 100%;
   }
-}
-
-@media only screen and (max-width: 1125px) {
   .contact-btn-div #submit {
     margin: 0.5rem;
   }
 }
-@media only screen and (max-width: 827px) {
+
+@media only screen and (max-width: 1220px) {
   .third-page {
     width: 100%;
     height: auto;
@@ -64,6 +62,9 @@
   .location-section > p {
     height: 25rem;
   }
+  .location-section p iframe, .contact-input-section {
+    box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.3);
+  } 
   .input-div {
     padding: 0 0.3rem;
   }
@@ -104,6 +105,12 @@
   .social-section-div{
     width: 100%;
   }
+  .location-section  {
+    justify-content: center;
+  }
+  .location-section p {
+    width: 93%;
+  } 
   .contact-input-section {
     width: 100%;
     display: flex;
