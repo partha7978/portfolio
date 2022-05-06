@@ -9,13 +9,9 @@
   width: 100%;
   display: flex;
 }
-.subscribe-content-div {
-  height: 10%;
-  width: 100%;
-  background-color: #141414;
-}
+
 .footer-section {
-  height: 25%;
+  height: 35%;
   width: 100%;
   background-color: #141414; 
   border-top: 3px solid transparent;
@@ -217,64 +213,6 @@
 
 
 /*todo social section ends */
-
-
-/*? Subscribe section starts */
-.subscribe-content-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
- 
-.subscribe-email {
-  height:3rem;
-  width: 50%;
-  border-radius: 25px;
-  padding: 1rem 1.5rem;
-  outline: none;
-  border: none;
-  background-color: #000000;
-  border: 2px solid rgb(112, 138, 255);
-}
-
-::placeholder {
-  opacity: 0.6;
-  letter-spacing:2px;
-  background: var( --gradient-text-color);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-
-.subscribe-btn {
-  height:3rem;
-  background-color: #ffffff;
-  padding: 10px 40px;
-  margin: 2rem;
-  font-weight: 500;
-  font-size: 1rem;
-  border: 2px solid rgb(112, 138, 255);
-  border-radius: 25px;
-  letter-spacing: 2px;
-  transition: all 1s;
-  cursor: pointer;
-  user-select: none;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background: -webkit-linear-gradient(
-    150deg,
-    #7f53ac, #647dee
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.subscribe-btn:hover {
-  transform: translateX(10px);
-}
-/*? Subscribe section ends */
 
 /*? Footer section starts  */
 .footer-section {
