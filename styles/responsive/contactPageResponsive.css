@@ -87,9 +87,10 @@
   }
   .location-section  {
     justify-content: center;
+    width: 100%;
   }
   .location-section p {
-    width: 93%;
+    width: 100%;
   } 
   .contact-input-section {
     width: 100%;
@@ -136,6 +137,9 @@
 
 }
 @media only screen and (max-width:380px) {
+  .location-section p {
+    width: 93%;
+  } 
   .social-section-div{
     width: 100%;
     display: flex;

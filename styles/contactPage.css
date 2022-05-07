@@ -4,6 +4,16 @@
   background-color: #ffffff;;
 }
 
+::placeholder {
+  opacity: 0.6;
+  letter-spacing:2px;
+  background-color: var(--background-color);
+  background-image: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
 .contact-page-main-content {
   height:65%;
   width: 100%;
@@ -13,7 +23,7 @@
 .footer-section {
   height: 35%;
   width: 100%;
-  background-color: #141414; 
+  background-color: #ffffff; 
   border-top: 3px solid transparent;
   border-image: linear-gradient(to right, rgb(56, 83, 233), rgb(255, 67, 155));
   border-image-slice: 1;
@@ -97,7 +107,7 @@
   text-transform: uppercase;
   width: auto;
   background-color: var(--background-color);
-  background-image: var(--gradient-text-color);
+  background-image: var(--gradient-color);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: block;
@@ -228,15 +238,15 @@
   align-items: center
 }
 /* todo Footer address section starts */
+.footer-left {
+  justify-content: left;
+  align-items: center;
+}
 .address {
   font-weight: 500;
-  background: -webkit-linear-gradient(
-    150deg,
-    #7f53ac, #647dee
-  );
+  background-image: var(--gradient-color);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -246,6 +256,9 @@
 .address-heading {
   font-weight: 700;
   font-size: 1.5rem;
+  background-image: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .address > p {
   margin: 0.3rem 0;
@@ -253,7 +266,11 @@
 
 /* todo Footer address section ends */
 
-/* todo  Footer social icon section starts */
+/* todo  Footer social icon section and quick link section starts */
+  .footer-center {
+    flex-direction: column;
+  }
+
   .social-icons {
     height: 100%;
     width: 100%;
@@ -276,7 +293,7 @@
   }
   .social-icons > button > a > i {
     font-size: 1.6rem;
-    color: #5657A4;
+    color: var(--text-color);
     cursor: pointer;
 
   }
@@ -299,27 +316,76 @@
     color: #F70000 !important;
   }
   .fa-github:hover {
-    color: #ffffff !important;
+    color: #000000 !important;
   }
 /* todo  Footer social icon section ends */
 
 
-/*todo footer copyright section starts */
-  .copyright {
-    height: 100%;
+/*todo footer copyright and subscribe section starts */
+  .footer-right {
+    justify-content: right;
+    align-items: center;
+    flex-direction: column;
+  }
+  .subscribe-content {
+    height: 70%;
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items:  center;
+    flex-direction: column;
+    text-align: right;
+  }
+  .subscribe-inner-content {
+    height:auto;
+    width: 100%;
+  }
+  .subscribe-content .subscribe-inner-content input {
+    height: auto;
+    padding: 0.15rem 0.5rem;
+    width: 70%;
+    outline: none;
+  }
+
+  .subscribe-btn{
+    background-color: var(--background-color);
+    background-image: var(--gradient-color);
+    color: var(--light-mode-text-color);
+    padding: 10px 30px;
+    margin: 0.8rem 0 0.5rem 0.5rem;
+    font-weight: 400;
+    font-size: 0.8rem;
+    border: none;
+    display: inline-block;
+    text-transform: uppercase;
+    outline: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .subscribe-btn:hover,
+  .subscribe-btn:active {
+    box-shadow: var(--shadowSupport);
+    transform: translateY(-5px);
+  }
+
+
+
+
+
+  .copyright {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: right;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: right;
   }
   .copyright > p {
     font-size:1rem;
-    background: -webkit-linear-gradient(
-      150deg,
-      #7f53ac, #647dee
-    );
+    background-image: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
