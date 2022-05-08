@@ -6,7 +6,7 @@
   }
 }
 @media only screen and (max-width: 1120px) {
-  .second-page {
+  .second-page-content {
     padding: var(--main-padding-1180px);
   }
   .heading {
@@ -35,16 +35,20 @@
   .skills-div {
     height: auto;
   }
+  .heading {
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
 }
 @media only screen and (max-width: 570px) {
-  .second-page {
+  .second-page-content {
     padding: var(--main-padding-608px);
   }
   .first-content {
     width: 90%;
-    height: 40%;
+    height: 30%;
   }
-  .second-page {
+ .second-page-content {
     height: 120%;
   }
   .heading span {
@@ -60,7 +64,7 @@
 }
 
 @media only screen and (max-width: 380px) {
-  .second-page {
+  .second-page-content {
     padding: var(--main-padding-498px);
   }
   .card-content h3 {
