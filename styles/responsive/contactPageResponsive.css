@@ -1,13 +1,3 @@
-@media only screen and (max-width: 1500px) {
-  .third-page {
-    height: 100%;
-    width: 100%;
-  }
-  .contact-btn-div #submit {
-    margin: 0.5rem;
-  }
-}
-
 @media only screen and (max-width: 1220px) {
   .third-page {
     width: 100%;
