@@ -44,19 +44,44 @@
   .address {
     font-weight:400;
     color: var(--footer-text-color);
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    text-align: left;
-  
   }
   .address-heading {
     font-weight: 700;
     font-size: 1.5rem;
     color: var(--footer-text-color);
+    display: block;
+    position: relative;
+  }
+  .address-heading:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.1em;
+    background-image:  linear-gradient(to right, rgb(56, 83, 233), rgb(255, 67, 155));
   }
   .address > p {
     margin: 0.3rem 0;
+  }
+  .address > p button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 0 0.5rem 0 0;
+    color: var(--footer-text-color);
+    padding: 0;
+    height: 1.3rem;
+    width: 1.3rem;
+  }
+  .address > p button i {
+    font-size: 1.3rem;
+    margin: 0;
+  }
+  .address > p a {
+      text-decoration: none;
+      color: var(--footer-text-color);
   }
   
   /* todo Footer address section ends */
