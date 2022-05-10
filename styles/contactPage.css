@@ -18,6 +18,7 @@
   height:65%;
   width: 100%;
   display: flex;
+  padding: var(--main-padding-outline);
 }
 
 /* ? Location  section  starts */

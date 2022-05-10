@@ -3,7 +3,7 @@
   height: auto;
   width: 100%;
   background-color: #ffffff;
-  /* padding: var(--main-padding-outline); */
+  padding: var(--main-padding-outline);
   margin-bottom: 5rem;
 }
 .project-section-heading {

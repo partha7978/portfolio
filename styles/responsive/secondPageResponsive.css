@@ -6,13 +6,11 @@
   }
 }
 @media only screen and (max-width: 1120px) {
-  .second-page-content {
-    padding: var(--main-padding-1180px);
-  }
   .heading {
     margin-bottom: 0.6rem;
   }
   .education-content {
+    padding: var(--main-padding-1180px);
     flex-direction: column;
     height: 100%;
   }
@@ -41,7 +39,7 @@
   }
 }
 @media only screen and (max-width: 570px) {
-  .second-page-content {
+  .education-content {
     padding: var(--main-padding-608px);
   }
   .first-content {
@@ -57,6 +55,7 @@
 
   .skills-div {
     height: auto;
+    padding: var(--main-padding-608px);
   }
   .skills-content button {
     width: 40%;
@@ -64,7 +63,10 @@
 }
 
 @media only screen and (max-width: 380px) {
-  .second-page-content {
+  .education-content {
+  padding: var(--main-padding-498px);    
+  }
+  .skills-div {
     padding: var(--main-padding-498px);
   }
   .card-content h3 {
