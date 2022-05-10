@@ -44,6 +44,7 @@
   .address {
     font-weight:400;
     color: var(--footer-text-color);
+    margin-top: 2rem;
   }
   .address-heading {
     font-weight: 700;
@@ -85,8 +86,33 @@
   }
   
   /* todo Footer address section ends */
+
+  /*  todo Footer quick link section starts*/
+  .footer-center {
+    justify-content: left;
+    align-items: center;
+  }
+  .quick-links {
+    margin-top: 2rem;
+  }
+  .quick-link-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .quick-link-items p{
+    font-weight:400;
+    color: var(--footer-text-color);
+
+    margin: 0.3rem 0;
+  }
+  .quick-link-items p a {
+    text-decoration: none;
+  }
+  /* todo FOoter quick link section ends */
   
-  /* todo  Footer social icon section and quick link section starts */
+  /* todo  Footer social icon section starts */
     .footer-center {
       flex-direction: column;
     }
