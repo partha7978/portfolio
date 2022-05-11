@@ -45,6 +45,7 @@
     font-weight:400;
     color: var(--footer-text-color);
     margin-top: 2rem;
+    width: auto;
   }
   .address-heading {
     font-weight: 700;
@@ -104,13 +105,12 @@
   .quick-link-items p{
     font-weight:400;
     color: var(--footer-text-color);
-
     margin: 0.3rem 0;
   }
   .quick-link-items p a {
     text-decoration: none;
   }
-  /* todo FOoter quick link section ends */
+  /* todo Footer quick link section ends */
   
   /* todo  Footer social icon section starts */
     .footer-center {
@@ -122,7 +122,7 @@
       width: 100%;
       display: flex;
       justify-content:center;
-      align-items:center
+      align-items:center;
     }
     .social-icons > button {
       height: 2rem;
@@ -167,38 +167,40 @@
   /* todo  Footer social icon section ends */
   
   
-  /*todo footer copyright and subscribe section starts */
+  /*todo footer subscribe section starts */
     .footer-right {
       justify-content: right;
       align-items: center;
       flex-direction: column;
     }
     .subscribe-content {
-      height: 70%;
+      height: 100%;
       width: 100%;
       display: flex;
       justify-content: center;
       align-items:  center;
       flex-direction: column;
-      text-align: right;
+      text-align: left;
     }
     .subscribe-inner-content {
       height:auto;
       width: 100%;
     }
     .subscribe-content .subscribe-inner-content input {
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      border: 1px solid #fff;
       height: auto;
-      padding: 0.15rem 0.5rem;
-      width: 70%;
+      padding: 0.20rem 0.5rem;
+      width: 75%;
       outline: none;
     }
-  
     .subscribe-btn{
       background-color: var(--background-color);
       background-image: var(--gradient-color);
       color: var(--light-mode-text-color);
-      padding: 10px 30px;
-      margin: 0.8rem 0 0.5rem 0.5rem;
+      padding: 9px 30px;
+      margin: 0.8rem 0 0.5rem 0rem;
       font-weight: 400;
       font-size: 0.9rem;
       border: none;
