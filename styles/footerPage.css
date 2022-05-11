@@ -9,7 +9,7 @@
     height:50%;
     width: 100%;
     background-color: #060518; 
-    border-top: 4px solid transparent;
+    border-top: 5px solid transparent;
     border-image: linear-gradient(to right, rgb(56, 83, 233), rgb(255, 67, 155));
     border-image-slice: 1;
     display: flex;
@@ -111,61 +111,7 @@
     text-decoration: none;
   }
   /* todo Footer quick link section ends */
-  
-  /* todo  Footer social icon section starts */
-    .footer-center {
-      flex-direction: column;
-    }
-  
-    .social-icons {
-      height: 100%;
-      width: 100%;
-      display: flex;
-      justify-content:center;
-      align-items:center;
-    }
-    .social-icons > button {
-      height: 2rem;
-      width: 2rem;
-      border-radius: 50%;
-      margin: 0.2rem;
-      outline: none;
-      border: none;
-      background: transparent;
-      transition: all 0.5s;
-    }
-    .social-icons > button:hover {
-      transform: translateY(-5px);
-    }
-    .social-icons > button > a > i {
-      font-size: 1.6rem;
-      color: var(--text-color);
-      cursor: pointer;
-  
-    }
-    .fa-linkedin:hover {
-      color:#0073B1 !important;
-    }
-    .fa-facebook:hover {
-      color: #355AA3 !important;
-    }
-    .fa-instagram:hover {
-      color: #DC0D4A !important;
-    }
-    .fa-twitter:hover {
-      color: #1C9CEA !important;
-    }
-    .fa-snapchat:hover {
-      color: #F7F400 !important;
-    }
-    .fa-youtube:hover {
-      color: #F70000 !important;
-    }
-    .fa-github:hover {
-      color: #000000 !important;
-    }
-  /* todo  Footer social icon section ends */
-  
+
   
   /*todo footer subscribe section starts */
     .footer-right {
@@ -217,28 +163,78 @@
       box-shadow: var(--shadowSupport);
       transform: translateY(-5px);
     }
-  
-  
-  
-  
-  
-    .copyright {
-      height: 30%;
-      width: 100%;
-      display: flex;
-      justify-content: right;
-      flex-direction: column;
-      align-items: right;
-      text-align: right;
-    }
-    .copyright > p {
-      font-size:1rem;
-      background-image: var(--gradient-color);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-  
-  /*todo footer copyright section ends */
+  /*todo footer subscribe section ends */
+
+    
+  /* todo  Footer social icon section starts */
+  .footer-center {
+    flex-direction: column;
+  }
+  .social-icons {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .social-icons > button {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    margin: 0.2rem;
+    outline: none;
+    border: none;
+    background: transparent;
+    transition: all 0.5s;
+  }
+  .social-icons > button:hover {
+    transform: translateY(-5px);
+  }
+  .social-icons > button > a > i {
+    font-size: 1.6rem;
+    color: #744ED1;
+    cursor: pointer;
+  }
+  .fa-linkedin:hover {
+    color:#0073B1 !important;
+  }
+  .fa-facebook:hover {
+    color: #355AA3 !important;
+  }
+  .fa-instagram:hover {
+    color: #DC0D4A !important;
+  }
+  .fa-twitter:hover {
+    color: #1C9CEA !important;
+  }
+  .fa-snapchat:hover {
+    color: #F7F400 !important;
+  }
+  .fa-youtube:hover {
+    color: #F70000 !important;
+  }
+  .fa-github:hover {
+    color: #ffffff !important;
+  }
+/* todo  Footer social icon section ends */
+/* todo  Footer copyright section starts*/
+.copyright {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  align-items: right;
+  text-align: right;
+}
+.copyright > p {
+  font-size:1rem;
+  background-image: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* todo Footer copyright section ends*/
+
   /*? Footer section ends  */
   
   
