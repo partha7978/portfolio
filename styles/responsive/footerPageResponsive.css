@@ -1,0 +1,31 @@
+@import url(./firstPageResponsive.css);
+
+@media only screen and (max-width: 1210px) {
+    .social-icons > button {
+        margin: 0.2rem 0.5rem;
+    }
+}
+@media only screen and (max-width: 1050px) {
+    .subscribe-btn {
+        padding: 7px 20px;
+        font-size:0.7rem;
+    }
+    .subscribe-content .subscribe-inner-content input{
+        padding: 0.1rem 0.4rem;
+    }
+}
+@media only screen and (max-width: 1020px) {
+    .footer-section {
+        height: auto;
+    }
+    .footer-upper-content {
+        flex-direction: column;
+    }
+    .footer-left, .footer-right, .footer-center {
+        width: 100%;
+    }
+    .footer-center {
+        justify-content: left;
+        align-items: start;
+    }
+}
