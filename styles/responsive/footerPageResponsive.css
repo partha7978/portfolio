@@ -13,6 +13,7 @@
     .subscribe-content .subscribe-inner-content input{
         padding: 0.1rem 0.4rem;
     }
+  
 }
 @media only screen and (max-width: 1020px) {
     .footer-section {
@@ -40,4 +41,51 @@
     .subscribe-content {
         margin-top: 2rem;
     }
+}
+@media only screen and (max-width: 740px) {
+    .address, .quick-links, .subscribe-content {
+        width:70%;   
+    }
+    .copyright {
+        padding: var(--main-padding-608px);
+    }
+}
+@media only screen and (max-width:570px) {
+    .footer-upper-content {
+        padding: var(--main-padding-608px);
+    }
+}
+@media only screen and (max-width:450px) {
+    .address, .quick-links, .subscribe-content {
+        width:90%;   
+    }
+}
+@media only screen and (max-width: 400px) {
+    .address {
+        margin: 2rem 0 0 0;
+    }
+    .address > p, .quick-link-items p a {
+        font-size: 0.8rem;
+        margin: 0.6rem 0;
+    }
+    .address > p button i {
+        font-size: 0.9rem;
+    }
+    .quick-links, .subscribe-content {
+        margin-top: 0.5rem;
+    }
+    .social-icons > button {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+    .social-icons > button > a > i {
+        font-size: 1.2rem;
+    }
+    .subscribe-content .subscribe-inner-content input, .subscribe-btn {
+        margin: 0.6rem 0;
+    }
+    .copyright > p {
+        font-size:0.6rem;
+    }
+    
 }
