@@ -24,8 +24,20 @@
     .footer-left, .footer-right, .footer-center {
         width: 100%;
     }
-    .footer-center {
+    .footer-center, .footer-right {
         justify-content: left;
         align-items: start;
+    }
+    .address, .quick-links, .subscribe-content {
+        width: 50%;   
+    }
+    .quick-link-items {
+        align-items: start;
+    }
+    .social-icons {
+        margin: 2rem 0;
+    }
+    .subscribe-content {
+        margin-top: 2rem;
     }
 }
