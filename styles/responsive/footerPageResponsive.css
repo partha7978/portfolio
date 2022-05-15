@@ -33,6 +33,8 @@
         width: 50%;   
     }
     .quick-link-items {
+        display: flex;
+        flex-direction: column;
         align-items: start;
     }
     .social-icons {
