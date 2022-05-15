@@ -91,17 +91,14 @@
 
   /*  todo Footer quick link section starts*/
   .footer-center {
-    justify-content: left;
+    justify-content: center;
     align-items: center;
   }
   .quick-links {
     margin-top: 2rem;
   }
   .quick-link-items {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    text-align: center;
   }
   .quick-link-items p{
     font-weight:400;
