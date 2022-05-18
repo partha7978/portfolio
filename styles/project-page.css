@@ -80,11 +80,6 @@
   transition: all 0.3s ease;
   cursor: pointer;
 }
-.project-btn:hover,
-.project-btn:active {
-  box-shadow: var(--shadowSupport);
-  transform: translateY(-5px);
-}
 
 .project-img-overlay {
   width: 30%;
@@ -132,3 +127,19 @@
   font-weight: 700;
   color: var(--light-mode-text-color);
 }
+
+
+/* ! For hiding the project */
+.project-btn-active {
+  transform: translateY(-5px);
+  box-shadow: var(--shadowSupport);
+}
+.project-image-not-active {
+  display: none;
+}
+/* 
+.project-btn:hover,
+.project-btn:active {
+  box-shadow: var(--shadowSupport);
+  transform: translateY(-5px);
+} */
