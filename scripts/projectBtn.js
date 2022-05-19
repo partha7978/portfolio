@@ -33,17 +33,20 @@ p_Btn_Parent.addEventListener("click", (e) => {
     //? Here I'm hiding all the project images then I'll only show the image only according to the button clicked.  
     project_Image.forEach((currentImage) => {
         currentImage.classList.add("project-image-not-active");
-    });
+    }); 
     image_active.forEach((showImage) => {
         showImage.classList.remove("project-image-not-active");
+        showImage.classList.add("animate__animated", "animate__fadeIn");
     });
 
     //todo: If the user click on outside of the button container then it will show all the project cards.
-    console.log(clicked_Btn.classList[0]);
+    // console.log(clicked_Btn.classList[0]);
     if(!(clicked_Btn.classList[0] === "project-btn")) {
         console.log("Working");
         project_Image.forEach((allImage) => {
+            allImage.classList.add("project-image-not-active");
             allImage.classList.remove("project-image-not-active");
+            allImage.classList.add("animate__animated", "animate__fadeIn");
         })
     }
 });
