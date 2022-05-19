@@ -13,17 +13,19 @@ p_Btn_Parent.addEventListener("click", (e) => {
         currentBtn.classList.remove("project-btn-active");
     });
     clicked_Btn.classList.add("project-btn-active");
-    p_Btn_Parent.classList.remove("project-btn-active"); //todo: To remove class from parent element so that it will not add shadow to the parent element because in that class I've added the shadow.
+    p_Btn_Parent.classList.remove("project-btn-active");
+    
+    //todo: To remove class from parent element so that it will not add shadow to the parent element because in that class I've added the shadow.
 
 
-    //* To find the number inside the data attribute of button element.
+    //todo: To find the number inside the data attribute of button element.
     const btn_num = clicked_Btn.dataset.btnNum;
     //data-btn-num="1" is the attribute here, So I use dataset to find the data attribute then I dont need to write data-btn-num--  Just add btnNum and removed all the highpins. Then it will give the value which I gave.
 
     
-    //to findout which image is active 
+    //todo: to findout which image is active 
     const image_active = document.querySelectorAll(`.project-btn--${btn_num}`);
-    console.log(image_active);
+    // console.log(image_active);
     //project-btn--1 : this is the class name and i have to find out weather thar number is matching or not.
 
 
@@ -35,4 +37,13 @@ p_Btn_Parent.addEventListener("click", (e) => {
     image_active.forEach((showImage) => {
         showImage.classList.remove("project-image-not-active");
     });
+
+    //todo: If the user click on outside of the button container then it will show all the project cards.
+    console.log(clicked_Btn.classList[0]);
+    if(!(clicked_Btn.classList[0] === "project-btn")) {
+        console.log("Working");
+        project_Image.forEach((allImage) => {
+            allImage.classList.remove("project-image-not-active");
+        })
+    }
 });
