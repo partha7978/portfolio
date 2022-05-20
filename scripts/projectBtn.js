@@ -36,7 +36,11 @@ p_Btn_Parent.addEventListener("click", (e) => {
     }); 
     image_active.forEach((showImage) => {
         showImage.classList.remove("project-image-not-active");
+        showImage.classList.remove("animate__animated", "animate__fadeIn");
         showImage.classList.add("animate__animated", "animate__fadeIn");
+        setTimeout(() => {
+            showImage.classList.remove("animate__animated", "animate__fadeIn");
+        },500);
     });
 
     //todo: If the user click on outside of the button container then it will show all the project cards.
@@ -46,7 +50,11 @@ p_Btn_Parent.addEventListener("click", (e) => {
         project_Image.forEach((allImage) => {
             allImage.classList.add("project-image-not-active");
             allImage.classList.remove("project-image-not-active");
+            allImage.classList.remove("animate__animated", "animate__fadeIn");
             allImage.classList.add("animate__animated", "animate__fadeIn");
+            setTimeout(() => {
+                allImage.classList.remove("animate__animated", "animate__fadeIn");
+            },500);
         })
     }
 });
