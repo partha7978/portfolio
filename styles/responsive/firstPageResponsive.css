@@ -93,9 +93,11 @@
         /* testing new size ends*/
         margin: 0 0 0 1rem;
     }
-    .button-join > button {
+    .button-join > a > button {
         padding: 7px 20px;
         margin: 1.3rem 1rem;
+        font-size:  0.8rem;
+        font-weight: 200;
     }
     .navbar-logo{
         height: 2rem;
