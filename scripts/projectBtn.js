@@ -26,7 +26,7 @@ p_Btn_Parent.addEventListener("click", (e) => {
     //todo: to findout which image is active 
     const image_active = document.querySelectorAll(`.project-btn--${btn_num}`);
     // console.log(image_active);
-    //project-btn--1 : this is the class name and i have to find out weather thar number is matching or not.
+    //project-btn--1 : this is the class name and i have to find out weather that number is matching or not.
 
 
 
