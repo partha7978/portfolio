@@ -115,6 +115,43 @@ ul > li > a {
   width: auto;
   margin: 0.5rem 1.5rem;
 }
+
+/* dark mode btn starts */
+.darkModeCheckbox {
+  width: 42px;
+  height: 24px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  background-color: #49454f;
+  background: transparent;
+  border-radius: 24px;
+  border: solid 1px rgb(41, 41, 41);
+  transition: border-color 200ms, background-color 200ms;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+.darkModeCheckbox::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 12px;
+  background-color: rgb(41, 41, 41);
+  transition: width 200ms, height 200ms, transform 200ms, background-color 200ms;
+}
+
+.darkModeCheckbox.on {
+  border-color: #d0bcff;
+  background-color: #d0bcff;
+}
+.darkModeCheckbox.on::before {
+  background-color: #381e72;
+  width: 24px;
+  height: 24px;
+  transform: translateX(18px);
+}
+/* dark mode btn ends */
 .menu-btn {
   top: 50%;
   left: 50%;
