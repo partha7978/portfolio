@@ -142,13 +142,13 @@ ul > li > a {
 }
 
 .darkModeCheckbox.on {
-  border-color: #d0bcff;
-  background-color: #d0bcff;
+  border-color: #000000;
+  background-color: #e6e9ff;
 }
 .darkModeCheckbox.on::before {
-  background-color: #381e72;
-  width: 24px;
-  height: 24px;
+  background-color: #8490ff;
+  width: 16px;
+  height: 16px;
   transform: translateX(18px);
 }
 /* dark mode btn ends */
