@@ -1,8 +1,14 @@
 let checkbox = document.querySelector(".darkModeCheckbox");
 
-let html = document.getElementsByTagName("html");
+let html = document.querySelector(".first-page");
+let navBarItem = document.querySelectorAll(".menuItem");
 //darkModeFunction
-
+const darkMode = () => {
+    html.classList.toggle('darkMode');
+    navBarItem.forEach(item => {
+        item.classList.toggle('darkMode');
+    });
+}
 
 //darkmode button
 checkbox.addEventListener("click", (e) => {
@@ -17,5 +23,6 @@ checkbox.addEventListener("click", (e) => {
         console.log('darkmode on');
     }
     checkbox.classList.toggle('on');
+    darkMode();
    
 })

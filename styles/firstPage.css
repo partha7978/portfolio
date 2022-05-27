@@ -11,6 +11,11 @@
   --shadowSupport: 0px 20px 20px 0px rgb(132 144 255 / 30%);
   --text-color: #8490ff;
   --main-padding-outline: 0 5rem;
+
+  /*? for dark mode */
+  --dark-mode-background: #121212;
+  --dark-mode-text: #ffffff;
+  --transition: all 0.5s ease-in-out;
 }
 body,
 html {
@@ -291,3 +296,20 @@ ul > li > a {
   box-shadow: 15px -15px 0px 0px var(--text-color);
 }
 /* 1st page ends */
+
+
+/* Dark mode part starts here */
+.darkMode {
+  background-color: var(--dark-mode-background);
+  color: var(--dark-mode-text);
+  transition: var(--transition);
+}
+.nav-bar-dark {
+  background-color: var(--dark-mode-background);
+  color: var(--dark-mode-text);
+  transition: var(--transition) !important;
+}
+.nav-bar-dark:hover,
+.nav-bar-dark:active {
+  color: var(--text-color);
+}
