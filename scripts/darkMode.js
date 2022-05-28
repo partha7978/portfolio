@@ -2,12 +2,14 @@ let checkbox = document.querySelector(".darkModeCheckbox");
 
 let html = document.querySelector(".first-page");
 let navBarItem = document.querySelectorAll(".menuItem");
+let firstPageMainHeading = document.querySelector(".animate__bounce");
 //darkModeFunction
 const darkMode = () => {
     html.classList.toggle('darkMode');
     navBarItem.forEach(item => {
-        item.classList.toggle('darkMode');
+        item.classList.toggle('dark-mode-text');
     });
+    firstPageMainHeading.classList.toggle('dark-mode-text');
 }
 
 //darkmode button

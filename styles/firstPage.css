@@ -304,12 +304,6 @@ ul > li > a {
   color: var(--dark-mode-text);
   transition: var(--transition);
 }
-.nav-bar-dark {
-  background-color: var(--dark-mode-background);
-  color: var(--dark-mode-text);
-  transition: var(--transition) !important;
-}
-.nav-bar-dark:hover,
-.nav-bar-dark:active {
-  color: var(--text-color);
+.dark-mode-text {
+  color: var(--dark-mode-text) !important;
 }
