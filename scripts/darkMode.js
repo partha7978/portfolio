@@ -8,6 +8,7 @@ const darkMode = () => {
     html.classList.toggle('darkMode');
     navBarItem.forEach(item => {
         item.classList.toggle('dark-mode-text');
+        item.classList.toggle('navBarColor');
     });
     firstPageMainHeading.classList.toggle('dark-mode-text');
 }

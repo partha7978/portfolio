@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  transition: all 0.5s ease-in-out;
 }
 :root {
   --background-color: #0abcf9;
@@ -146,9 +147,10 @@ ul > li > a {
   transition: width 200ms, height 200ms, transform 200ms, background-color 200ms;
 }
 
+
 .darkModeCheckbox.on {
-  border-color: #000000;
-  background-color: #e6e9ff;
+  border-color: #ffffff;
+  background-color: var(--dark-mode-background);
 }
 .darkModeCheckbox.on::before {
   background-color: #8490ff;
@@ -306,4 +308,9 @@ ul > li > a {
 }
 .dark-mode-text {
   color: var(--dark-mode-text) !important;
+}
+
+.navBarColor:hover,
+.navBarColor:active {
+  color: var(--text-color) !important;
 }
