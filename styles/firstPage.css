@@ -314,3 +314,8 @@ ul > li > a {
 .navBarColor:active {
   color: var(--text-color) !important;
 }
+
+.dark-mode-btn:hover,
+.dark-mode-btn:active {
+  box-shadow: 0px 20px 20px 0px rgba(63, 65, 90, 0.3);
+}

@@ -3,6 +3,7 @@ let checkbox = document.querySelector(".darkModeCheckbox");
 let html = document.querySelector(".first-page");
 let navBarItem = document.querySelectorAll(".menuItem");
 let firstPageMainHeading = document.querySelector(".animate__bounce");
+let webpageBtn = document.querySelectorAll(".webpage-btn");
 //darkModeFunction
 const darkMode = () => {
     html.classList.toggle('darkMode');
@@ -11,6 +12,9 @@ const darkMode = () => {
         item.classList.toggle('navBarColor');
     });
     firstPageMainHeading.classList.toggle('dark-mode-text');
+    webpageBtn.forEach(item => {
+        item.classList.toggle('dark-mode-btn');
+    });
 }
 
 //darkmode button
