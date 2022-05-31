@@ -17,6 +17,7 @@
   --dark-mode-background: #121212;
   --dark-mode-text: #ffffff;
   --transition: all 0.5s ease-in-out;
+  --fore-ground-background: #1D1D1D;
 }
 body,
 html {
@@ -300,11 +301,16 @@ ul > li > a {
 /* 1st page ends */
 
 
-/* Dark mode part starts here */
+/*! Dark mode part starts here */
 .darkMode {
   background-color: var(--dark-mode-background);
   color: var(--dark-mode-text);
   transition: var(--transition);
+}
+.foreground-darkMode {
+  background-color: var(--fore-ground-background);
+  box-shadow:  7px 7px 40px #070707,
+             -7px -7px 40px #1d1d1d;
 }
 .dark-mode-text {
   color: var(--dark-mode-text) !important;

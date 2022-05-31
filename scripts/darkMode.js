@@ -4,6 +4,12 @@ let html = document.querySelector(".first-page");
 let navBarItem = document.querySelectorAll(".menuItem");
 let firstPageMainHeading = document.querySelector(".animate__bounce");
 let webpageBtn = document.querySelectorAll(".webpage-btn");
+
+//second page
+let secondPage = document.querySelector(".second-page");
+let skillPage = document.querySelector(".skills-div");
+let innerSkillPage = document.querySelector(".inner-skills-div");
+
 //darkModeFunction
 const darkMode = () => {
     html.classList.toggle('darkMode');
@@ -15,6 +21,9 @@ const darkMode = () => {
     webpageBtn.forEach(item => {
         item.classList.toggle('dark-mode-btn');
     });
+    secondPage.classList.toggle('darkMode');
+    skillPage.classList.toggle('darkMode');
+    innerSkillPage.classList.toggle('foreground-darkMode');
 }
 
 //darkmode button
