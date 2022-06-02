@@ -10,6 +10,9 @@ let secondPage = document.querySelector(".second-page");
 let skillPage = document.querySelector(".skills-div");
 let innerSkillPage = document.querySelector(".inner-skills-div");
 
+//project page
+let projectPage = document.querySelector(".project-section-div");
+
 //darkModeFunction
 const darkMode = () => {
     html.classList.toggle('darkMode');
@@ -21,9 +24,14 @@ const darkMode = () => {
     webpageBtn.forEach(item => {
         item.classList.toggle('dark-mode-btn');
     });
+
+    //second page
     secondPage.classList.toggle('darkMode');
     skillPage.classList.toggle('darkMode');
     innerSkillPage.classList.toggle('foreground-darkMode');
+
+    //project page
+    projectPage.classList.toggle('darkMode');
 }
 
 //darkmode button
