@@ -1,6 +1,8 @@
 let checkbox = document.querySelector(".darkModeCheckbox");
 
-let html = document.querySelector(".first-page");
+let html = document.getElementsByTagName("HTML")[0];
+
+let firstPage = document.querySelector(".first-page");
 let navBarItem = document.querySelectorAll(".menuItem");
 let firstPageMainHeading = document.querySelector(".animate__bounce");
 let webpageBtn = document.querySelectorAll(".webpage-btn");
@@ -13,9 +15,13 @@ let innerSkillPage = document.querySelector(".inner-skills-div");
 //project page
 let projectPage = document.querySelector(".project-section-div");
 
+//contact page
+let contactPage = document.querySelector(".third-page");
+
 //darkModeFunction
 const darkMode = () => {
-    html.classList.toggle('darkMode');
+    html.classList.toggle("darkMode");
+    firstPage.classList.toggle('darkMode');
     navBarItem.forEach(item => {
         item.classList.toggle('dark-mode-text');
         item.classList.toggle('navBarColor');
@@ -32,6 +38,9 @@ const darkMode = () => {
 
     //project page
     projectPage.classList.toggle('darkMode');
+
+    //contact page
+    contactPage.classList.toggle('darkMode');
 }
 
 //darkmode button
