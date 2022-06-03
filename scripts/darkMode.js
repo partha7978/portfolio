@@ -18,6 +18,7 @@ let projectPage = document.querySelector(".project-section-div");
 //contact page
 let contactPage = document.querySelector(".third-page");
 let contactInput = document.querySelector(".contact-input-section");
+let input = document.querySelectorAll(".inputData");
 
 //darkModeFunction
 const darkMode = () => {
@@ -44,6 +45,9 @@ const darkMode = () => {
     contactPage.classList.toggle('darkMode');
     contactInput.classList.toggle('darkMode');
     contactInput.classList.toggle('foreground-darkMode');
+    input.forEach(item => {
+        item.classList.toggle('dark-mode-inputfields');
+    });
 }
 
 //darkmode button
