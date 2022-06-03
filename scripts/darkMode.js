@@ -17,6 +17,7 @@ let projectPage = document.querySelector(".project-section-div");
 
 //contact page
 let contactPage = document.querySelector(".third-page");
+let contactInput = document.querySelector(".contact-input-section");
 
 //darkModeFunction
 const darkMode = () => {
@@ -35,12 +36,14 @@ const darkMode = () => {
     secondPage.classList.toggle('darkMode');
     skillPage.classList.toggle('darkMode');
     innerSkillPage.classList.toggle('foreground-darkMode');
-
+    
     //project page
     projectPage.classList.toggle('darkMode');
 
     //contact page
     contactPage.classList.toggle('darkMode');
+    contactInput.classList.toggle('darkMode');
+    contactInput.classList.toggle('foreground-darkMode');
 }
 
 //darkmode button
