@@ -20,6 +20,7 @@ let contactPage = document.querySelector(".third-page");
 let contactInput = document.querySelector(".contact-input-section");
 let input = document.querySelectorAll(".inputData");
 
+
 //darkModeFunction
 const darkMode = () => {
     html.classList.toggle("darkMode");

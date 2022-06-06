@@ -334,4 +334,5 @@ ul > li > a {
 .dark-mode-inputfields {
   background-color: var(--dark-mode-background);
   border: 1px solid rgb(83, 83, 83);
+  color: var(--dark-mode-text);
 }
