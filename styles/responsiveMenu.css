@@ -81,6 +81,7 @@
 }
 /* dark mode btn starts */
 #modeCheckbox {
+  margin: 0 0.3rem;
   width: 42px;
   height: 24px;
   padding: 4px;
@@ -125,3 +126,10 @@
     font-size: 40px;
   }
 }
+
+/* dark mode starts */
+.foreground-darkMode-navBarSmall {
+  background-color: #1D1D1D;
+}
+
+/* dark mode ends */
