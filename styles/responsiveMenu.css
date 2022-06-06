@@ -5,7 +5,6 @@
   z-index: 1;
   top: 0;
   right: 0; /* By this the menu will appear from the right */
-  background-color: rgb(255, 255, 255);
   background-color: #f0f4fb;
   overflow-x: hidden;
   transition: 0.5s;
@@ -67,6 +66,56 @@
   background: transparent;
 }
 
+.small-screen-darkMode {
+  position: absolute;
+  bottom: 10px;
+  right: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.small-screen-darkMode > span {
+  color: var(--text-color);
+  margin: 0 0.3rem;
+}
+/* dark mode btn starts */
+#modeCheckbox {
+  width: 42px;
+  height: 24px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  background-color: var(--text-color);
+  background: transparent;
+  border-radius: 24px;
+  border: solid 1px rgb(41, 41, 41);
+  transition: border-color 200ms, background-color 200ms;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+#modeCheckbox::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 12px;
+  background-color: var(--text-color);
+  transition: width 200ms, height 200ms, transform 200ms, background-color 200ms;
+}
+
+
+#modeCheckbox.on {
+  border-color: #ffffff;
+  background-color: var(--dark-mode-background);
+}
+#modeCheckbox.on::before {
+  background-color: #8490ff;
+  width: 16px;
+  height: 16px;
+  transform: translateX(18px);
+}
+/* dark mode btn ends */
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
 @media screen and (max-height: 450px) {
   .menu-content-smallScreen a {

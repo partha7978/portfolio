@@ -1,4 +1,4 @@
-let checkbox = document.querySelector(".darkModeCheckbox");
+let checkbox = document.querySelectorAll(".darkModeCheckbox");
 
 let html = document.getElementsByTagName("HTML")[0];
 
@@ -52,18 +52,21 @@ const darkMode = () => {
 }
 
 //darkmode button
-checkbox.addEventListener("click", (e) => {
-    if(checkbox.classList.contains('on')) {
-        checkbox.setAttribute('aria-checked', 'false');
-        console.log('darkmode off');
-    }
-    else
-    {
-        //!Dark mode ON part
-        checkbox.setAttribute('aria-checked', 'true');
-        console.log('darkmode on');
-    }
-    checkbox.classList.toggle('on');
-    darkMode();
-   
-})
+checkbox.forEach(check => {
+
+    check.addEventListener("click", (e) => {
+        if(check.classList.contains('on')) {
+            check.setAttribute('aria-checked', 'false');
+            console.log('darkmode off');
+        }
+        else
+        {
+            //!Dark mode ON part
+            check.setAttribute('aria-checked', 'true');
+            console.log('darkmode on');
+        }
+        check.classList.toggle('on');
+        darkMode();
+       
+    })
+});
