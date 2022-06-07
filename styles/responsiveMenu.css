@@ -108,7 +108,7 @@
 
 #modeCheckbox.on {
   border-color: #ffffff;
-  background-color: var(--dark-mode-background);
+  background-color: var(--fore-ground-background);
 }
 #modeCheckbox.on::before {
   background-color: #8490ff;

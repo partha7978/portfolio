@@ -167,7 +167,6 @@ ul > li > a {
 }
 
 .menu-btn button {
-  background-color: #ffffff;
   color: rgb(41, 41, 41);
   border: 0;
   cursor: pointer;
@@ -180,6 +179,9 @@ ul > li > a {
   text-align: center;
   margin: 0 1rem 0 0;
   transition: all 0.3s linear;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
 .menu-btn button:hover,
 .menu-btn button:active {
@@ -335,4 +337,7 @@ ul > li > a {
   background-color: var(--dark-mode-background);
   border: 1px solid rgb(83, 83, 83);
   color: var(--dark-mode-text);
+}
+.menu-btn-color-dark {
+  color: var(--text-color) !important;
 }

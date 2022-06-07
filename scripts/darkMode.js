@@ -8,7 +8,7 @@ let firstPageMainHeading = document.querySelector(".animate__bounce");
 let webpageBtn = document.querySelectorAll(".webpage-btn");
 let navBarSmallScreen = document.querySelector(".nav-bar-smallScreen");
 let themeName = document.querySelector(".themeName");
-
+let menuOpenBtn = document.querySelector(".hamburger");
 //second page
 let secondPage = document.querySelector(".second-page");
 let skillPage = document.querySelector(".skills-div");
@@ -42,7 +42,8 @@ const darkMode = () => {
     else {
         themeName.innerText = "Dark Mode";
     }
-
+    menuOpenBtn.classList.toggle('menu-btn-color-dark');
+    
     //second page
     secondPage.classList.toggle('darkMode');
     skillPage.classList.toggle('darkMode');
