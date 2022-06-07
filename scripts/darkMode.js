@@ -7,6 +7,8 @@ let navBarItem = document.querySelectorAll(".menuItem");
 let firstPageMainHeading = document.querySelector(".animate__bounce");
 let webpageBtn = document.querySelectorAll(".webpage-btn");
 let navBarSmallScreen = document.querySelector(".nav-bar-smallScreen");
+let themeName = document.querySelector(".themeName");
+
 //second page
 let secondPage = document.querySelector(".second-page");
 let skillPage = document.querySelector(".skills-div");
@@ -34,6 +36,12 @@ const darkMode = () => {
     webpageBtn.forEach(item => {
         item.classList.toggle('dark-mode-btn');
     });
+    if(themeName.innerText === "Dark Mode") {
+        themeName.innerText = "Light Mode";
+    }
+    else {
+        themeName.innerText = "Dark Mode";
+    }
 
     //second page
     secondPage.classList.toggle('darkMode');
@@ -71,3 +79,5 @@ checkbox.forEach(check => {
        
     })
 });
+
+
