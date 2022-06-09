@@ -161,7 +161,7 @@
   align-items: center;
 }
 
-.contact-btn-div #submit {
+.submitBtn {
   background-color: var(--background-color);
   background-image: var(--gradient-color);
   color: var(--light-mode-text-color);
@@ -178,8 +178,8 @@
   user-select: none;
 }
 
-.contact-btn-div #submit:hover,
-.contact-btn-div #submit:active {
+.submitBtn:hover,
+.submitBtn:active {
   box-shadow: var(--shadowSupport);
   transform: translateY(-5px);
 }
@@ -187,7 +187,7 @@
 
 
 
-.contact-btn-div #reset {
+.resetBtn {
   background-color: var(--background-color);
   background-image: var(--gradient-color);
   color: var(--light-mode-text-color);
@@ -204,10 +204,15 @@
   user-select: none;
 }
 
-.contact-btn-div #reset:hover,
-.contact-btn-div #reset:active {
+.resetBtn:hover,
+.resetBtn:active {
   box-shadow: var(--shadowSupport);
   transform: translateY(-5px);
 }
 /*todo social section ends */
 
+/* for dark mode btn */
+.dark-mode-btn-contact:hover,
+.dark-mode-btn-contact:active {
+  box-shadow: 0px 20px 20px 0px rgba(63, 65, 90, 0.3);
+}

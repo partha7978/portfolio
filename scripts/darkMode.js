@@ -9,21 +9,24 @@ let webpageBtn = document.querySelectorAll(".webpage-btn");
 let navBarSmallScreen = document.querySelector(".nav-bar-smallScreen");
 let themeName = document.querySelector(".themeName");
 let menuOpenBtn = document.querySelector(".hamburger");
-//second page
+//todo second page
 let secondPage = document.querySelector(".second-page");
 let skillPage = document.querySelector(".skills-div");
 let innerSkillPage = document.querySelector(".inner-skills-div");
 
-//project page
+//todo project page
 let projectPage = document.querySelector(".project-section-div");
 
-//contact page
+//todo contact page
 let contactPage = document.querySelector(".third-page");
 let contactInput = document.querySelector(".contact-input-section");
 let input = document.querySelectorAll(".inputData");
+let submitBtn = document.querySelector(".submitBtn");
+let resetBtn = document.querySelector(".resetBtn");
 
 
-//darkModeFunction
+
+//todo darkModeFunction
 const darkMode = () => {
     html.classList.toggle("darkMode");
     firstPage.classList.toggle('darkMode');
@@ -43,25 +46,27 @@ const darkMode = () => {
         themeName.innerText = "Dark Mode";
     }
     menuOpenBtn.classList.toggle('menu-btn-color-dark');
-    
-    //second page
+
+    //todo second page
     secondPage.classList.toggle('darkMode');
     skillPage.classList.toggle('darkMode');
     innerSkillPage.classList.toggle('foreground-darkMode');
     
-    //project page
+    //todo project page
     projectPage.classList.toggle('darkMode');
-
-    //contact page
+   
+    //todo contact page
     contactPage.classList.toggle('darkMode');
     contactInput.classList.toggle('darkMode');
     contactInput.classList.toggle('foreground-darkMode');
     input.forEach(item => {
         item.classList.toggle('dark-mode-inputfields');
     });
+    submitBtn.classList.toggle('dark-mode-btn-contact');
+    resetBtn.classList.toggle('dark-mode-btn-contact');
 }
 
-//darkmode button
+//todo darkmode button
 checkbox.forEach(check => {
 
     check.addEventListener("click", (e) => {
