@@ -3,6 +3,7 @@ let checkbox = document.querySelectorAll(".darkModeCheckbox");
 let html = document.getElementsByTagName("HTML")[0];
 
 let firstPage = document.querySelector(".first-page");
+let navBarLogo = document.querySelector(".navbar-logo");
 let navBarItem = document.querySelectorAll(".menuItem");
 let firstPageMainHeading = document.querySelector(".animate__bounce");
 let webpageBtn = document.querySelectorAll(".webpage-btn");
@@ -41,9 +42,11 @@ const darkMode = () => {
     });
     if(themeName.innerText === "Dark Mode") {
         themeName.innerText = "Light Mode";
+        navBarLogo.src = "./images/logo2Dark.png";
     }
     else {
         themeName.innerText = "Dark Mode";
+        navBarLogo.src = "./images/logo2.png";
     }
     menuOpenBtn.classList.toggle('menu-btn-color-dark');
 
