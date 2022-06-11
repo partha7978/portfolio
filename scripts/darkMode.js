@@ -90,3 +90,13 @@ checkbox.forEach(check => {
 });
 
 
+//todo for system theme detection and set the theme according to that STARTS
+if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    // window.location.reload(); //for reloding
+    darkMode();
+    console.log("dark mode detected"); // dark mode
+} else {
+    console.log("light mode detected"); // light mode
+}
+//todo for system theme detection and set the theme according to that ENDS
+  
