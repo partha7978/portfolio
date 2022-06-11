@@ -69,23 +69,25 @@ const darkMode = () => {
     resetBtn.classList.toggle('dark-mode-btn-contact');
 }
 
+
+const darkModeBtn = (check) => {
+    if(check.classList.contains('on')) {
+        check.setAttribute('aria-checked', 'false');
+        console.log('darkmode off');
+    }
+    else
+    {
+        //!Dark mode ON part
+        check.setAttribute('aria-checked', 'true');
+        console.log('darkmode on');
+    }
+    check.classList.toggle('on');
+    darkMode();
+}
 //todo darkmode button
 checkbox.forEach(check => {
-
-    check.addEventListener("click", (e) => {
-        if(check.classList.contains('on')) {
-            check.setAttribute('aria-checked', 'false');
-            console.log('darkmode off');
-        }
-        else
-        {
-            //!Dark mode ON part
-            check.setAttribute('aria-checked', 'true');
-            console.log('darkmode on');
-        }
-        check.classList.toggle('on');
-        darkMode();
-       
+    check.addEventListener("click", (e) => {  
+       darkModeBtn(check);
     })
 });
 
@@ -94,6 +96,9 @@ checkbox.forEach(check => {
 if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
     // window.location.reload(); //for reloding
     darkMode();
+    checkbox.forEach(check => {
+        darkModeBtn(check);
+    });
     console.log("dark mode detected"); // dark mode
 } else {
     console.log("light mode detected"); // light mode
