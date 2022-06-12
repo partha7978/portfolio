@@ -305,9 +305,9 @@ ul > li > a {
 
 /*! Dark mode part starts here */
 .darkMode {
-  background-color: var(--dark-mode-background);
-  color: var(--dark-mode-text);
-  transition: var(--transition);
+  background-color: var(--dark-mode-background) !important;
+  color: var(--dark-mode-text) !important;
+  transition: var(--transition) !important;
 }
 .foreground-darkMode {
   background-color: var(--fore-ground-background);

@@ -25,6 +25,11 @@ let input = document.querySelectorAll(".inputData");
 let submitBtn = document.querySelector(".submitBtn");
 let resetBtn = document.querySelector(".resetBtn");
 
+//todo footer page
+let footer = document.querySelector(".footer-section");
+let addressSection = document.querySelector(".address");
+let allFooterText = document.querySelectorAll(".textColor");
+
 //todo popup page
 let popup = document.querySelector(".modal-content");
 let popupBtn = document.querySelector(".closeBtn");
@@ -69,6 +74,13 @@ const darkMode = () => {
     });
     submitBtn.classList.toggle('dark-mode-btn-contact');
     resetBtn.classList.toggle('dark-mode-btn-contact');
+
+    //todo footer page
+    footer.classList.toggle('darkMode');
+    addressSection.classList.toggle('darkMode');
+    allFooterText.forEach(item => {
+        item.classList.toggle('dark-mode-text');
+    })
 
     //todo popup page
     popup.classList.toggle('darkMode');
