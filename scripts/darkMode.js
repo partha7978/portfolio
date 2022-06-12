@@ -25,7 +25,9 @@ let input = document.querySelectorAll(".inputData");
 let submitBtn = document.querySelector(".submitBtn");
 let resetBtn = document.querySelector(".resetBtn");
 
-
+//todo popup page
+let popup = document.querySelector(".modal-content");
+let popupBtn = document.querySelector(".closeBtn");
 
 //todo darkModeFunction
 const darkMode = () => {
@@ -67,6 +69,11 @@ const darkMode = () => {
     });
     submitBtn.classList.toggle('dark-mode-btn-contact');
     resetBtn.classList.toggle('dark-mode-btn-contact');
+
+    //todo popup page
+    popup.classList.toggle('darkMode');
+    popupBtn.classList.toggle('dark-mode-btn');
+
 }
 
 
