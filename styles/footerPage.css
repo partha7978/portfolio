@@ -133,7 +133,6 @@
       width: 100%;
     }
     .subscribe-content .subscribe-inner-content input {
-      border: 1px solid #000000;
       height: auto;
       padding: 0.20rem 0.5rem;
       width: 75%;
@@ -236,6 +235,10 @@
 }
 /* todo Footer copyright section ends*/
 
-  /*? Footer section ends  */
-  
-  
+/*? Footer section ends  */
+
+/* todo for dark mode */
+.dark-mode-btn-subscribe:hover,
+.dark-mode-btn-subscribe:active {
+  box-shadow: 0px 20px 20px 0px rgba(63, 65, 90, 0.3);
+}

@@ -29,7 +29,8 @@ let resetBtn = document.querySelector(".resetBtn");
 let footer = document.querySelector(".footer-section");
 let addressSection = document.querySelector(".address");
 let allFooterText = document.querySelectorAll(".textColor");
-
+let subscribeEmail = document.querySelector(".subscribe-email");
+let subscribeBtn = document.querySelector(".subscribe-btn");
 //todo popup page
 let popup = document.querySelector(".modal-content");
 let popupBtn = document.querySelector(".closeBtn");
@@ -67,7 +68,7 @@ const darkMode = () => {
    
     //todo contact page
     contactPage.classList.toggle('darkMode');
-    contactInput.classList.toggle('darkMode');
+ 
     contactInput.classList.toggle('foreground-darkMode');
     input.forEach(item => {
         item.classList.toggle('dark-mode-inputfields');
@@ -81,6 +82,8 @@ const darkMode = () => {
     allFooterText.forEach(item => {
         item.classList.toggle('dark-mode-text');
     })
+    subscribeEmail.classList.toggle('dark-mode-inputfields');
+    subscribeBtn.classList.toggle('dark-mode-btn-subscribe');
 
     //todo popup page
     popup.classList.toggle('darkMode');
