@@ -1,0 +1,17 @@
+@import url(./firstPage.css);
+.about-page {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.inner-about-page {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #dadeff 0%, #d0ebfe 100%);
+}
