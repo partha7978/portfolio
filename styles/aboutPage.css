@@ -34,14 +34,25 @@
     letter-spacing: 3px;
     font-weight: 200;
     /* text-align: center; */
+    margin: 1rem 0;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right, rgb(56, 83, 233), rgb(255, 67, 155));
+    border-image-slice: 1;
+}
+.about-info span {
+    font-size: 1.2rem;
+}
+.buffer-text-content {
+    height:1.5rem;
+    width: 100%;
 }
 
 .hover-link {
     text-decoration:underline;
     background-image: linear-gradient(
       to right,
-      #8490ff,
-      #62bdfc 50%,
+      rgb(56, 83, 233),
+      rgb(255, 67, 155) 50%,
       #000 50%
     );
     background-size: 200% 100%;
@@ -56,7 +67,7 @@
   
   .hover-link:before{
     content: '';
-    background: #8490ff;
+    background: rgb(56, 83, 233);
     display: block;
     position: absolute;
     bottom: -1px;
