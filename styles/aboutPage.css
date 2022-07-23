@@ -109,9 +109,10 @@
   height: 17rem;
   width: 17rem;
   border-radius: 50%;
+  margin-top: 2rem;
 }
 .profile-img .about-social-section {
-    margin: 1rem 0;
+    margin: 1rem 0 0 0;
 }
 .about-social-section button {
     background: transparent;
@@ -120,5 +121,20 @@
 }
 .about-social-section button a i {
     margin: 0.5rem 0.3rem;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+}
+
+.inner-about-page .numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem;
+}
+.inner-about-page .numbers .show-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3rem;
+
 }
