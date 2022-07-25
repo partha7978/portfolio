@@ -44,11 +44,11 @@
   height: 100%;
   width: 40%;
 }
-.about-info P {
+.about-info h4 {
   font-size: 3rem;
   color: rgb(0, 0, 0);
   letter-spacing: 3px;
-  font-weight: 200;
+  font-weight: 300;
   /* text-align: center; */
   margin: 1rem 0;
   border-bottom: 2px solid transparent;
@@ -151,4 +151,9 @@
 }
 .show-number span {
     letter-spacing: 2px;
+}
+
+.line-hr {
+  margin: 10px;
+  border-top: 2px solid black;
 }
