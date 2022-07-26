@@ -1,0 +1,15 @@
+@media only screen and (max-width: 1150px) {
+    .inner-about-page, .about-page {
+        height: auto;
+    }
+    .about-main {
+        flex-direction: column;
+    } 
+    .about-desc {
+        width: 80%;
+    }
+    .inner-about-page > section {
+        margin: 1.5rem 0.5rem !important;
+    }
+
+}

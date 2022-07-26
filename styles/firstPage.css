@@ -340,3 +340,8 @@ ul > li > a {
 .menu-btn-color-dark {
   color: var(--text-color) !important;
 }
+
+
+.inner-about-page {
+  color: black;
+}
