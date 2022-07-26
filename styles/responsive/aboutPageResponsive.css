@@ -13,3 +13,26 @@
     }
 
 }
+@media only screen and (max-width: 850px) {
+    .about-desc {
+        width: 90%;
+    } 
+    .show-number {
+        margin: 1rem 2rem !important;
+    }
+    .numbers {
+        flex-wrap: wrap;
+    }
+    .profile-img {
+        width: auto;
+    }
+}
+@media only screen and (max-width: 560px) {
+    .numbers {
+        flex-direction: column;
+    }
+    .show-number {
+        margin: 2rem 2rem !important;
+    }
+   
+}
