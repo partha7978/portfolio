@@ -32,7 +32,6 @@
         flex-direction: column;
     }
     .show-number {
-        margin: 2rem 2rem !important;
+        margin: 2rem !important;
     }
-   
 }

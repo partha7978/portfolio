@@ -5,7 +5,7 @@ let html = document.getElementsByTagName("HTML")[0];
 let firstPage = document.querySelector(".first-page");
 let navBarLogo = document.querySelector(".navbar-logo");
 let navBarItem = document.querySelectorAll(".menuItem");
-let firstPageMainHeading = document.querySelector(".animate__bounce");
+let firstPageMainHeading = document.querySelectorAll(".main-heading");
 let webpageBtn = document.querySelectorAll(".webpage-btn");
 let navBarSmallScreen = document.querySelector(".nav-bar-smallScreen");
 let themeName = document.querySelector(".themeName");
@@ -44,7 +44,9 @@ const darkMode = () => {
         item.classList.toggle('navBarColor');
     });
     navBarSmallScreen.classList.toggle('foreground-darkMode-navBarSmall');
-    firstPageMainHeading.classList.toggle('dark-mode-text');
+    firstPageMainHeading.forEach(item => {
+        item.classList.toggle('dark-mode-text');
+    });
     webpageBtn.forEach(item => {
         item.classList.toggle('dark-mode-btn');
     });
