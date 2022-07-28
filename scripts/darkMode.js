@@ -1,6 +1,7 @@
 let checkbox = document.querySelectorAll(".darkModeCheckbox");
 
 let html = document.getElementsByTagName("HTML")[0];
+const body = document.getElementsByTagName("BODY")[0];
 
 let firstPage = document.querySelector(".first-page");
 let navBarLogo = document.querySelector(".navbar-logo");
@@ -38,6 +39,7 @@ let popupBtn = document.querySelector(".closeBtn");
 //todo darkModeFunction
 const darkMode = () => {
     html.classList.toggle("darkMode");
+    body.classList.toggle("darkMode");
     firstPage.classList.toggle('darkMode');
     navBarItem.forEach(item => {
         item.classList.toggle('dark-mode-text');
