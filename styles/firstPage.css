@@ -227,7 +227,7 @@ ul > li > a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: var(--main-padding-outline);
+  /* padding: var(--main-padding-outline); */
 }
 .firstPageMain-div {
   width: 100%;
