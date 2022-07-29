@@ -11,7 +11,7 @@
   --light-mode-text-color: #f4f0fb;
   --shadow: 0px 0px 20px 0px rgb(132 144 255 / 20%);
   --shadowSupport: 0px 20px 20px 0px rgb(132 144 255 / 30%);
-  --text-color: #8490ff;
+  --text-color: #7487f0;
   --main-padding-outline: 0 5rem;
 
   /*? for dark mode */
@@ -155,7 +155,7 @@ ul > li > a {
   background-color: var(--dark-mode-background);
 }
 .darkModeCheckbox.on::before {
-  background-color: #8490ff;
+  background-color: #7487f0;
   width: 16px;
   height: 16px;
   transform: translateX(18px);

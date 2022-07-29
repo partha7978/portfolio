@@ -91,8 +91,6 @@ const darkMode = () => {
 
     //todo popup page
     popup.classList.toggle('darkMode');
-    popupBtn.classList.toggle('dark-mode-btn');
-
 }
 
 
