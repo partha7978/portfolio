@@ -55,7 +55,6 @@
 
   .skills-div {
     height: auto;
-    padding: var(--main-padding-608px);
   }
   .skills-content button {
     width: 40%;
@@ -65,9 +64,6 @@
 @media only screen and (max-width: 380px) {
   .education-content {
   padding: var(--main-padding-498px);    
-  }
-  .skills-div {
-    padding: var(--main-padding-498px);
   }
   .card-content h3 {
     font-size: 1.3rem;

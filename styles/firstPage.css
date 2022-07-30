@@ -13,6 +13,7 @@
   --shadowSupport: 0px 20px 20px 0px rgb(132 144 255 / 30%);
   --text-color: #7487f0;
   --main-padding-outline: 0 5rem;
+  --main-padding: 2rem;
 
   /*? for dark mode */
   --dark-mode-background: #121212;

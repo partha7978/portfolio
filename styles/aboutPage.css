@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding: var(--main-padding);
 }
 .inner-about-page {
   height: 100%;
