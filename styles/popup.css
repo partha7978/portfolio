@@ -24,7 +24,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 15px;
+  /* border-radius: 15px; */
   border: 0.5px solid transparent;
   border-image: linear-gradient(to right, rgb(56, 83, 233), rgb(255, 67, 155));
   border-image-slice: 1;
