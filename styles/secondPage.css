@@ -112,6 +112,7 @@
 .download-resume-section {
   width: 100%;
   height: 30%;
+  padding: var(--main-padding);
 }
 .resume-download {
   width: 100%;
@@ -120,6 +121,26 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  /* background-image: linear-gradient(to right, #dadeff 0%, #d0ebfe 100%); */
+}
+.resume-download h4 {
+  font-size: 2rem;
+  font-weight:200;
+  letter-spacing: 2px;
+}
+.resume-download button {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  background-color: #ADECA8;
+  cursor: pointer;
+  margin: 1rem;
+  border: none;
+  outline: none;
+}
+.resume-download button i {
+  color: #7CC576;
+  font-size: 1.5rem;
 }
 
 /* ! Download resume section ends */
