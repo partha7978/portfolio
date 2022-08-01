@@ -8,7 +8,7 @@
 .second-page-content {
   width: 100%;
   height: 100%;
-
+  padding: var(--main-padding);
 }
 .heading {
   width: 100%;
@@ -20,7 +20,7 @@
 }
 
 .education-content {
-  padding: var(--main-padding-outline);
+  /* padding: var(--main-padding-outline); */
   width: 100%;
   height: 40%;
   display: flex;
@@ -41,10 +41,10 @@
   background-size: cover;
 }
 .first-content {
-  width: 31.3%;
-  height: 75%;
+  width: 33.3%;
+  height: 85%;
   transition: 0.5s;
-  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.35);
+  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.25);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,7 +112,7 @@
 .download-resume-section {
   width: 100%;
   height: 30%;
-  padding: var(--main-padding);
+  /* padding: var(--main-padding); */
 }
 .resume-download {
   width: 100%;
@@ -155,7 +155,7 @@
   align-items: center;
   /* background-color: #f4f0fb; */
   background-color: #ffffff;
-  padding: var(--main-padding);
+  /* padding: var(--main-padding); */
 }
 
 .inner-skills-div {
