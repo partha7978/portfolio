@@ -5,11 +5,7 @@
     font-size: 1.2rem;
   }
 }
-@media only screen and (max-width:1120px) {
-  .project-section-div {
-    padding: var(--main-padding-1180px);
-  }
-}
+
 @media only screen and (max-width: 1000px) {
   .project-btns .project-btn {
     margin: 3rem 0.5rem 0.5rem 0.5rem;
@@ -32,24 +28,13 @@
     font-size: 1.2rem;
   }
 }
-@media only screen and (max-width:570px) {
-  .project-section-div {
-    padding: var(--main-padding-608px);
-  }
-}
 @media only screen and (max-width: 500px) {
   .project-img-overlay {
     width: 90%;
   }
-}
-@media only screen and (max-width: 420px) {
   .project-btn {
     font-size: 0.7rem;
-  }
-}
-@media only screen and (max-width:380px) {
-  .project-section-div {
-    padding: var(--main-padding-498px);
+    padding: 8px 18px !important;
   }
 }
 @media only screen and (max-width: 315px) {
