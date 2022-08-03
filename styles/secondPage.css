@@ -8,7 +8,7 @@
 .second-page-content {
   width: 100%;
   height: 100%;
-  padding: var(--main-padding);
+ 
 }
 .heading {
   width: 100%;
@@ -20,7 +20,7 @@
 }
 
 .education-content {
-  /* padding: var(--main-padding-outline); */
+  padding: var(--main-padding);
   width: 100%;
   height: 40%;
   display: flex;
@@ -112,7 +112,7 @@
 .download-resume-section {
   width: 100%;
   height: 40%;
-  /* padding: var(--main-padding); */
+  padding: var(--main-padding);
 }
 .resume-download {
   width: 100%;
@@ -147,15 +147,13 @@
 
 /*! skills content starts */
 .skills-div {
-  /* padding: var(--main-padding-outline); */
   width: 100%;
   height: 85%;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: #f4f0fb; */
   background-color: #ffffff;
-  /* padding: var(--main-padding); */
+  padding: var(--main-padding);
 }
 
 .inner-skills-div {
