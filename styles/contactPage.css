@@ -3,6 +3,7 @@
   height: auto;
   width: 100%;
   background-color: #ffffff;
+  padding: var(--main-padding);
 }
 
 ::placeholder {
@@ -19,7 +20,6 @@
   height:65%;
   width: 100%;
   display: flex;
-  padding: var(--main-padding-outline);
 }
 
 /* ? Location  section  starts */

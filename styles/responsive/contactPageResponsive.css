@@ -35,11 +35,6 @@
     font-size: 0.8rem;
   }
 }
-@media only screen and(max-width: 1120px) {
-  .contact-page-main-content{
-    padding: var(--main-padding-1180px);
-  }
-}
 @media only screen and (max-width: 590px) {
   .third-page {
     width: 100%;
@@ -72,11 +67,6 @@
   }
   .social-icons {
     margin: 1rem 0;
-  }
-}
-@media only screen and (max-width: 570px) {
-  .contact-page-main-content {
-    padding: var(--main-padding-608px);
   }
 }
 
@@ -136,11 +126,8 @@
 
 }
 @media only screen and (max-width:380px) {
-  .contact-page-main-content {
-    padding: var(--main-padding-498px);    
-  }
   .location-section p {
-    width: 93%;
+    width: 100%;
   } 
   .social-section-div{
     width: 100%;
@@ -149,7 +136,7 @@
     align-items: center;
   }
   .contact-input-section {
-    width: 93%;
+    width: 100%;
   }
   .contact-main-content {
     width: 90%;
