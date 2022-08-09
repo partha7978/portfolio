@@ -48,14 +48,7 @@
     .address, .quick-links, .subscribe-content {
         width:70%;   
     }
-    .copyright {
-        padding: var(--main-padding-608px);
-    }
-}
-@media only screen and (max-width:570px) {
-    .footer-upper-content {
-        padding: var(--main-padding-608px);
-    }
+
 }
 @media only screen and (max-width:450px) {
     .address, .quick-links, .subscribe-content {

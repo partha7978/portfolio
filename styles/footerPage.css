@@ -24,7 +24,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: var(--main-padding-outline);
+    padding: var(--main-padding);
+    padding-top: 0;
+    padding-bottom: 0;
   }
   .footer-social-content {
     height: 30%;
