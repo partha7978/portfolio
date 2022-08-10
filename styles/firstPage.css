@@ -164,7 +164,7 @@ ul > li > a {
   background-color: #7487f0;
   width: 16px;
   height: 16px;
-  transform: translateX(18px);
+  transform: translateX(16px);
 }
 /* dark mode btn ends */
 .menu-btn {

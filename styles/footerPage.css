@@ -169,7 +169,7 @@
     outline: none;
     border: none;
     background: transparent;
- 
+    transition: all 0.3s ease-out;
   }
   .social-icons > button:hover {
     transform: translateY(-5px);
