@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    font-family: "Noto Sans JP", sans-serif;
+    scroll-behavior: smooth;
+    background-color: #ffffff;
+}
+:root {
+    --dark-mode-background: #121212;
+    --dark-mode-text: #ffffff;
+    --transition: all 0.5s ease-in-out;
+    --fore-ground-background: #1D1D1D;
+}
+::selection {
+    color: rgb(0, 0, 0);
+    background: yellow;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    padding: 4rem;
+    background-color: var(--dark-mode-background);
+}
+.inner-container {
+    width: 100%;
+    height: 100%;
+    background-color: var(--fore-ground-background);
+    color: var(--dark-mode-text);
+}
+.project-heading {
+    width: 100%;
+    height: auto;
+    /* text-align: center; */
+    padding: 0.5rem 1rem;
+}
