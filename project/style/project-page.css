@@ -16,11 +16,12 @@ html,body {
     --dark-mode-text: #ffffff;
     --transition: all 0.5s ease-in-out;
     --fore-ground-background: #1D1D1D;
+    --gradient-color: linear-gradient(to right, rgb(56, 83, 233), rgb(255, 67, 155));
 }
-::selection {
+/* ::selection {
     color: rgb(0, 0, 0);
     background: yellow;
-}
+} */
 .container {
     height: 100%;
     width: 100%;
@@ -38,4 +39,28 @@ html,body {
     height: auto;
     /* text-align: center; */
     padding: 0.5rem 1rem;
+}
+.project-heading span {
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: var(--dark-mode-text);
+}
+.project-link {
+    padding: 0.5rem 1rem;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+.project-link ul li {
+    color: #1EBED6;
+    list-style: none;
+    margin: 0.5rem 0;
+}
+.project-link a {
+    color: #1EBED6;
+    margin: 0.5rem 0.5rem;
+    cursor: pointer;
+    text-decoration: none;
 }
