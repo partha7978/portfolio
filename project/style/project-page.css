@@ -27,13 +27,16 @@ html,body {
     width: 100%;
     padding: 4rem;
     background-color: var(--dark-mode-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .inner-container {
-    width: 100%;
-    height: 100%;
+    width: 70%;
+    height: 90%;
     background-color: var(--fore-ground-background);
     color: var(--dark-mode-text);
-    padding: 0 10rem;
+    padding: 1rem 4rem;
 }
 .project-heading {
     width: 100%;
@@ -55,12 +58,12 @@ html,body {
     flex-direction: column;
 }
 .project-link ul li {
-    color: #1EBED6;
+    color: #00ddff;
     list-style: none;
     margin: 0.5rem 0;
 }
 .project-link a {
-    color: #1EBED6;
+    color: #00ddff;
     margin: 0.5rem 0.5rem;
     cursor: pointer;
     text-decoration: none;
@@ -71,4 +74,23 @@ html,body {
     padding: 0.5rem 1rem;
     /* border-top: 1px solid #ffffff; */
     margin: 1rem 0;
+}
+.main-project-desc p, .main-project-desc ul {
+    margin: 1rem 0;
+}
+.main-project-desc ul li {
+    margin: 0.5rem 0;
+    list-style: none;
+}
+.main-project-desc ul li i {
+    color: #00ddff;
+    margin-right: 0.5rem;
+}
+.main-project-desc .tech-heading::after {
+    content: "";
+    display: block;
+    width: auto;
+    height: 1px;
+    background-color: #00ddff;
+    margin: 0.2rem 0;
 }
