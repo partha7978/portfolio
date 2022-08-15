@@ -17,6 +17,7 @@ html,body {
     --transition: all 0.5s ease-in-out;
     --fore-ground-background: #1D1D1D;
     --gradient-color: linear-gradient(to right, rgb(56, 83, 233), rgb(255, 67, 155));
+    --highlight-color: #00ddff;
 }
 /* ::selection {
     color: rgb(0, 0, 0);
@@ -58,12 +59,12 @@ html,body {
     flex-direction: column;
 }
 .project-link ul li {
-    color: #00ddff;
+    color: var(--highlight-color);
     list-style: none;
     margin: 0.5rem 0;
 }
 .project-link a {
-    color: #00ddff;
+    color: var(--highlight-color);
     margin: 0.5rem 0.5rem;
     cursor: pointer;
     text-decoration: none;
@@ -75,6 +76,9 @@ html,body {
     /* border-top: 1px solid #ffffff; */
     margin: 1rem 0;
 }
+.main-project-desc p {
+    line-height: 1.5rem;
+}
 .main-project-desc p, .main-project-desc ul {
     margin: 1rem 0;
 }
@@ -83,14 +87,37 @@ html,body {
     list-style: none;
 }
 .main-project-desc ul li i {
-    color: #00ddff;
+    color: var(--highlight-color);
     margin-right: 0.5rem;
+}
+.main-project-desc .tech-heading {
+    letter-spacing:2px;
+    font-weight: 600;
 }
 .main-project-desc .tech-heading::after {
     content: "";
     display: block;
     width: auto;
     height: 1px;
-    background-color: #00ddff;
+    background-color: var(--highlight-color);
     margin: 0.2rem 0;
+}
+.tech-used-section {
+    margin: 1rem 0 0.5rem 0;
+}
+.tech-used-section button{
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    outline: none;
+    padding: 0.2rem 0.7rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    border-radius: 20px;
+    margin-right: 0.2rem;
+}
+.tech-used-section button:hover{
+    border-color: var(--highlight-color);
+    color: var(--highlight-color);
 }
