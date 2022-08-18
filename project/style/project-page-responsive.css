@@ -1,0 +1,29 @@
+@media only screen and (max-width: 1250px) {
+    .tech-used-section button {
+        margin: 0.2rem;
+    }   
+}
+@media only screen and (max-width: 1010px) {
+    .tech-used-section button {
+        margin: 0.2rem;
+    }   
+    .inner-container {
+        padding: 1rem 2rem;
+    }
+}
+@media only screen and (max-width: 940px) {
+    .inner-container {
+        width: 80%;
+        padding: 1rem 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 747px) {
+    .container {
+        height: auto;
+        padding: 2rem;
+    }
+    .inner-container {
+        height: auto;
+    }
+}
