@@ -27,5 +27,51 @@
     body, html {
         height: auto;
     }
+    .main-project-desc ul li{
+        display: flex;
+    }
 }
 
+@media only screen and (max-width: 650px) {
+    .inner-container {
+        width: 90%;
+        padding: 1rem 1rem;
+    }
+}
+@media only screen and (max-width: 530px) {
+    .container {
+        padding: 2rem;
+    }
+    .main-project-desc {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+}
+@media only screen and (max-width: 430px) {
+    .inner-container {
+        padding: 0.5rem;
+        width: 100%;
+    }
+   .container {
+        padding: 1.5rem;
+    }   
+}
+@media only screen and (max-width: 400px) {
+    .main-project-desc {
+        margin: 0;
+    }
+    .main-project-desc ul li{
+        margin: 1rem 0;
+    }
+}
+@media only screen and (max-width: 370px) {
+    .project-heading {
+        padding: 0.5rem;
+    }
+    .project-heading span {
+        font-size: 1.6rem
+    }
+    .main-project-desc p {
+        margin-top: 0;
+    }
+}
