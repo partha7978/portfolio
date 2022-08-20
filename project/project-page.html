@@ -21,47 +21,28 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <script defer src="./projectSctipt.js"></script>
+    <script defer src="main.js"></script>
 </head>
 
 <body>
     <div class="container">
         <div class="inner-container">
             <div class="project-heading">
-                <span id="project-name-heading">To Do Application</span>
+                <span id="project-name-heading"></span>
             </div>
             <div class="project-link">
                 <ul>
-                    <li><i class="fas fa-chevron-right"></i></button><a href="http://">Live Demo</a></li>
-                    <li><i class="fas fa-chevron-right"></i><a href="http://">Source Code</a></li>
+                    <li><i class="fas fa-chevron-right"></i></button><a id="liveLink" href="/#">Live Demo</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a id="sourceCode" href="/#">Source Code</a></li>
                 </ul>
             </div>
             <div class="main-project-desc">
-                <p>A modern to do application where you can do all the basic operations.
-                    It comes with dark theme as well as light theme and you can change your preference.<br>
-                    The functionality of this application are:
-                </p>
-                <ul>
-                    <li><i class="far fa-arrow-alt-circle-right"></i><span>Add/delete your todos.</span></li>
-                    <li><i class="far fa-arrow-alt-circle-right"></i><span>You can mark it as complete/incomplete for
-                            any of your tasks.</span></li>
-                    <li><i class="far fa-arrow-alt-circle-right"></i><span>Toggle the theme according to your
-                            preference.</span></li>
-                    <li><i class="far fa-arrow-alt-circle-right"></i><span>Local Storage feature also there :)</span>
-                    </li>
-                </ul>
+                <p id="about"></p>
+                <ul id="keyPoints"></ul>
                 <span class="tech-heading">Technologies Used</span>
-                <div class="tech-used-section">
-                    <button>html</button>
-                    <button>css</button>
-                    <button>JavaScript</button>
-                    <button>JQuery</button>
-                    <button>AOS</button>
-                    <button>Ionion</button>
-                    <button>FontAwesome</button>
-                    <button>Animate.css</button>
-                </div>
+                <div class="tech-used-section" id="techUsed"></div>
                 <div class="go-back-btn">
-                    <a href="http://"><button class="backBtn"><i class="fas fa-chevron-left back-arrow"></i><span
+                    <a href="/#project"><button class="backBtn"><i class="fas fa-chevron-left back-arrow"></i><span
                                 class="goBack-text">Go Back</span></button></a>
                 </div>
             </div>
