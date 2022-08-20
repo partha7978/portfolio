@@ -2,6 +2,12 @@
     .tech-used-section button {
         margin: 0.2rem;
     }   
+    .container {
+        height: auto;
+    }
+    .inner-container {
+        height: auto;
+    }
 }
 @media only screen and (max-width: 1010px) {
     .tech-used-section button {
@@ -17,13 +23,9 @@
         padding: 1rem 2.5rem;
     }
 }
-
-@media only screen and (max-width: 747px) {
-    .container {
-        height: auto;
-        padding: 2rem;
-    }
-    .inner-container {
+@media only screen and (max-width: 880px) {
+    body, html {
         height: auto;
     }
 }
+
