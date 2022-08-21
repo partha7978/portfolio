@@ -1,0 +1,41 @@
+[
+    {
+        "sl": 0,
+        "name": "To Do Application",
+        "liveLink": "https://basic-to-do-app.netlify.app/",
+        "sourceCode": "https://github.com/partha7978/simple-to-do-app",
+        "about": "A modern to do application where you can do all the basic operations. It comes with dark as well as light theme and you can change your preference accordingly.",
+        "about2": " The functionality of this application are:",
+        "keyPoints": [
+            "Add todo",
+            "Delete todo",
+            "Change theme according to your preference",
+            "Mark/unmark as completed"
+        ],
+        "techUsed": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "JQuery",
+            "AOS",
+            "Font Awesome",
+            "Ionion",
+            "Animate.css"
+        ]
+    },
+    {
+        "sl": 1,
+        "name": "To Application",
+        "liveLink": "",
+        "sourceCode": "",
+        "about": "",
+        "keyPoints": [
+            "Add",
+            "Delete"
+        ],
+        "techUsed": [
+            "html",
+            "js"
+        ]
+    }
+]
