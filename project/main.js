@@ -16,7 +16,7 @@ fetch("data.json")
         projectNameHeading.innerText = projectData["name"];
         liveLink.href = projectData["liveLink"];
         sourceCode.href = projectData["sourceCode"];
-        about.innerText = projectData["about"];
+        about.innerHTML = projectData["about"] + "<br>" + projectData["about2"];    
 
         for (let item of projectData["keyPoints"]) {
             keyPoints.innerHTML += `<li><i class="far fa-arrow-alt-circle-right"></i><span>${item}</span></li>`;
