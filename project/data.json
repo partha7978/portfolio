@@ -1,6 +1,7 @@
 [
     {
         "sl": 0,
+        "title": "Project - To Do APP",
         "name": "To Do Application",
         "liveLink": "https://basic-to-do-app.netlify.app/",
         "sourceCode": "https://github.com/partha7978/simple-to-do-app",
@@ -25,17 +26,27 @@
     },
     {
         "sl": 1,
-        "name": "To Application",
-        "liveLink": "",
-        "sourceCode": "",
-        "about": "",
+        "title": "Project - Rock Paper Scissors Game",
+        "name": "Rock Paper Scissors Game",
+        "liveLink": "https://rpsls-bypartha.netlify.app/",
+        "sourceCode": "https://github.com/partha7978/Rock-Paper-Scissors-Lizard-Spock",
+        "about": "This is a rock, paper, scissors, lizard, and spock game. You can play against computer. It has a modern neuromorphism UI and you can change your theme preference accordingly.",
+        "about2": " The functionality of this application are:",
         "keyPoints": [
-            "Add",
-            "Delete"
+            "Select your choice",
+            "Play against computer",
+            "Change theme according to your preference",
+            "LocalStorage feature for storing your score"
         ],
         "techUsed": [
-            "html",
-            "js"
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "JQuery",
+            "AOS",
+            "Font Awesome",
+            "Ionion",
+            "Animate.css"
         ]
     }
 ]
