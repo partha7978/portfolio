@@ -48,5 +48,55 @@
             "Ionion",
             "Animate.css"
         ]
+    },
+    {
+        "sl": 2,
+        "title": "Project - Portfolio Website",
+        "name": "Portfolio Website",
+        "liveLink": "https://parthasarathimuduli.netlify.app/",
+        "sourceCode": "https://github.com/partha7978/portfolio",
+        "about": "A modern portfolio website with all the basic sections, like about, skills, projects, and contact. It comes with dark and light theme and you can change your preference accordingly.",
+        "about2": " The functionality of this website are:",
+        "keyPoints": [
+            "All the basic section",
+            "Some cool visuals & animations",
+            "Change theme according to your preference",
+            "Separate projcect pages"
+        ],
+        "techUsed": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "JQuery",
+            "AOS",
+            "Font Awesome",
+            "Ionion",
+            "Animate.css"
+        ]
+    },
+    {
+        "sl": 3,
+        "title": "Project - Library Management System",
+        "name": "Library Management System",
+        "liveLink": "https://parthasarathimuduli.netlify.app/",
+        "sourceCode": "https://github.com/partha7978/library-management-system",
+        "about": "This is a library management system with a clean and modern UI and also has all the basic operations to manage a library. The functionalities include adding/removing the book, adding/removing students, issuing books, book reports, and book request information on the Admin side, and profile, book request, book report, etc on the student side.",
+        "about2": " The functionality of this website are:",
+        "keyPoints": [
+            "Separate dashboard for admin and student",
+            "Some cool visuals & animations",
+            "It has every features required in a library",
+            "Focused mostly in clean UI for simplicity"
+        ],
+        "techUsed": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "JQuery",
+            "PHP",
+            "Font Awesome",
+            "Ionion",
+            "Animate.css"
+        ]
     }
 ]
