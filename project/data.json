@@ -98,5 +98,30 @@
             "Ionion",
             "Animate.css"
         ]
+    },
+    {
+        "sl": 4,
+        "title": "Project - TextUtil",
+        "name": "Text Util",
+        "liveLink": "https://your-textutil.netlify.app/",
+        "sourceCode": "https://github.com/partha7978/text-utils",
+        "about": "Text util is a website for analyzing your text, and it includes all the basic text operations like removing extra spaces, uppercase, lowercase, copy to clipboard, etc.",
+        "about2": " The functionality of this website are:",
+        "keyPoints": [
+            "Conversion of uppercase & lowercase",
+            "Preview your text",
+            "Change theme according to your preference",
+            "Show number of words, characters and reading time"
+        ],
+        "techUsed": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React.js",
+            "Framer Motion",
+            "MUI",
+            "Heroicons",
+            "Material UI"
+        ]
     }
 ]
