@@ -1,3 +1,9 @@
+@media only screen and (max-height:650px) {
+    .container {
+        height: auto;
+        padding: 4rem;
+    }
+}
 @media only screen and (max-width: 1250px) {
     .tech-used-section button {
         margin: 0.2rem;
