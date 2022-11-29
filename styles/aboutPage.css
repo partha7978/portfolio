@@ -1,6 +1,6 @@
 @import url(./firstPage.css);
 .about-page {
-  height: 90%;
+  height:auto;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -8,23 +8,25 @@
   padding: var(--main-padding);
 }
 .inner-about-page {
-  height: 100%;
+  height: auto;
   width: 100%;
   display: flex;
+  margin: 1rem 0;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-image: linear-gradient(to right, #dadeff 0%, #d0ebfe 100%);
 }
 .about-main {
-    height: 80%;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 4rem 0 2rem 0; 
 }
 .inner-about-page section {
-    height: 20%;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -128,7 +130,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 0 2rem;
+    margin: 2rem 2rem 4rem 2rem;
 }
 .inner-about-page .numbers .show-number {
     display: flex;
