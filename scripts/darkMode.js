@@ -36,6 +36,9 @@ let subscribeBtn = document.querySelector(".subscribe-btn");
 let popup = document.querySelector(".modal-content");
 let popupBtn = document.querySelector(".closeBtn");
 
+//todo for scroll to top button
+let scrollToTopBtn = document.getElementById("scroll-to-top-btn");
+
 //todo darkModeFunction
 const darkMode = () => {
     html.classList.toggle("darkMode");
@@ -61,6 +64,7 @@ const darkMode = () => {
         navBarLogo.src = "./images/logo2.png";
     }
     menuOpenBtn.classList.toggle('menu-btn-color-dark');
+    scrollToTopBtn.classList.toggle('scroll-to-top-btn-dark');
 
     //todo second page
     secondPage.classList.toggle('darkMode');

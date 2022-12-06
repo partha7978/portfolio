@@ -78,6 +78,7 @@ html {
   align-items: center;
   transition: all 0.1s ease-in;
   z-index: 100;
+  display: none;
 }
 .scroll-to-top > button {
   background-color: #000000;
@@ -382,4 +383,8 @@ ul > li > a {
 
 .inner-about-page {
   color: black;
+}
+.scroll-to-top-btn-dark {
+  background-color: #ffffff !important;
+  color: #000000 !important;
 }
