@@ -42,6 +42,10 @@
     .first-page-container {
         height: 90%;
     }
+    .navbar-logo {
+        height: 1.9rem;
+        width: auto;
+    }
 }
 @media only screen and (max-width: 530px) {
     #main-heading-name {
