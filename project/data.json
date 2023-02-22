@@ -123,5 +123,29 @@
             "Heroicons",
             "Material UI"
         ]
+    },
+    {
+        "sl": 5,
+        "title": "Project - World Affairs",
+        "name": "World Affairs",
+        "liveLink": "https://your-textutil.netlify.app/",
+        "sourceCode": "https://github.com/partha7978/world-affairs",
+        "about": "A news app built using the News API. Here users can see any kind of news and there are multiple filters available for better results. ",
+        "about2": " The functionality of this website are:",
+        "keyPoints": [
+            "Search the news by country",
+            "Supports dark and light theme",
+            "Category wise filter for news",
+            "Clean UI using Material Design"
+        ],
+        "techUsed": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React.js",
+            "MatewrialUI(MUI)",
+            "Heroicons",
+            "News Api"
+        ]
     }
 ]
