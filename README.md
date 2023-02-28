@@ -1,6 +1,11 @@
 <h1>Personal Portfolio</h1>
-<hr>
-<p><b><a href="https://parthasarathimuduli.netlify.app/">Click here</a></b>to view this website.</p>
+
+## Contributors
+
+- [Partha](https://www.github.com/partha7978)
+<br><br>
+
+<p><b><a href="https://parthasarathimuduli.netlify.app/">Click here</a></b> to view this website.</p>
 <img src="./images/forReadme/normal.jpg"/>
 <hr>
 <h2>This website fully responsive</h2>
