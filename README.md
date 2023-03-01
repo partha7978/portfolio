@@ -23,3 +23,5 @@
     <li>Font Awesome icons</li>
     <li>Ionion icon pack</li>
 </ul>
+
+### Copyright (c) 2023 <a href="https://parthasarathimuduli.netlify.app/" target="_self">Partha Sarathi Muduli</a>
