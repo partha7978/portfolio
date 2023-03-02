@@ -7,6 +7,7 @@
 
 <p><b><a href="https://parthasarathimuduli.netlify.app/">Click here</a></b> to view this website.</p>
 <img src="./images/forReadme/normal.jpg"/>
+<img src="./images/forReadme/darkModeHomePage.jpg"/>
 <hr>
 <h2>This website fully responsive</h2>
 <img src="./images/forReadme/responsive.jpg"/>
